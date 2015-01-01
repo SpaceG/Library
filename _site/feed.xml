@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lucas Gatsas</title>
+    <description>Hello, my Name is Lucas Gatsas</description>
+    <link>https://spaceg.github.io/</link>
+    <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 01 Jan 2015 13:06:11 +0100</pubDate>
+    <lastBuildDate>Thu, 01 Jan 2015 13:06:11 +0100</lastBuildDate>
+    <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>The dreams of yesterday are the hopes of today and the reality of tomorrow.</title>
+        <description>&lt;p&gt;This is my First Post, Hello World! I will try out to describe my Code&#39;s here on my GitHub Blog, this isn&#39;t my Official Website!  I&#39;m current working on it! also Stay Tuned! This Blog is dedicated to my Git&#39;s!&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;The Development Processes!&lt;/h2&gt;
+
+&lt;p&gt;I will describe and Blog about my development Processes @ my Official Website!&lt;/p&gt;
+
+&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Start Up Projects in Progress.&lt;/h2&gt;
+
+&lt;p&gt;Visit soon my Official Website to see what we Start Up. This Blog is built with the Jekyll Blog Framework and hosted on GitHub. My Next Blog will have the Framework and Blog Ware from Ghost. From Wordpress to Jekyll and from Jekyll to Ghost.&lt;/p&gt;
+
+&lt;p&gt; Here is my Install Video &lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;515&quot; src=&quot;//www.youtube.com/embed/hRqgJlxoEnI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+
+</description>
+        <pubDate>Tue, 01 Jul 2014 14:00:00 +0200</pubDate>
+        <link>https://spaceg.github.io/2014/07/01/getready/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2014/07/01/getready/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Jekyll set Up</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;The Set Up&lt;/h2&gt;
+
+&lt;p&gt;# Install
+&quot;[Jekyll! v2.3.0](https://jekyllrb.com/)&quot;
+Set Up Install Guide, 
+Jekyll Install -  _Jekyll Open Source_, with GITHUB. 
+&lt;/p&gt;
+
+&lt;p&gt;
+  You can also Host Jekyll on GITHUB. Only do you have to use is: &lt;br /&gt;
+  A Good Text Editor like &lt;br /&gt;
+  Sublime Text 3, &lt;br /&gt;
+  Termnial Command Lines from X-Code, &lt;br /&gt;
+  and of course a localhost:4000 &lt;br /&gt;
+  (which you can change it to another port like &lt;br /&gt;
+  localhost:8080 with : &lt;br /&gt;
+  localserver port: PORT  and Listen on the given port. --port PORT). &lt;br /&gt;
+  See more on the (see &lt;br /&gt;
+  http://jekyllrb.com/docs/configuration 
+  Serve Command Options.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
+&lt;p&gt;#### Install Options &lt;/p&gt;
+&lt;p&gt;Linux, Unix, or Mac OS X Install &lt;br /&gt;Termnial :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+  - sudo gem install Jekyll! v2.3.0
+    password: *************************
+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;See which Version: &lt;br /&gt; Version :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+  - jekyll -v
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Set Up your Project: &lt;br /&gt; Set Up :&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+  - cd Desktop/
+  - jekyll new your-project-site
+  - /users/Home/Desktop/your-project-site
+  - cd your-project-site/
+  - jekyll serve
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Port localhost: &lt;br /&gt; localhost:&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+  - http://0.0.0.0:4000/
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Find Your Files: &lt;br /&gt; Command:&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+  - jekyll serve --watch
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;others&quot;&gt;Others&lt;/h4&gt;
+
+&lt;p&gt;You’ll find a lot of other variables inside the file, e.g.:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the site &lt;code&gt;title&lt;/code&gt;, &lt;code&gt;description&lt;/code&gt;, &lt;code&gt;icon&lt;/code&gt; and default &lt;code&gt;cover&lt;/code&gt; image.&lt;/li&gt;
+  &lt;li&gt;text of the &lt;code&gt;copyright&lt;/code&gt; message.&lt;/li&gt;
+  &lt;li&gt;the number of posts per page (&lt;code&gt;paginate&lt;/code&gt;).&lt;/li&gt;
+  &lt;li&gt;the &lt;code&gt;permalink&lt;/code&gt;’s structure (see &lt;a href=&quot;https://jekyllrb.com/docs/pagination/&quot;&gt;the docs&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;versions&quot;&gt;Versions&lt;/h2&gt;
+
+&lt;p&gt;Here is a  List:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;
+Jeykill 0.3.x
+&lt;br /&gt;
+&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;
+Sublime Text 3
+&lt;br /&gt;
+&lt;a href=&quot;https://github.com&quot;&gt;GITHUB&lt;/a&gt;
+GitHub
+&lt;br /&gt;
+&lt;a href=&quot;https://developer.apple.com/xcode/&quot;&gt;CommandLine Tools&lt;/a&gt;)
+CommandLine
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Jekyll! v2.3.0 is already &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;available for download on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Want to see something else added or report a bug? &lt;a href=&quot;https://github.com/spaceg/spaceg.github.io/issues/new&quot;&gt;Open an issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;/a&gt;
+&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 26 Feb 2014 13:00:00 +0100</pubDate>
+        <link>https://spaceg.github.io/2014/02/26/jekyll-setup/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2014/02/26/jekyll-setup/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
