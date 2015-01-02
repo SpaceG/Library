@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+
+<script type="text/javascript">
+var host = "spaceg.github.io";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+
+</script>
   <!-- feel free to work with me 
        contact me at l.gatsas33 at gmail dot com 
 
@@ -46,7 +53,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Hello, my Name is Lucas Gatsas">
-
+    <link rel="shortcut icon" href="https://spaceg.github.io/img/favicon-7326478236.png" type="image/x-icon" />
     <title>Lucas Gatsas</title>
 
     <link rel="canonical" href="https://spaceg.github.io/">
@@ -189,13 +196,13 @@
 
 
     <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/cd-background-img.jpg')">
+<header class="intro-header" style="background-image: url('/')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
                     <h1 id="top-title-font-weight-bold">Lucas Gatsas</h1>
-                    <hr class="small">
+                <!--    <hr class="small"> -->
                     <span class="subheading" id="textfloat">Hello, my Name is @LucasGatsas. I'm a Designer & Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!
 </span>
                 </div>
@@ -209,6 +216,21 @@
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 			
+<div class="post-preview">
+    <a href="/2015/01/01/ssl-https/">
+        <h2 class="post-title">
+            ssl - https over GitHub.
+        </h2>
+        
+        <h3 class="post-subtitle">
+            Javascript - ssl script for https.
+        </h3>
+        
+    </a>
+    <p class="post-meta">Posted by Lucas Gatsas on January 1, 2015</p>
+</div>
+<hr>
+
 <div class="post-preview">
     <a href="/2014/07/01/getready/">
         <h2 class="post-title">
@@ -372,8 +394,8 @@ $(window).scroll(function(){
   //<![CDATA[
     $(window).load(function() { // makes sure the whole site is loaded
       $('#status').fadeOut(); // will first fade out the loading animation
-      $('#preloader').delay(250).fadeOut('fast'); // will fade out the white DIV that covers the website.
-      $('body').delay(150).css({'overflow':'visible'});
+      $('#preloader').delay(50).fadeOut('fast'); // will fade out the white DIV that covers the website.
+      $('body').delay(50).css({'overflow':'visible'});
     })
   //]]>
 </script>

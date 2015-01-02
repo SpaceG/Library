@@ -117,12 +117,12 @@ hr.small {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: black;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(189, 189, 189, 0.8);
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -181,7 +181,7 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
-  min-height: 733px;
+  min-height: 673px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -193,7 +193,7 @@ hr.small {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 250px 0;
   }
 }
 .intro-header .site-heading,
@@ -207,12 +207,14 @@ hr.small {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 24px;
+  font-size: 15px;
   line-height: 1.1,
 			display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
+  color: black;
+font-weight: 400;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
@@ -232,7 +234,7 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 24px;
   margin: 10px 0 30px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .intro-header .post-heading .meta {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -381,8 +383,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+background-color: #000000;
+border: 1px solid #000000;
   color: white;
 }
 .pager {
@@ -485,25 +487,44 @@ padding: 15px 25px;
 border-radius: 90px;
 }
 a#roundbutton {
-border: 1px solid rgb(176, 176, 176);
+border: 1px solid black;
 border-radius: 90px;
 padding: 7px;
 margin-top: 7px;
 padding-right: 13px;
 padding-left: 13px;
+color: black;
+}
+a#roundbutton:hover {
+border: 1px solid black;
+border-radius: 90px;
+padding: 7px;
+margin-top: 7px;
+padding-right: 13px;
+padding-left: 13px;
+color: white;
+background:black;
 }
 h1#top-title-font-weight-bold {
 font-weight: 700;
 text-shadow: rgba(0,0,0,0.4) 0px 1px 1px;
 letter-spacing: -2px;
+color: black;
 }
 a#blog-title-left-top {
 font-family: Georgia, times, arial;
 font-size: 36px;
 font-weight: 300;
 margin-top: -5px;
+color: black;
 }
 @media (max-width: 768px) {
 button#toggle-bottom-fadeout {
 display: none;
+}
+.navbar-inverse .navbar-nav>li>a {
+color: #000000;
+}
+.navbar-inverse .navbar-nav>li>a {
+color: #282828;
 }

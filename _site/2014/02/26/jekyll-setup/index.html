@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+
+<script type="text/javascript">
+var host = "spaceg.github.io";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+
+</script>
   <!-- feel free to work with me 
        contact me at l.gatsas33 at gmail dot com 
 
@@ -46,7 +53,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Hello, my Name is Lucas Gatsas">
-
+    <link rel="shortcut icon" href="https://spaceg.github.io/img/favicon-7326478236.png" type="image/x-icon" />
     <title>Jekyll set Up - Lucas Gatsas</title>
 
     <link rel="canonical" href="https://spaceg.github.io/2014/02/26/jekyll-setup/">
@@ -457,8 +464,8 @@ $(window).scroll(function(){
   //<![CDATA[
     $(window).load(function() { // makes sure the whole site is loaded
       $('#status').fadeOut(); // will first fade out the loading animation
-      $('#preloader').delay(250).fadeOut('fast'); // will fade out the white DIV that covers the website.
-      $('body').delay(150).css({'overflow':'visible'});
+      $('#preloader').delay(50).fadeOut('fast'); // will fade out the white DIV that covers the website.
+      $('body').delay(50).css({'overflow':'visible'});
     })
   //]]>
 </script>

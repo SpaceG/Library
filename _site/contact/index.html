@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+
+<script type="text/javascript">
+var host = "spaceg.github.io";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+
+</script>
   <!-- feel free to work with me 
        contact me at l.gatsas33 at gmail dot com 
 
@@ -46,7 +53,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Hello, my Name is Lucas Gatsas">
-
+    <link rel="shortcut icon" href="https://spaceg.github.io/img/favicon-7326478236.png" type="image/x-icon" />
     <title>Contact Me - Lucas Gatsas</title>
 
     <link rel="canonical" href="https://spaceg.github.io/contact/">
@@ -189,13 +196,13 @@
 
 
     <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/MountainRange.jpg')">
+<header class="intro-header" style="background-image: url('/')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
                     <h1 id="top-title-font-weight-bold">Contact Me</h1>
-                    <hr class="small">
+                <!--    <hr class="small"> -->
                     <span class="subheading" id="textfloat">Have questions? Please, feel free to Contact me.</span>
                 </div>
             </div>
@@ -208,7 +215,11 @@
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 			<p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
-<!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+<!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work.
+
+header-img: "img/MountainRange.jpg"
+
+ -->
 <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
 <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
 <form name="sentMessage" id="contactForm" novalidate>
@@ -378,8 +389,8 @@ $(window).scroll(function(){
   //<![CDATA[
     $(window).load(function() { // makes sure the whole site is loaded
       $('#status').fadeOut(); // will first fade out the loading animation
-      $('#preloader').delay(250).fadeOut('fast'); // will fade out the white DIV that covers the website.
-      $('body').delay(150).css({'overflow':'visible'});
+      $('#preloader').delay(50).fadeOut('fast'); // will fade out the white DIV that covers the website.
+      $('body').delay(50).css({'overflow':'visible'});
     })
   //]]>
 </script>

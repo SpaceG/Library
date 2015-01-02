@@ -5,9 +5,46 @@
     <description>Hello, my Name is Lucas Gatsas</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Jan 2015 13:06:11 +0100</pubDate>
-    <lastBuildDate>Thu, 01 Jan 2015 13:06:11 +0100</lastBuildDate>
+    <pubDate>Fri, 02 Jan 2015 03:16:52 +0100</pubDate>
+    <lastBuildDate>Fri, 02 Jan 2015 03:16:52 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>ssl - https over GitHub.</title>
+        <description>&lt;p&gt;Happy New Year everybody. Good Code 2015. So, back to work i figure out how can i run my dev blog here on github over https. After searching the Entire! I found out, there is a simple script open sourced by Eric Mill. This Code based on Javascript. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;var host = &quot;YOURDOMAIN.github.io&quot;;
+if ((host == window.location.host) &amp;amp;&amp;amp; (window.location.protocol != &quot;https:&quot;))
+    window.location.p
+    rotocol = &quot;https&quot;;
+&lt;/code&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Install&lt;/h2&gt;
+
+&lt;p&gt;But it on your Top in the Header after some meta tags.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Transport_Layer_Security&quot;&gt;Transport Layer Security&lt;/a&gt;
+Transport Layer Security - ssl 
+&lt;br /&gt;
+&lt;a href=&quot;http://en.wikipedia.org/wiki/OpenSSL&quot;&gt;Open SSL Source&lt;/a&gt;
+Open SSL Source
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;Good Things never ending!&lt;/blockquote&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+
+</description>
+        <pubDate>Thu, 01 Jan 2015 13:00:00 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/01/ssl-https/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/01/ssl-https/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The dreams of yesterday are the hopes of today and the reality of tomorrow.</title>
