@@ -1,20 +1,19 @@
 #Reloaded version of the Jekyll Clean Theme - This is my Science Medium Version for GitHub. feel free to work on and use it.
-- Science Medium Version - Clean Blog by Start Bootstrap - Jekyll Version
+- Science Medium Version - Jekyll Version ! 
 
 
-- recoded be Lucas Gatsas.
 
-
+![alt tag](https://raw.githubusercontent.com/SpaceG/CleanMagicMedium-Jekyll-Theme/master/img/blog.png)
 
 #Clean Blog by Start Bootstrap - Jekyll Version
 
 The official Jekyll version of the Clean Blog theme by 
 
-###[View Live Demo &rarr;](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/)
+###[View Live Demo &rarr;](https://spaceg.github.io/)
 
 ## Before You Begin
 
-In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
+In the _config.yml file, the base URL is set to ###[View Live Demo &rarr;](https://github.com/SpaceG/CleanMagicMedium-Jekyll-Theme/blob/master/_config.yml/) which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
 
 It should look like this:
 `baseurl: ""`
@@ -27,3 +26,6 @@ A Grunt environment is also included. There are a number of tasks it performs li
 
 You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
 
+
+
+![alt tag](http://spaceg.github.io/img/post-sample-image.jpg)
