@@ -1,192 +1,573 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lucas Gatsas</title>
-    <description>Hello, my Name is Lucas Gatsas</description>
+    <title>l.g</title>
+    <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
     <link>https://spaceg.github.io/</link>
     <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Jan 2015 03:16:52 +0100</pubDate>
-    <lastBuildDate>Fri, 02 Jan 2015 03:16:52 +0100</lastBuildDate>
-    <generator>Jekyll v2.3.0</generator>
+    <pubDate>Mon, 23 Feb 2015 22:53:02 +0100</pubDate>
+    <lastBuildDate>Mon, 23 Feb 2015 22:53:02 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>ssl - https over GitHub.</title>
-        <description>&lt;p&gt;Happy New Year everybody. Good Code 2015. So, back to work i figure out how can i run my dev blog here on github over https. After searching the Entire! I found out, there is a simple script open sourced by Eric Mill. This Code based on Javascript. &lt;/p&gt;
+        <title>Work Static from our Start Up</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Work Static&lt;/h2&gt;
 
-&lt;p&gt;&lt;code&gt;var host = &quot;YOURDOMAIN.github.io&quot;;
-if ((host == window.location.host) &amp;amp;&amp;amp; (window.location.protocol != &quot;https:&quot;))
-    window.location.p
-    rotocol = &quot;https&quot;;
-&lt;/code&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Install&lt;/h2&gt;
-
-&lt;p&gt;But it on your Top in the Header after some meta tags.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Transport_Layer_Security&quot;&gt;Transport Layer Security&lt;/a&gt;
-Transport Layer Security - ssl 
-&lt;br /&gt;
-&lt;a href=&quot;http://en.wikipedia.org/wiki/OpenSSL&quot;&gt;Open SSL Source&lt;/a&gt;
-Open SSL Source
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;Good Things never ending!&lt;/blockquote&gt;
-
-&lt;!--
-
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; --&gt;
-
-</description>
-        <pubDate>Thu, 01 Jan 2015 13:00:00 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/01/01/ssl-https/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/01/01/ssl-https/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The dreams of yesterday are the hopes of today and the reality of tomorrow.</title>
-        <description>&lt;p&gt;This is my First Post, Hello World! I will try out to describe my Code&#39;s here on my GitHub Blog, this isn&#39;t my Official Website!  I&#39;m current working on it! also Stay Tuned! This Blog is dedicated to my Git&#39;s!&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Development Processes!&lt;/h2&gt;
-
-&lt;p&gt;I will describe and Blog about my development Processes @ my Official Website!&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Start Up Projects in Progress.&lt;/h2&gt;
-
-&lt;p&gt;Visit soon my Official Website to see what we Start Up. This Blog is built with the Jekyll Blog Framework and hosted on GitHub. My Next Blog will have the Framework and Blog Ware from Ghost. From Wordpress to Jekyll and from Jekyll to Ghost.&lt;/p&gt;
-
-&lt;p&gt; Here is my Install Video &lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;515&quot; src=&quot;//www.youtube.com/embed/hRqgJlxoEnI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;!--
-
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; --&gt;
-
-</description>
-        <pubDate>Tue, 01 Jul 2014 14:00:00 +0200</pubDate>
-        <link>https://spaceg.github.io/2014/07/01/getready/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2014/07/01/getready/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jekyll set Up</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;The Set Up&lt;/h2&gt;
-
-&lt;p&gt;# Install
-&quot;[Jekyll! v2.3.0](https://jekyllrb.com/)&quot;
-Set Up Install Guide, 
-Jekyll Install -  _Jekyll Open Source_, with GITHUB. 
-&lt;/p&gt;
+&lt;p&gt;Our Work Static Time in Hours till now. Since exact from the 1. of January till now i have spend alot of Time in our Start Up. I had laid the Seeds excat from the 1. of January 2015, crazy how the Times goes on, since then i have worked already everyday on our Start Up. Now we are in the middle, happy to have the strong part behind me. I have done the most Front-End Work and Javascript details. Now i will beginn the Hardwork of the Design which one need to much Time. I have only spend 10 Hours into the Layout, then after choose the main colors, then the Fonts which one i have change thousand of Times already. And a good design need still alot of Time and Work, this sounds to me  will never end, because the Design looks everyday better. - &lt;/p&gt;
 
 &lt;p&gt;
-  You can also Host Jekyll on GITHUB. Only do you have to use is: &lt;br /&gt;
-  A Good Text Editor like &lt;br /&gt;
-  Sublime Text 3, &lt;br /&gt;
-  Termnial Command Lines from X-Code, &lt;br /&gt;
-  and of course a localhost:4000 &lt;br /&gt;
-  (which you can change it to another port like &lt;br /&gt;
-  localhost:8080 with : &lt;br /&gt;
-  localserver port: PORT  and Listen on the given port. --port PORT). &lt;br /&gt;
-  See more on the (see &lt;br /&gt;
-  http://jekyllrb.com/docs/configuration 
-  Serve Command Options.&lt;/p&gt;
+And my Day look like so in moment, Wake Up in The Morning most time (07:00), if I slept, because since the last days i&#39;m work at day and night, because i love my work much and can even spend more Time in our Start Up. My Ryhtmus for sleep is 6 - 8 Hours per Day. Nothing more.. i can&#39;t even sleep more than 6 -8 Hours per Day. i Stay up, check some News and speak with my mate Giancarlo about the next details on our App. After alot of talking and set some new Goals, i make coffee and think about the next Work Process. Then i check my incoming Mails then i work again again on the Start Up till the Evening. Write some New Code and do re-design of the current Layout. etc. 
 
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-&lt;p&gt;#### Install Options &lt;/p&gt;
-&lt;p&gt;Linux, Unix, or Mac OS X Install &lt;br /&gt;Termnial :&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;
-  - sudo gem install Jekyll! v2.3.0
-    password: *************************
-&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;See which Version: &lt;br /&gt; Version :&lt;/p&gt;
+	&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;
-  - jekyll -v
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt; 
+Between Start Up and Study. 
+Some People ask me everytime, how do you can work so long..? my answer is, i do love what i doing, this is the most secret. find something that do you love and make it very big. - this is always a good mood to work on my Start Up. - i don&#39;t know.. i think i wish have a bit more time for other things. - but sometimes i realize that&#39;s is everything what i have. - and i use all to capitalize everything! even do you have nothing. - (Digital World). I am athlete and have simply by nature much more energy in me. I love create things which one are never done before. - And you must be also too very concentrated, flexible, bouncy, disciplined to be a good Front-End Web Weveloper/ Ui/Ux Interface Developer. 
 
-&lt;p&gt;Set Up your Project: &lt;br /&gt; Set Up :&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;
-  - cd Desktop/
-  - jekyll new your-project-site
-  - /users/Home/Desktop/your-project-site
-  - cd your-project-site/
-  - jekyll serve
-&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Port localhost: &lt;br /&gt; localhost:&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;
-  - http://0.0.0.0:4000/
-&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Find Your Files: &lt;br /&gt; Command:&lt;br /&gt;&lt;/p&gt;
+&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;
-  - jekyll serve --watch
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;My Radio Chanel &lt;a href=&quot;http://hbr1.com/&quot;&gt;hbr1.com the best Psy do you can get it. -&lt;/a&gt; &lt;/p&gt;
 
-&lt;h4 id=&quot;others&quot;&gt;Others&lt;/h4&gt;
+&lt;p&gt;
 
-&lt;p&gt;You’ll find a lot of other variables inside the file, e.g.:&lt;/p&gt;
+	&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;the site &lt;code&gt;title&lt;/code&gt;, &lt;code&gt;description&lt;/code&gt;, &lt;code&gt;icon&lt;/code&gt; and default &lt;code&gt;cover&lt;/code&gt; image.&lt;/li&gt;
-  &lt;li&gt;text of the &lt;code&gt;copyright&lt;/code&gt; message.&lt;/li&gt;
-  &lt;li&gt;the number of posts per page (&lt;code&gt;paginate&lt;/code&gt;).&lt;/li&gt;
-  &lt;li&gt;the &lt;code&gt;permalink&lt;/code&gt;’s structure (see &lt;a href=&quot;https://jekyllrb.com/docs/pagination/&quot;&gt;the docs&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;versions&quot;&gt;Versions&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;5 Club Mate&#39;s&lt;/h2&gt;
 
-&lt;p&gt;Here is a  List:&lt;/p&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;175 Coffees&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;
-Jeykill 0.3.x
-&lt;br /&gt;
-&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;
-Sublime Text 3
-&lt;br /&gt;
-&lt;a href=&quot;https://github.com&quot;&gt;GITHUB&lt;/a&gt;
-GitHub
-&lt;br /&gt;
-&lt;a href=&quot;https://developer.apple.com/xcode/&quot;&gt;CommandLine Tools&lt;/a&gt;)
-CommandLine
-&lt;br /&gt;&lt;/p&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;202 Hours&lt;/h2&gt;
 
-&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;5938 Lines of Code&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll! v2.3.0 is already &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;available for download on GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;Want to see something else added or report a bug? &lt;a href=&quot;https://github.com/spaceg/spaceg.github.io/issues/new&quot;&gt;Open an issue&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/googleanalstic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
 &lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
+--&gt;
 
 </description>
-        <pubDate>Wed, 26 Feb 2014 13:00:00 +0100</pubDate>
-        <link>https://spaceg.github.io/2014/02/26/jekyll-setup/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2014/02/26/jekyll-setup/</guid>
+        <pubDate>Mon, 23 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/23/work-static/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/23/work-static/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Subdomain Name for Github</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Set Up a Subdomain for my Blog on Github.&lt;/h2&gt;
+
+&lt;p&gt;Get Read with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the NextDays or Weeks. However, i think i will do that right now, when i have and get more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. - &lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Sub Domains&lt;/h2&gt;
+&lt;p&gt;A subdomain is configured with a CNAME record through your DNS provider (There where your  domain is Registered). 
+We strongly recommend that you use a custom subdomain for these reasons:&lt;/p&gt;
+
+&lt;p&gt;It gives your GitHub Pages site the benefit of our Content Delivery Network.&lt;a href=&quot;http://en.wikipedia.org/wiki/Content_delivery_network&quot;&gt;Content Delivery Network. -Wikipedia&lt;/a&gt;
+It will not be affected by changes in the underlying IP addresses of GitHub’s servers.
+Pages will load significantly faster because &lt;a href=&quot;http://en.wikipedia.org/wiki/Denial-of-service_attack&quot;&gt;Denial-of-service Attack&lt;/a&gt; protection can be implemented more efficiently.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Apex Domains&lt;/h2&gt;
+&lt;p&gt;An apex domain is usually configured with an &lt;code&gt;A&lt;/code&gt;, &lt;code&gt;ALIAS&lt;/code&gt;, or &lt;code&gt;ANAME&lt;/code&gt; record through your DNS provider and is often assigned to one or more IP addresses.&lt;/p&gt;
+
+&lt;p&gt;I will set up my  Apex Domain @ Github, because i do host my Stuff and Website on Github. - There also some Points to set up one to your  Repositories. So far i have create a &lt;a href=&quot;https://help.github.com/articles/user-organization-and-project-pages/&quot;&gt;User, Organization, and Project Pages&lt;/a&gt;. Which one can do everybody, if you have a Github account. You need also One to get Set Up your &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;So now we use a Apex Domain Name (www.yourdomain.com) or a Sub-Domian Name (www.hello.yourdomain.com). So we have get some Functions of the Cname.  &lt;a href=&quot;https://help.github.com/articles/about-custom-domains-for-github-pages-sites/&quot;&gt;About custom domains for GitHub Pages sites&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/adding-a-cname-file-to-your-repository/&quot;&gt;Adding a CNAME file to your Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages are served over HTTP, not HTTPS. You shouldn’t use them for sensitive transactions, like sending passwords or credit card numbers. - &lt;/p&gt;
+
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/googleanalstic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;blockquote&gt;
+
+	
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sun, 22 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/22/subdomain-github/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/22/subdomain-github/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Design Workflow UI/UX</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Design UI/UX Interface &lt;/h2&gt;
+
+&lt;p&gt;
+Update Post Soon. Stay in Space. 
+
+	&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/uiux-design-diagram.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+	&quot;I Closely Follow Everthing about User Interface Or Human-Computer Interface:
+	Technology That Makes Computers Closer to the Way Human Being Actually Functions&quot; - Francois -Henri Pinault Lifehack Quotes
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sat, 21 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/21/design-work-flow-ui-ux/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/21/design-work-flow-ui-ux/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>.io - Domains</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;.io Domains @ Namecheap.com&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m decide to Set Up our Domian Names @ Namecheap.com &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap.com&lt;/a&gt;. A good Company from Los Angeles U.S.A. &lt;/p&gt;
+
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;
+
+&lt;p&gt;Get Amazing Fast Support and Like Namecheap really. - &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/startup_docu_4.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/domian_name_docu.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--
+Nice Conversation with Giancarlo :) - 
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/startup_docu.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/googleanalstic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+--&gt;
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/.io&quot;&gt;.io Article @ Wikipedia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+	&quot;IO is also commonly used in IT as an abbreviation for input/output, which makes the .io domain useful for domain hacks and services wanting to be associated with technology.[14]&quot;
+
+	As with most domains, many .io domains are bought by third parties who do not intend to use them for websites. There is no exact figure of how many of the .io-domains that have been bought that are actually in use, but there have been multiple cases in which .io-domains have been sold for substantial amounts of money.
+
+	.io domains may not be used &quot;for any purpose that is sexual or pornographic or that is against the statutory laws of any Nation&quot;. Breaching this requirement &quot;NIC.IO reserves the right to immediately deactivate the offending registration&quot;.[11]
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sat, 14 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/14/io-domians/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/14/io-domians/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How many Hours do you sleep?</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Work Easy and Strong on your Project.&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/punsh_card.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is my Punsh- Card at GitHub, i got a Culture Shock about myself :)! Okey, i think this Statitic say everything. 
+I believe in good Work and good Learning everyday Code and write everyday code till your fingers are blue. ;) ! More to come soon.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-link-color=&quot;#666&quot; lang=&quot;de&quot;&gt;&lt;p&gt;How many hours sleep you at Night or @ Day? Tell Me &amp;gt;&amp;gt; &lt;a href=&quot;https://twitter.com/hashtag/webdevelopment?src=hash&quot;&gt;#webdevelopment&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/frontend?src=hash&quot;&gt;#frontend&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/webdev?src=hash&quot;&gt;#webdev&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/startuo?src=hash&quot;&gt;#startuo&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/developer?src=hash&quot;&gt;#developer&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/programmers?src=hash&quot;&gt;#programmers&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/564961794427736064&quot;&gt;10. Februar 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/googleanalstic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;blockquote&gt;&quot;You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It&#39;s Logic -Based Creativity&quot;
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 10 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/10/github-punsh/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/10/github-punsh/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>y-combinator Hacker News</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;My CleanMagic Theme @ Hacker News&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;&lt;/p&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/y-hacker-news-lg-001.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;p&gt;My Article @ Hacker News Y Combinator - Silicon Valley. 
+&lt;a href=&quot;https://news.ycombinator.com/item?id=9019283&quot;&gt;news.ycombinator.com&lt;/a&gt; and 
+&lt;a href=&quot;https://news.ycombinator.com/newest&quot;&gt;Hacker News List&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-link-color=&quot;#666&quot; lang=&quot;de&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://t.co/2cM3esdQ0i&quot;&gt;https://t.co/2cM3esdQ0i&lt;/a&gt; :) &lt;a href=&quot;https://twitter.com/hashtag/jekyll?src=hash&quot;&gt;#jekyll&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/theme?src=hash&quot;&gt;#theme&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/github?src=hash&quot;&gt;#github&lt;/a&gt; &lt;a href=&quot;https://twitter.com/LucasGatsas&quot;&gt;@LucasGatsas&lt;/a&gt; &lt;a href=&quot;https://twitter.com/GSoverini&quot;&gt;@GSoverini&lt;/a&gt; &lt;a href=&quot;https://twitter.com/_agtlucas&quot;&gt;@_agtlucas&lt;/a&gt; &lt;a href=&quot;https://twitter.com/Blueberrydigi1&quot;&gt;@Blueberrydigi1&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/564572577608519681&quot;&gt;8. Februar 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-link-color=&quot;#666&quot; lang=&quot;de&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/_agtlucas&quot;&gt;@_agtlucas&lt;/a&gt; thanks &lt;a href=&quot;https://twitter.com/_agtlucas&quot;&gt;@_agtlucas&lt;/a&gt; :) ! download it :D and do what do you want. :)&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/564575255684190208&quot;&gt;9. Februar 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;If you want you can downlaod my (Clean Magic) Theme for Jekyll. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/SpaceG/CleanMagic&quot;&gt;Download&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://spaceg.github.io/&quot;&gt;See Demo Theme&lt;/a&gt; &lt;/p&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/y-hacker-news-lg-002.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+
+--&gt;
+
+&lt;blockquote&gt;&quot;You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It&#39;s Logic -Based Creativity&quot;
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Mon, 09 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/09/ycombinator-hacker-news/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/09/ycombinator-hacker-news/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Our New Start Up</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;We currently working on it.&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/project_01.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/project_02.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt; &lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-lg-4 col-sm-12 text-center&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/Snapshot_20120128_4.jpg&quot; alt=&quot;&quot; style=&quot;width:190px;text-align:center;&quot; /&gt;  &lt;h3&gt;- Giancarlo
+                    &lt;small&gt;&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-lg-4 col-sm-12 text-center&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/lucas-gatsas.png&quot; alt=&quot;&quot; style=&quot;width:190px;text-align:center;&quot; /&gt;  &lt;h3&gt;- Gatsas
+                    &lt;small&gt;&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+&lt;p&gt;First Pictures from our Private Repositorie, the Introduction from our New Start Up {Web Application}. Giancarlo and Me goes Crazy. - :) Specially, we are set up &lt;a href=&quot;http://backbonejs.org/&quot;&gt;Backbone.js&lt;/a&gt; right now.
+So, we can see our daily Workflow till now, but i think it will be alot more in the next Days.&lt;/p&gt;
+
+&lt;blockquote&gt;&quot;You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It&#39;s Logic -Based Creativity&quot;
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Thu, 05 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/05/my-start-up/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/05/my-start-up/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Get Started with Fonts</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Different Fonts Already.&lt;/h2&gt;
+
+&lt;p&gt;This is a Article about my Fonts Experiments. I Work alot with Fonts in the Front-End Work and Design. 
+I can spend of hours with these Fonts. Sometimes i don’t like it to purchase a Font?! - Why i should Purchase one?
+This is the Way, i decide to use Google Fonts with their Library of Fonts. - 
+Please Have take alook. &lt;a href=&quot;https://www.google.com/fonts&quot;&gt;Google Fonts&lt;/a&gt;  &lt;/p&gt;
+
+&lt;p&gt;This Blog are use the Style Fonts 
+&lt;a href=&quot;https://www.google.com/fonts#UsePlace:use/Collection:Playfair+Display+SC&quot;&gt;Playfair Display SC&lt;/a&gt; And The 
+&lt;a href=&quot;http://www.google.com/fonts#QuickUsePlace:quickUse/Family:Merriweather&quot;&gt;Merriweather Serif&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;These are my Fonts.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;&lt;/p&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/concepts-startup.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:50%&quot;&gt;
+&lt;/a&gt; --&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/design.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+--&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+&lt;blockquote&gt;Good Art is a Taste, Good Design is an Opinion! - 
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sun, 01 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/01/fonts/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/01/fonts/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Angular.js</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;AngularJS — Superheroic JavaScript MVW Framework&lt;/h2&gt;
+
+&lt;p&gt;Angular.js - is a fast Javascript MVW Framework. &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;I Got this tip from Helen, &lt;a href=&quot;https://twitter.com/helenvholmes&quot;&gt;Helen V. Holmes&lt;/a&gt; My Ask about her Page Script and Code,
+because the Page have only a frame in the index.html file and the rest based on Javascript. 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;angular.js&lt;/code&gt; file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; Alternative, do cou can download it and integrate locally. - &lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-lg-4 col-sm-12 text-center&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot; /&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+&lt;p&gt;By the attribute ng app in HTML tag AngularJS recognizes our side now than AngularJS application. AngularJS searched by the page for specific tags and attributes that belong to the framework. The Directives are in angular.js.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/concepts-startup.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:50%&quot; /&gt;
+&lt;/a&gt; &lt;/p&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/design.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+--&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+&lt;blockquote&gt;Every large system that works started as small system that worked.
+
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 28 Jan 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/28/angular.js-framework/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/28/angular.js-framework/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Clean Magic Jekyll Theme V.0.3.0</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Download&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/lucas-gatsas-clean-magic-jekyll-theme.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/lucas-gatsas-13.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is my New Jekyll Theme (Clean Magic). &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/SpaceG/CleanMagic&quot;&gt;Download&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://spaceg.github.io/&quot;&gt;Demo&lt;/a&gt; &lt;/p&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; --&gt;
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/design.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+--&gt;
+
+&lt;blockquote&gt;Programming is like, write a Book. .- 
+
+&lt;/blockquote&gt;
+
+&lt;!-- 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
+&lt;/a&gt; 
+
+
+
+ --&gt;
+
+</description>
+        <pubDate>Tue, 27 Jan 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/01/27/clean-magic-jekyll-theme/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/01/27/clean-magic-jekyll-theme/</guid>
         
         
       </item>

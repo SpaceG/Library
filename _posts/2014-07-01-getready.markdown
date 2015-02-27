@@ -27,7 +27,7 @@ header-img: "img/odeyssey.jpg"
 
 <p> Here is my Install Video </p>
 
-<iframe width="100%" height="515" src="//www.youtube.com/embed/hRqgJlxoEnI" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/hRqgJlxoEnI" frameborder="0" allowfullscreen></iframe>
 
 
 <!--

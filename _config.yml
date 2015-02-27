@@ -1,7 +1,7 @@
 # Site settings
-title: Lucas Gatsas
+title: l.g
 email: l.gatsas33@gmail.com
-description: "Hello, my Name is Lucas Gatsas"
+description: "Hello, my Name is @LucasGatsas. I'm a Designer & Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!"
 baseurl: ""
 url: "https://spaceg.github.io"
 twitter_username: LucasGatsas
@@ -12,5 +12,7 @@ google_username:  https://plus.google.com/101826267816845608605/posts
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 5
+paginate: 
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+paginate: 5 #posts per page

@@ -1,34 +1,30 @@
-#Reloaded version of the Jekyll Clean Theme - This is my Science Medium Version for GitHub. feel free to work on and use it.
-- Science Medium Version Version ((NEW Version 0.2.0))- Jekyll Version ! 
+# CleanMagic
+Clean Magic - Jekyll Theme V.0.1.0 
+
+Fork it, Star it, And Download it!
+CleanMagic - A Jekyll Theme. 
+
+
+[Demo](https://spaceg.github.io/2015/01/27/clean-magic-jekyll-theme/) 
+
+![alt tag](https://spaceg.github.io/img/lucas-gatsas-clean-magic-jekyll-theme.png)
+
+
+CleanMagic Theme by Lucas Gatsas Di. 3.Feb. 2014, Switzerland, TimeGrade 01:33:28 
+Try  https://github.com/jekyll/jekyll Jekyll a New Blogging System using node.js 
+Notice: Be Sure that your Host provide node.js on Standart Host ( Shared Hosting - Standart WebHost or WebSpace)! you need always a Virtual Server ask your Provider about more Details for http://jekyllrb.com/ and Install node.js on your Host!
+
+[Jekyll](http://jekyllrb.com/) 
+
+[OpenSource Jekyll](https://github.com/jekyll/jekyll) 
 
 
 
-![alt tag](https://raw.githubusercontent.com/SpaceG/spaceg.github.io/master/img/jekyllthemewhite.png)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-#Clean Blog by Start Bootstrap - Jekyll Version
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-The official Jekyll version of the Clean Blog theme by 
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-###[View Live Demo &rarr;](https://spaceg.github.io/)
+Copyright © 2013 - 2015. Lucas Gatsas - Softwares
 
-## Before You Begin
-
-In the _config.yml file, the base URL is set to ###[ _config.yml &rarr;](https://github.com/SpaceG/CleanMagicMedium-Jekyll-Theme/blob/master/_config.yml/) which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
-
-It should look like this:
-`baseurl: ""`
-
-## What's Included
-
-A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
-
-A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
-
-You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
-
-Download Jekyll 
-###[Download Jekyll  &rarr;](https://github.com/jekyll/jekyll)
-
-
-
-![alt tag](http://spaceg.github.io/img/post-sample-image.jpg)
