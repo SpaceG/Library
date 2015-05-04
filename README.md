@@ -16,13 +16,9 @@ CleanMagic Theme by Lucas Gatsas Mo. 4. Mai 2015, Switzerland, TimeGrade 03:52:0
 Try  https://github.com/jekyll/jekyll Jekyll a New Blogging System using node.js 
 Notice: Be Sure that your Host provide node.js on Standart Host ( Shared Hosting - Standart WebHost or WebSpace)! you need always a Virtual Server ask your Provider about more Details for http://jekyllrb.com/ and Install node.js on your Host!
 
-
-[OpenSource Jekyll](https://github.com/jekyll/jekyll) 
-
 [Jekyll](http://jekyllrb.com/) 
 
-
-
+[OpenSource Jekyll](https://github.com/jekyll/jekyll) 
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
