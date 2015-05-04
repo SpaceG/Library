@@ -1,7 +1,7 @@
 {
-       "name": "ICE&FIRE",
-    "title": "ICE&FIRE - Jekyll Theme",
-    "version": "1.0.0",
+       "name": "CleanMagicMedium",
+    "title": "CleanmagicMedium - Jekyll Theme",
+    "version": "0.0.2",
     "homepage": "http://spaceg.github.io",
     "author": "Lucas Gatsas",
     "license": {
@@ -17,6 +17,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/SpaceG/spaceg.github.io.git"
+        "url": "https://github.com/SpaceG/CleanMagicMedium-Jekyll.git"
     }
 }
