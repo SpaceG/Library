@@ -5,7 +5,7 @@ Fork it, Star it, And Download it!
 CleanMagic - A Jekyll Theme. 
 
 
-[Demo](https://spaceg.github.io/2015/01/27/clean-magic-jekyll-theme/) 
+[Demo](https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0) 
 
 ![alt tag](https://spaceg.github.io/img/intro-theme-1.png)
 
