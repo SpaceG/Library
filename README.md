@@ -4,8 +4,9 @@ CleanMagicMedium V.0.0.2 - Jekyll Theme V.0.1.0
 Fork it, Star it, And Download it!
 CleanMagicMedium V.0.0.2 - A Jekyll Theme. 
 
+[Demo](https://lucasgatsas.ch) 
 
-[Demo](https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0) 
+[Download](https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0) 
 
 ![alt tag](https://spaceg.github.io/img/intro-theme-1.png)
 
