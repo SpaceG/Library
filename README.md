@@ -1,8 +1,8 @@
-# CleanMagic
-Clean Magic - Jekyll Theme V.0.1.0 
+# CleanMagicMedium V.0.0.2
+CleanMagicMedium V.0.0.2 - Jekyll Theme V.0.1.0 
 
 Fork it, Star it, And Download it!
-CleanMagic - A Jekyll Theme. 
+CleanMagicMedium V.0.0.2 - A Jekyll Theme. 
 
 
 [Demo](https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0) 
