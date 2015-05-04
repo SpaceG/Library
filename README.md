@@ -7,7 +7,7 @@ CleanMagic - A Jekyll Theme.
 
 [Demo](https://spaceg.github.io/2015/01/27/clean-magic-jekyll-theme/) 
 
-![alt tag](https://spaceg.github.io/img/lucas-gatsas-clean-magic-jekyll-theme.png)
+![alt tag](https://spaceg.github.io/img/intro-theme-1.png)
 
 
 CleanMagic Theme by Lucas Gatsas Di. 3.Feb. 2014, Switzerland, TimeGrade 01:33:28 
