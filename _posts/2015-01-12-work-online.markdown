@@ -32,7 +32,7 @@ header-img: "img/lucas-gatsas-11.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/brain-startup.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/brain-startup.png" alt="Lucas Gatsas" style="width:100%">
 </a>
 <blockquote>“if you have a brain you are a Start Up.” and below on the Wall :) "Wir sind am Start und Die Welt ist Gross!" in Germany. 
 </blockquote>
@@ -41,7 +41,7 @@ header-img: "img/lucas-gatsas-11.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/coders.jpg" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/coders.jpg" alt="Lucas Gatsas" style="width:100%">
 </a> 
 
 

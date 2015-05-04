@@ -1,8 +1,8 @@
 ---
 layout: page
-description: "Hello, my Name is @LucasGatsas. I'm a UI/UX Designer & Front-End Engineer based in the City of Saint Gall, Switzerland."
+description: "Hello, my Name is LucasGatsas. I'm a UI/UX Designer & Front-End Engineer based in the City of Saint Gallen, Switzerland."
 feature: abstract-1.jpg
-header-img: "img/odeyssey.jpg"
+header-img: 
 
 ---
 
@@ -39,15 +39,38 @@ header-img: "img/odeyssey.jpg"
 				<h1 class="post-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
 				{% else %}
 				<h1 class="post-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
+								<h1 class="post-title-readmore"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
 				{% endif %}
 			</header>
-
 
     </article>
 	<article class="container hentry">
 		<div class="entry-content">
 			{{ post.content }}
 		</div>
+		<br>
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="https://lucasgatsas.ch/img/93TyTG3x.png" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts"><i class="fa fa-google-plus"></i></a>
+	</td>
+</div>
+
 	</article>
 
   {% endfor %}
@@ -75,11 +98,12 @@ header-img: "img/odeyssey.jpg"
 </div>
 
 
+
+
 <script src="{{ site.siteurl }}/js/jquery-1.11.1.js"></script>
 <script src="{{ site.siteurl }}/js/jscroll/jquery.jscroll.js"></script>
 
 <script type="text/javascript">
-// content selector is used to extract the additional items 
 $('.content').jscroll({
     contentSelector: ".content",
     nextSelector: '.next'

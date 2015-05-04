@@ -36,7 +36,7 @@ Update Post Soon. Stay in Space.
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/uiux-design-diagram.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/uiux-design-diagram.png" alt="Lucas Gatsas" style="width:100%">
 </a>
 
 

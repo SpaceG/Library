@@ -17,7 +17,7 @@ Mindmeister:
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Lucas Gatsas" style="width:100%">
 </a>
 
 

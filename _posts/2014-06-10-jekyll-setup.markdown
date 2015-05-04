@@ -117,7 +117,7 @@ Want to see something else added or report a bug? [Open an issue](https://github
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Lucas Gatsas" style="width:100%">
 </a>
 <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 

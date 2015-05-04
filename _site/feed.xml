@@ -2,80 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>l.g</title>
-    <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
-    <link>https://spaceg.github.io/</link>
-    <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Feb 2015 22:53:02 +0100</pubDate>
-    <lastBuildDate>Mon, 23 Feb 2015 22:53:02 +0100</lastBuildDate>
+    <description>Hello, My Name is Lucas Gatsas, I&#39;m a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!</description>
+    <link>https://lucasgatsas.ch/</link>
+    <atom:link href="https://lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 04 May 2015 03:20:17 +0200</pubDate>
+    <lastBuildDate>Mon, 04 May 2015 03:20:17 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Work Static from our Start Up</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Work Static&lt;/h2&gt;
+        <title>Nmap Security Scanner for Linux-MAC-UNIX</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Nmap for Mac Os X - Linux&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Nmap Security Scanner for Linux-MAC-UNIX &lt;/h2&gt;
 
-&lt;p&gt;Our Work Static Time in Hours till now. Since exact from the 1. of January till now i have spend alot of Time in our Start Up. I had laid the Seeds excat from the 1. of January 2015, crazy how the Times goes on, since then i have worked already everyday on our Start Up. Now we are in the middle, happy to have the strong part behind me. I have done the most Front-End Work and Javascript details. Now i will beginn the Hardwork of the Design which one need to much Time. I have only spend 10 Hours into the Layout, then after choose the main colors, then the Fonts which one i have change thousand of Times already. And a good design need still alot of Time and Work, this sounds to me  will never end, because the Design looks everyday better. - &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Was ist Nmap ? &lt;/strong&gt; &lt;/p&gt;
 
-&lt;p&gt;
-And my Day look like so in moment, Wake Up in The Morning most time (07:00), if I slept, because since the last days i&#39;m work at day and night, because i love my work much and can even spend more Time in our Start Up. My Ryhtmus for sleep is 6 - 8 Hours per Day. Nothing more.. i can&#39;t even sleep more than 6 -8 Hours per Day. i Stay up, check some News and speak with my mate Giancarlo about the next details on our App. After alot of talking and set some new Goals, i make coffee and think about the next Work Process. Then i check my incoming Mails then i work again again on the Start Up till the Evening. Write some New Code and do re-design of the current Layout. etc. 
+&lt;pre&gt;&lt;code&gt;   Nmap (&quot;Network Mapper&quot;) ist ein Open-Source-Werkzeug fA1/4r die
+   Netzwerkanalyse und SicherheitsA1/4berprA1/4fung. Es wurde entworfen, um
+   groAe Netzwerke schnell zu scannen, auch wenn es bei einzelnen Hosts auch
+   gut funktioniert. Nmap benutzt rohe IP-Pakete auf neuartige Weise, um
+   festzustellen, welche Hosts im Netzwerk verfA1/4gbar sind, welche Dienste
+   (Anwendungsname und -version) diese Hosts bieten, welche Betriebssysteme
+   (und Versionen davon) darauf laufen, welche Art von
+   Paketfiltern/-Firewalls benutzt werden sowie Dutzende anderer
+   Eigenschaften. Auch wenn Nmap A1/4blicherweise fA1/4r
+   SicherheitsA1/4berprA1/4fungen verwendet wird, wird es von vielen Systemen
+   und Netzwerkadministratoren fA1/4r Routineaufgaben benutzt, z.B.
+   Netzwerkinventarisierung, Verwaltung von AblaufplAxnen fA1/4r
+   Dienstaktualisierungen und die Aberwachung von Betriebszeiten von Hosts
+   oder Diensten.
+&lt;/code&gt;&lt;/pre&gt;
 
+&lt;p&gt;&lt;strong&gt; Install and Set Up &lt;/strong&gt; &lt;/p&gt;
 
-	&lt;/p&gt;
+&lt;p&gt;Download it here &lt;a href=&quot;https://nmap.org/download.html#macosx&quot;&gt;nmap-6.47.dmg&lt;/a&gt; or Run it with Terminal: First installl &lt;a href=&quot;http://www.bzip.org/&quot;&gt;bzip.org&lt;/a&gt;! Promt
+in your Temrinal follow the Commanlines: &lt;/p&gt;
 
-&lt;p&gt; 
-Between Start Up and Study. 
-Some People ask me everytime, how do you can work so long..? my answer is, i do love what i doing, this is the most secret. find something that do you love and make it very big. - this is always a good mood to work on my Start Up. - i don&#39;t know.. i think i wish have a bit more time for other things. - but sometimes i realize that&#39;s is everything what i have. - and i use all to capitalize everything! even do you have nothing. - (Digital World). I am athlete and have simply by nature much more energy in me. I love create things which one are never done before. - And you must be also too very concentrated, flexible, bouncy, disciplined to be a good Front-End Web Weveloper/ Ui/Ux Interface Developer. 
+&lt;p&gt;To install using &lt;a href=&quot;https://www.macports.org/&quot;&gt;MacPorts&lt;/a&gt;, run &lt;code&gt; sudo port install nmap &lt;/code&gt;. Nmap will be installed as &lt;code&gt; /opt/local/bin/nmap &lt;/code&gt;. To uninstall, run sudo port uninstall nmap.&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt; Example Ports Show Up after entire NetWork Scanning! &lt;/strong&gt;&lt;/p&gt;
 
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
 
+PORT STATE SERVICE
 
+22/tcp open ssh
 
-&lt;/p&gt;
+80/tcp open http
 
-&lt;p&gt;My Radio Chanel &lt;a href=&quot;http://hbr1.com/&quot;&gt;hbr1.com the best Psy do you can get it. -&lt;/a&gt; &lt;/p&gt;
+445/tcp open microsoft-ds
 
-&lt;p&gt;
+548/tcp open afp
 
-	&lt;/p&gt;
+6817/tcp open unknown
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;5 Club Mate&#39;s&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt; nmap hostname &lt;/code&gt; &lt;/p&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;175 Coffees&lt;/h2&gt;
+&lt;p&gt;1.What computers did you find running on the local network?&lt;/p&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;202 Hours&lt;/h2&gt;
+&lt;p&gt;2.What IP addresses did you find running on the local network?&lt;/p&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;5938 Lines of Code&lt;/h2&gt;
+&lt;p&gt;3.What is the operating system of your target machine?&lt;/p&gt;
 
-&lt;!--
-&lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
-                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
-                &lt;/h3&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
---&gt;
+&lt;p&gt;4.Find out what ports are open on the machine that you just scanned?&lt;/p&gt;
 
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/googleanalstic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
-&lt;/a&gt;
---&gt;
+&lt;p&gt;5.Find out if the system is infected with malware or virus.&lt;/p&gt;
+
+&lt;p&gt;6.Search for unauthorized servers or network service on your network.&lt;/p&gt;
+
+&lt;p&gt;7.Find and remove computers which don’t meet the organization’s minimum level of security.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; Scan &amp;amp; List a Range of Local Network IP’s &lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;You will find some Information about other Machines on your Localhost Network. Your Lan has an IP range of example  &lt;code&gt; 192.169.0.1&lt;/code&gt; to &lt;code&gt; 192.169.0.25 &lt;/code&gt; change numbers as appropritae: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nmap -sP 192.168.0.1-25&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don’t know the range, you can also use wildcards:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nmap 192.168.0.*&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scan &amp;amp; Detect Operating System&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+nmap -O 192.168.0.1-5&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+nmap --osscan-guess 192.168.0.2 &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Exmaple Diagram: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                          +---------+
+    +---------+           | Network |         +--------+
+    | server1 |-----------+ swtich  +---------|server2 |
+    +---------+           | (sw0)   |         +--------+
+                          +----+----+
+                               |
+                               |
+                     +---------+----------+
+                     | wks01 Linux/OSX    |
+                     +--------------------+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote id=&quot;strict-alert-red&quot;&gt;
+Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Scan Only &lt;strong&gt;your Network &lt;/strong&gt; and &lt;strong&gt; Computers, Websites &lt;/strong&gt; etc.  as follows:
+&lt;/blockquote&gt;
+
+&lt;p&gt;At last i have to lol. because i found this crazy thing here : 
+&lt;a href=&quot;http://nmap.org/movies/#elysium&quot;&gt;Nmap in Movies!&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Link: 
+&lt;a href=&quot;http://nmap.org/download.html#macosx&quot;&gt;nmap.org&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+This is a SwissWatch! :)
+&lt;/blockquote&gt;
 
 </description>
-        <pubDate>Mon, 23 Feb 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/02/23/work-static/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/02/23/work-static/</guid>
+        <pubDate>Sat, 02 May 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/05/02/nmap-mac-osx/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/05/02/nmap-mac-osx/</guid>
         
         
       </item>
     
       <item>
         <title>Subdomain Name for Github</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Set Up a Subdomain for my Blog on Github.&lt;/h2&gt;
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Setting up a custom domain with GitHub Pages&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;DNS for GitHub Pages&lt;/h2&gt;
 
-&lt;p&gt;Get Read with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the NextDays or Weeks. However, i think i will do that right now, when i have and get more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. - &lt;/p&gt;
+&lt;p&gt;Get Ready with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the next Days or Weeks. However, i think i will do that right now, when i have more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. - &lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Sub Domains&lt;/h2&gt;
 &lt;p&gt;A subdomain is configured with a CNAME record through your DNS provider (There where your  domain is Registered). 
@@ -92,19 +150,32 @@ Pages will load significantly faster because &lt;a href=&quot;http://en.wikipedi
 
 &lt;p&gt;So now we use a Apex Domain Name (www.yourdomain.com) or a Sub-Domian Name (www.hello.yourdomain.com). So we have get some Functions of the Cname.  &lt;a href=&quot;https://help.github.com/articles/about-custom-domains-for-github-pages-sites/&quot;&gt;About custom domains for GitHub Pages sites&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/adding-a-cname-file-to-your-repository/&quot;&gt;Adding a CNAME file to your Repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you’re using a &lt;a href=&quot;https://help.github.com/articles/about-custom-domains-for-github-pages-sites/&quot;&gt;Custom Domain&lt;/a&gt; to redirect your GitHub Pages site, you must create and commit a CNAME file to your GitHub Pages repository that contains the custom domain.
+&lt;a href=&quot;https://help.github.com/articles/adding-a-cname-file-to-your-repository/&quot;&gt;Adding a CNAME file to your Repository&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages are served over HTTP, not HTTPS. You shouldn’t use them for sensitive transactions, like sending passwords or credit card numbers. - &lt;/p&gt;
 
-&lt;!--
-&lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
-                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
-                &lt;/h3&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
---&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Submit a CNAME file to your GitHub Repo&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Set Up the DNS &lt;/h2&gt;
+
+&lt;p&gt;Add New file save ass CNAME &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;yourdomain.com&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Login in your NameCheap Account got to  All Host Records. Then set up the DNS&lt;br /&gt;
+and configuring (IP/ Adress/URL to &lt;code&gt; 192.30.252.153 &lt;/code&gt; and the Record Type to &lt;code&gt;A&lt;/code&gt; and TTL 1800)&lt;/p&gt;
+
+&lt;p&gt;set the Subdomain @  IP Adress/URL to &lt;code&gt; username.github.io  &lt;/code&gt; and the Record Type to &lt;code&gt; CNAME (Alias) &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;in the Sub-Domian Settings add an @ in the first - field. and add the IP Adress with the end &lt;code&gt;.154 &lt;/code&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; 192.30.252.154 &lt;/code&gt; and type Record Type A (Adress) and TTL 1800&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/lucasgatsas.ch-1.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Save a ll your Settings ! &lt;/p&gt;
 
 &lt;!--
 &lt;a href=&quot;#&quot;&gt;
@@ -112,462 +183,692 @@ Pages will load significantly faster because &lt;a href=&quot;http://en.wikipedi
 &lt;/a&gt;
 --&gt;
 
+&lt;!--
+&lt;strong&gt; Waterfall View&lt;/strong&gt;
+
+DNS Lookup,
+Initial Connection,
+SSL Negotiation,
+Time to First Byte,
+Content Download,
+ 3xx response,
+ 4xx+ response,
+Start Render,
+msFirstPaint,
+DOM Content Loaded,
+On Load,
+Document Complete,
+
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/waterfall-view-001.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot;&gt;
+&lt;/a&gt;
+
+
+
+&lt;strong&gt; Connection View&lt;/strong&gt;
+
+
+DNS Lookup,
+Initial Connection,
+SSL Negotiation,
+Start Render,
+DOM Content Loaded,
+On Load,
+Document Complete,
+
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/connenction-view.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot;&gt;
+&lt;/a&gt;
+
+
+
+
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/content.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot;&gt;
+&lt;/a&gt;
+
+
+--&gt;
+
+&lt;p&gt;Do you can see the Web Page Test &lt;a href=&quot;https://www.webpagetest.org/result/150430_1T_ER/&quot;&gt;here&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Update to the &lt;a href=&quot;https://www.cloudflare.com&quot;&gt;CloudFlare. &lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;First Sigin in your CLoudFlare Setting up the &lt;code&gt;CNAME&lt;/code&gt; and &lt;code&gt; A &lt;/code&gt; Record. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/dns-cloudflare-2.png &quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Add the Nameserver to your Domainpoint! &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/namecheap-servers-to-cloudflare.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Set Up your &lt;code&gt; https:// &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/offline_over_https Kopie.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Set your ssl to Flexible inside your Interface @ Cloudflare. Wait for a Moment. 
+If you Stuck, contact they. Awesome Supporters Outhere! &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ssl-cloudflare.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Open your Terminal : See your Changes : &lt;/p&gt;
+
+&lt;p&gt;Dig your domian : &lt;code&gt; $ dig yourdomian.com &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;and &lt;code&gt; curl -I yourdomian.com &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;After 24 Hours i checked out my Nameservers! Awesome to see the Changes! &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/dig-lucas-gatsas.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Status: 
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ssl-cludflare-best.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To automatically forward HTTP requests to &lt;code&gt;HTTPS &lt;/code&gt;, you can create a Page Rule by:&lt;/p&gt;
+
+&lt;p&gt;Open the Page Rules interface.
+Entering &lt;code&gt; http://*lucasgatsas.ch/* &lt;/code&gt; as the URL pattern.&lt;/p&gt;
+
+&lt;p&gt;Choose &lt;code&gt; &quot;Always use https.&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Click &lt;code&gt; &quot;Add rule.&quot; &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/page-rules-01.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ssl-cludflare.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot;&gt;
+&lt;/a&gt;
+
+--&gt;
+
+&lt;p&gt;Link: 
+&lt;a href=&quot;https://namecheap.com/&quot;&gt;namecheap.com&lt;/a&gt; 
+Link: 
+&lt;a href=&quot;https://cloudflare.com&quot;&gt;cloudflare.com&lt;/a&gt; 
+Link: 
+&lt;a href=&quot;https://github.com&quot;&gt;github.com&lt;/a&gt; &lt;/p&gt;
+
 &lt;blockquote&gt;
+This is a SwissWatch! :)
 
 	
 
 &lt;/blockquote&gt;
 
 </description>
-        <pubDate>Sun, 22 Feb 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/02/22/subdomain-github/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/02/22/subdomain-github/</guid>
+        <pubDate>Thu, 30 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/04/30/subdomain-github/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/30/subdomain-github/</guid>
         
         
       </item>
     
       <item>
-        <title>Design Workflow UI/UX</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Design UI/UX Interface &lt;/h2&gt;
+        <title>SSH - Key on Mac Os X</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Secure Shell - SSH - Key on Mac Os X &lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;The Key Set Up.&lt;/h2&gt;
 
-&lt;p&gt;
-Update Post Soon. Stay in Space. 
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/bash-ssh-1.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-	&lt;/p&gt;
+&lt;p&gt;Enter Commandlines :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ssh-keygen -t rsa&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;after enter your path again :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;/Users/cyberspace/.ssh/id_rsa&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Overwrite &lt;code&gt; (y/n)?  &lt;/code&gt; press &lt;code&gt;yes&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Enter: if you don’t want a passphrase&lt;/p&gt;
+
+&lt;p&gt;press Enter to get your Key - Gen ! &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/bash-ssh-2.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Type &lt;code&gt; ssh-add &lt;/code&gt; and press Enter!&lt;/p&gt;
+
+&lt;p&gt;add &lt;code&gt; ssh-add -l &lt;/code&gt; to see your &lt;code&gt; .ssh/id_rsa  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/bash-ssh-3.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;follow steps : &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; ls &lt;/code&gt; show list :&lt;/p&gt;
+
+&lt;p&gt;enter your rsa id like here &lt;code&gt; cat id_rsa &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;This is The Private Key !&lt;/p&gt;
+
+&lt;p&gt;—–BEGIN RSA PRIVATE KEY—–&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/bash-ssh-4.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now : Check out the Public Key : &lt;/p&gt;
+
+&lt;p&gt;Type following Commandline : &lt;code&gt;cat id_rsa.pub &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/bash-ssh5.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next Step ! Login In your Root Server!
+Update Post soon. ! &lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;!--
-&lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
-                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
-                &lt;/h3&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
---&gt;
+&lt;p&gt;Diagramm of my SSH Sketches! &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/uiux-design-diagram.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/lucasgatsas_grafic.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/dia_01_ssh_tube_bylucas-gatsas.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sketches by Lucas Gatsas : Free to Use&lt;/p&gt;
+
+&lt;!--
+&lt;strong&gt; Diagram of the SSH private-public key pair transactions, as defined within the SSH defined architecture model &lt;/strong&gt;
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/SSH_public_private_key.gif&quot; alt=&quot;Lucas Gatsas&quot;  style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+--&gt;
 
 &lt;blockquote&gt;
-
-	&quot;I Closely Follow Everthing about User Interface Or Human-Computer Interface:
-	Technology That Makes Computers Closer to the Way Human Being Actually Functions&quot; - Francois -Henri Pinault Lifehack Quotes
-
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
 &lt;/blockquote&gt;
 
 </description>
-        <pubDate>Sat, 21 Feb 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/02/21/design-work-flow-ui-ux/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/02/21/design-work-flow-ui-ux/</guid>
+        <pubDate>Tue, 28 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/04/28/ssh-key-on-mac-osx/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/28/ssh-key-on-mac-osx/</guid>
         
         
       </item>
     
       <item>
-        <title>.io - Domains</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;.io Domains @ Namecheap.com&lt;/h2&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m decide to Set Up our Domian Names @ Namecheap.com &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap.com&lt;/a&gt;. A good Company from Los Angeles U.S.A. &lt;/p&gt;
-
-&lt;!--
-&lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
-                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
-                &lt;/h3&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
---&gt;
-
-&lt;p&gt;Get Amazing Fast Support and Like Namecheap really. - &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/startup_docu_4.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/domian_name_docu.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;!--
-Nice Conversation with Giancarlo :) - 
-
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/startup_docu.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
-&lt;/a&gt;
-
---&gt;
-
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/googleanalstic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
-&lt;/a&gt;
---&gt;
-&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/.io&quot;&gt;.io Article @ Wikipedia&lt;/a&gt;.&lt;/p&gt;
+        <title>SSH</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;SSH -  Key &lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Key - Set Up&lt;/h2&gt;
 
 &lt;blockquote&gt;
-
-	&quot;IO is also commonly used in IT as an abbreviation for input/output, which makes the .io domain useful for domain hacks and services wanting to be associated with technology.[14]&quot;
-
-	As with most domains, many .io domains are bought by third parties who do not intend to use them for websites. There is no exact figure of how many of the .io-domains that have been bought that are actually in use, but there have been multiple cases in which .io-domains have been sold for substantial amounts of money.
-
-	.io domains may not be used &quot;for any purpose that is sexual or pornographic or that is against the statutory laws of any Nation&quot;. Breaching this requirement &quot;NIC.IO reserves the right to immediately deactivate the offending registration&quot;.[11]
-
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
 &lt;/blockquote&gt;
 
 </description>
-        <pubDate>Sat, 14 Feb 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/02/14/io-domians/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/02/14/io-domians/</guid>
+        <pubDate>Sun, 26 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/04/26/get-over-ssh-mac-terminal-learning-new-epic-stuff/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/26/get-over-ssh-mac-terminal-learning-new-epic-stuff/</guid>
         
         
       </item>
     
       <item>
-        <title>How many Hours do you sleep?</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Work Easy and Strong on your Project.&lt;/h2&gt;
+        <title>Domain Set Up - DNS - Cname - WHOIS - Lookup</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Domain DNS - Cname - WHOIS - Lookup&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Nameserver Set Up.&lt;/h2&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;!--
-&lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
-                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
-                &lt;/h3&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
---&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.digitalocean.com/community/questions/setting-up-dns-domain-name-from-godaddy-or-namecheap&quot;&gt; Setting Up dns Domain Name - Namecheap&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Have a Introduction to the &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts &quot;&gt; DNS-Terminology&lt;/a&gt; then set Up a 
+&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean&quot;&gt; Hostname on Digital Ocean &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Digital Ocean Servers are :&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; The DigitalOcean Domain Servers are&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ns1.digitalocean.com&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ns2.digitalocean.com&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ns3.digitalocean.com&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Login In your Ubunutu Server ! &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ssh root@youripadress &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;you will get a fingerprint back &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Are you sure you want to continue connecting (yes/no)? &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;press &lt;code&gt; yes &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;maybe your Connection will closed again. then type again 
+&lt;code&gt;ssh root@youripadress &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;root@youripadress password: &lt;strong&gt;**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;*&lt;/p&gt;
+
+&lt;p&gt;after you will get this out : &lt;/p&gt;
+
+&lt;p&gt;You are required to change your password immediately (root enforced)&lt;/p&gt;
+
+&lt;p&gt;Welcome to Ubuntu 14.04.2 LTS (GNU/Linux 3.13.0-43-generic x86_64)&lt;/p&gt;
+
+&lt;blockquote&gt;
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Wed, 22 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/04/22/domain-set-up-on-digital-ocean-dns-cname-WHOIS-lookup/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/22/domain-set-up-on-digital-ocean-dns-cname-WHOIS-lookup/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Installing nginx on a Virtual Server</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;nginx on a Virtual server&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;VirtualServer - Sysadmin - Unix &lt;/h2&gt;
+
+&lt;p&gt;Now, I’m here and Studing some Steps how Set Up a nginx Server on &lt;a href=&quot;https://www.digitalocean.com/&quot;&gt;Digital Ocean&lt;/a&gt;. Include &lt;a href=&quot;https://nodejs.org/&quot;&gt;Node.js&lt;/a&gt;. Check out my Older Post &lt;a href=&quot;https://spaceg.github.io/2015/02/26/virtual-servers-for-start-ups-digital-ocean/&quot;&gt;here&lt;/a&gt;. And Set Up The Domian with &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; lang=&quot;de&quot;&gt;&lt;p&gt;My eyes! They burn! &lt;a href=&quot;http://t.co/Nbgavlphnn&quot;&gt;http://t.co/Nbgavlphnn&lt;/a&gt; &lt;a href=&quot;http://t.co/HfIH0RGdjx&quot;&gt;pic.twitter.com/HfIH0RGdjx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Etel Sverdlov (@etelsverdlov) &lt;a href=&quot;https://twitter.com/etelsverdlov/status/555172636817649664&quot;&gt;14. Januar 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;blockquote&gt; The Work from a Sysadmin! :)  &lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 21 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/04/21/nginx-set-up-unix-sysadmin-linux-digital-ocean/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/21/nginx-set-up-unix-sysadmin-linux-digital-ocean/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Run Raspberry PI over Mac Os X</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Set Up Your Router Firewall PI&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt; RaspberryPI Modell B &lt;/h2&gt;
+
+&lt;p&gt;Complete my Set Up soon for my Next Firewall. Run Raspberry as Firewall and run it with a USB Console Cable.
+Waiting for my soldering iron! &lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; lang=&quot;de&quot;&gt;&lt;p&gt;Set Completed soon! Let&amp;#39;s build that Thing! &lt;a href=&quot;http://t.co/JGmtW7YSTe&quot;&gt;pic.twitter.com/JGmtW7YSTe&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/587991897869783040&quot;&gt;14. April 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/punsh_card.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/IMG_1049.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;This is my Punsh- Card at GitHub, i got a Culture Shock about myself :)! Okey, i think this Statitic say everything. 
-I believe in good Work and good Learning everyday Code and write everyday code till your fingers are blue. ;) ! More to come soon.&lt;/p&gt;
+&lt;blockquote&gt; Use Raspberry PI as Firewall and Block (WatchDOG) some IP&#39;s  which one try to entrie your System! Raspberry PI will send in Auto Modus a Trojanhorse. - My Mini Project for my Studing. &lt;/blockquote&gt;
 
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-link-color=&quot;#666&quot; lang=&quot;de&quot;&gt;&lt;p&gt;How many hours sleep you at Night or @ Day? Tell Me &amp;gt;&amp;gt; &lt;a href=&quot;https://twitter.com/hashtag/webdevelopment?src=hash&quot;&gt;#webdevelopment&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/frontend?src=hash&quot;&gt;#frontend&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/webdev?src=hash&quot;&gt;#webdev&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/startuo?src=hash&quot;&gt;#startuo&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/developer?src=hash&quot;&gt;#developer&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/programmers?src=hash&quot;&gt;#programmers&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/564961794427736064&quot;&gt;10. Februar 2015&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/googleanalstic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
-&lt;/a&gt;
---&gt;
-
-&lt;blockquote&gt;&quot;You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It&#39;s Logic -Based Creativity&quot;
-
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Tue, 10 Feb 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/02/10/github-punsh/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/02/10/github-punsh/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>y-combinator Hacker News</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;My CleanMagic Theme @ Hacker News&lt;/h2&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;!--
-&lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
-                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
-                &lt;/h3&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
---&gt;&lt;/p&gt;
-
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/y-hacker-news-lg-001.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
-&lt;/a&gt;
---&gt;
-
-&lt;p&gt;My Article @ Hacker News Y Combinator - Silicon Valley. 
-&lt;a href=&quot;https://news.ycombinator.com/item?id=9019283&quot;&gt;news.ycombinator.com&lt;/a&gt; and 
-&lt;a href=&quot;https://news.ycombinator.com/newest&quot;&gt;Hacker News List&lt;/a&gt; &lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-link-color=&quot;#666&quot; lang=&quot;de&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://t.co/2cM3esdQ0i&quot;&gt;https://t.co/2cM3esdQ0i&lt;/a&gt; :) &lt;a href=&quot;https://twitter.com/hashtag/jekyll?src=hash&quot;&gt;#jekyll&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/theme?src=hash&quot;&gt;#theme&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/github?src=hash&quot;&gt;#github&lt;/a&gt; &lt;a href=&quot;https://twitter.com/LucasGatsas&quot;&gt;@LucasGatsas&lt;/a&gt; &lt;a href=&quot;https://twitter.com/GSoverini&quot;&gt;@GSoverini&lt;/a&gt; &lt;a href=&quot;https://twitter.com/_agtlucas&quot;&gt;@_agtlucas&lt;/a&gt; &lt;a href=&quot;https://twitter.com/Blueberrydigi1&quot;&gt;@Blueberrydigi1&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/564572577608519681&quot;&gt;8. Februar 2015&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-link-color=&quot;#666&quot; lang=&quot;de&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/_agtlucas&quot;&gt;@_agtlucas&lt;/a&gt; thanks &lt;a href=&quot;https://twitter.com/_agtlucas&quot;&gt;@_agtlucas&lt;/a&gt; :) ! download it :D and do what do you want. :)&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/564575255684190208&quot;&gt;9. Februar 2015&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;If you want you can downlaod my (Clean Magic) Theme for Jekyll. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/SpaceG/CleanMagic&quot;&gt;Download&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://spaceg.github.io/&quot;&gt;See Demo Theme&lt;/a&gt; &lt;/p&gt;
-
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/y-hacker-news-lg-002.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
-&lt;/a&gt;
-
---&gt;
-
-&lt;blockquote&gt;&quot;You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It&#39;s Logic -Based Creativity&quot;
-
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Mon, 09 Feb 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/02/09/ycombinator-hacker-news/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/02/09/ycombinator-hacker-news/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Our New Start Up</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;We currently working on it.&lt;/h2&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;!--
-&lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
-                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
-                &lt;/h3&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
---&gt;&lt;/p&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Run it with USB Console Cable &lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/project_01.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt; &lt;/p&gt;
+    &lt;img src=&quot;/img/ttl-cable.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;USB Console Cable&lt;/blockquote&gt;
+
+&lt;p&gt;Update Complete Post soon. &lt;/p&gt;
+
+&lt;blockquote&gt;
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sat, 18 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/04/18/run-raspberry-pi-b-over-mac-osx-use-it-as-router-firewall/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/18/run-raspberry-pi-b-over-mac-osx-use-it-as-router-firewall/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Installing nginx on OS X Yosemite</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Installing nginx on OS X Yosemite&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Localhost - Server &lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; Install Brew&lt;/strong&gt; : First you have also Install &lt;a href=&quot;http://git-scm.com/&quot;&gt;brew.sh&lt;/a&gt;  on your Machine! Go Install Brew and all Packages:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ruby -e&quot;$(curl -fsSL https://raw.githubusercontent.com/
+Homebrew/install/master/install)&quot;&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;More About: &lt;a href=&quot;https://www.ruby-lang.org/de/documentation/installation/#building-from-source&quot;&gt;ruby.org&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/project_02.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/a&gt; &lt;/p&gt;
+    &lt;img src=&quot;/img/5-things-you-didnt-know-nginx-could-do-velocity-3-638.jpg&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-lg-4 col-sm-12 text-center&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/Snapshot_20120128_4.jpg&quot; alt=&quot;&quot; style=&quot;width:190px;text-align:center;&quot; /&gt;  &lt;h3&gt;- Giancarlo
-                    &lt;small&gt;&lt;/small&gt;
-                &lt;/h3&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
+&lt;p&gt;After Install Brew: Follow these Steps : &lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-lg-4 col-sm-12 text-center&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/lucas-gatsas.png&quot; alt=&quot;&quot; style=&quot;width:190px;text-align:center;&quot; /&gt;  &lt;h3&gt;- Gatsas
-                    &lt;small&gt;&lt;/small&gt;
-                &lt;/h3&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Installing nginx on OS X
+&lt;/h2&gt;
 
-&lt;p&gt;First Pictures from our Private Repositorie, the Introduction from our New Start Up {Web Application}. Giancarlo and Me goes Crazy. - :) Specially, we are set up &lt;a href=&quot;http://backbonejs.org/&quot;&gt;Backbone.js&lt;/a&gt; right now.
-So, we can see our daily Workflow till now, but i think it will be alot more in the next Days.&lt;/p&gt;
+&lt;p&gt;To install nginx, simply open up the Terminal and enter the following command.&lt;/p&gt;
 
-&lt;blockquote&gt;&quot;You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It&#39;s Logic -Based Creativity&quot;
+&lt;p&gt;&lt;code&gt; brew install nginx&lt;/code&gt;&lt;/p&gt;
 
+&lt;p&gt;That’s it! Assuming that no errors occurred, then nginx is ready to start. But let’s first change the default port.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/install-nginx.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Bingo! :) Here we GO Run Nginx : &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/nginx-install-4-700.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notice: if you get an error : &lt;/strong&gt;&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+Space-Odysseys-Mac-Pro:~ cyberspace$ brew install nginx
+/usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
+/usr/local/bin/brew: line 21: /usr/local/Library/brew.rb: Undefined error: 0 
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/done-ruby-.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt; :) &amp;gt;&amp;gt; Warning: fast-forwarding your working tree from &lt;/blockquote&gt;
+
+&lt;p&gt;Try this out: very simple: &lt;/p&gt;
+
+&lt;p&gt;Open Terminal and Type : &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; cd /usr/local/Library &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git pull origin master  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Or if you go with sudo, then type :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; sudo git pull origin master &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;In case you have changes in the directory (/usr/local/Library), the git pull will throw an error. In that case, you’ll have to fetch the master branch and set it forcibly as master:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; git fetch --all &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; git reset --hard origin/master &lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;This will upgrade your homebrew and you can use brew again.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/ruby-done-1.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you installed Homebrew as a non-root user, you’ll need to cd to &lt;code&gt; /Users/yourusername/homebrew/Library&lt;/code&gt; instead of &lt;code&gt;/usr/local/Library.&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Changing nginx’ Default Port to 80&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;8080 - default port&lt;/h2&gt;
+
+&lt;p&gt;By default, nginx listens to &lt;code&gt; port 8080 &lt;/code&gt;, but let us change that to the default HTTP port, which is 80. To do that, we need to make a simple change to the configuration file &lt;code&gt;  /usr/local/etc/nginx/nginx.conf. &lt;/code&gt; You can do this with any text editor such as &lt;code&gt;vi&lt;/code&gt; or &lt;code&gt;nano&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo vi /usr/local/etc/nginx/nginx.conf&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Scroll a bit down and you should see the following.&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+server {
+        listen       8080;
+        server_name  localhost;
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+            root   html;
+            index  index.html index.htm;
+        }
+        
+        ...       
+}
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;What you want to do is to simple change the number 8080 to 80 next to the listen keyword.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Testing&lt;/h2&gt;
+
+&lt;p&gt;To start up nginx, simply enter the following command in the Terminal.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo nginx&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;nginx should now start up, and you can test that everything works by navigating to &lt;code&gt;http://localhost&lt;/code&gt; in your browser.&lt;/p&gt;
+
+&lt;p&gt;If you have problems starting up nginx, a common problem is that the port that nginx is configured to listen to is already in use. If you changed the port to &lt;code&gt;80&lt;/code&gt;, then this could be an Apache web server or Skype, for instance.&lt;/p&gt;
+
+&lt;p&gt;Should you need to stop nginx, then you can do so with the below command.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo nginx -s stop&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;As you have seen, nginx is very simple to install and set up on OS X Yosemite!&lt;/p&gt;
+
+&lt;blockquote&gt;
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
 &lt;/blockquote&gt;
 
 </description>
-        <pubDate>Thu, 05 Feb 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/02/05/my-start-up/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/02/05/my-start-up/</guid>
+        <pubDate>Sun, 12 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/04/12/nginx-set-up-mac-local-web-server/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/12/nginx-set-up-mac-local-web-server/</guid>
         
         
       </item>
     
       <item>
-        <title>Get Started with Fonts</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Different Fonts Already.&lt;/h2&gt;
+        <title>UI/UX Testing - Start Up Current Streak</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;&quot;UI/UX Testing - Start Up Current Streak - Hacker Camps - Springtime - Start Up Launching and Hire&quot;&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;And Here we Go. - In few Days!&lt;/h2&gt;
 
-&lt;p&gt;This is a Article about my Fonts Experiments. I Work alot with Fonts in the Front-End Work and Design. 
-I can spend of hours with these Fonts. Sometimes i don’t like it to purchase a Font?! - Why i should Purchase one?
-This is the Way, i decide to use Google Fonts with their Library of Fonts. - 
-Please Have take alook. &lt;a href=&quot;https://www.google.com/fonts&quot;&gt;Google Fonts&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Start Up - Current Streak&lt;/strong&gt; This week we start with the UI / UX Interface Testing. We look much on the design and user-friendliness. Of course also includes the browser testing. I will soon give out a Contact-Form where several Developers can contact US. We want do things that have never been done before. Now, you can contact me &lt;a href=&quot;https://www.twitter.com/lucasgatsas&quot;&gt;@LucasGatsas&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;This Blog are use the Style Fonts 
-&lt;a href=&quot;https://www.google.com/fonts#UsePlace:use/Collection:Playfair+Display+SC&quot;&gt;Playfair Display SC&lt;/a&gt; And The 
-&lt;a href=&quot;http://www.google.com/fonts#QuickUsePlace:quickUse/Family:Merriweather&quot;&gt;Merriweather Serif&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Work Streak&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;These are my Fonts.&lt;/p&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;21 Club Mate&#39;s&lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;247 Coffees&lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;363 Hours&lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;7479 Lines of Code&lt;/h2&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;!--
-&lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
-                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
-                &lt;/h3&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
---&gt;&lt;/p&gt;
-
-&lt;!--
-
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/concepts-startup.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:50%&quot;&gt;
-&lt;/a&gt; --&gt;
-
-&lt;!--
-
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt;
---&gt;
-
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; --&gt;
-&lt;!--
-
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/design.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; 
-
-
---&gt;
-
-&lt;!-- 
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; 
-
-
-
- --&gt;
-
-&lt;blockquote&gt;Good Art is a Taste, Good Design is an Opinion! - 
-
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Sun, 01 Feb 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/02/01/fonts/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/02/01/fonts/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Angular.js</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;AngularJS — Superheroic JavaScript MVW Framework&lt;/h2&gt;
-
-&lt;p&gt;Angular.js - is a fast Javascript MVW Framework. &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;I Got this tip from Helen, &lt;a href=&quot;https://twitter.com/helenvholmes&quot;&gt;Helen V. Holmes&lt;/a&gt; My Ask about her Page Script and Code,
-because the Page have only a frame in the index.html file and the rest based on Javascript. 
+&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;The &lt;code&gt;angular.js&lt;/code&gt; file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; Alternative, do cou can download it and integrate locally. - &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Call for Participation: Chaos Communication Camp 2015
+ &lt;/strong&gt; I received an invitation from a friend for the  &lt;a href=&quot;http://events.ccc.de/2015/04/09/call-for-participation-chaos-communication-camp-2015/&quot;&gt;CCC - Camp &lt;/a&gt;in Mildberg Germany. Anyway, I’ll probably go there.
+especially I like the security area, because I’m starting a study soon.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-lg-4 col-sm-12 text-center&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot; /&gt;  &lt;h3&gt;Helen V. Holmes
-                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
-                &lt;/h3&gt;&lt;/div&gt;
-        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
-      &lt;/div&gt;
+&lt;p&gt;We’d love to see your submission for these tracks:&lt;/p&gt;
 
-&lt;p&gt;By the attribute ng app in HTML tag AngularJS recognizes our side now than AngularJS application. AngularJS searched by the page for specific tags and attributes that belong to the framework. The Directives are in angular.js.&lt;/p&gt;
+&lt;p&gt;Failosophy,
+Arts &amp;amp; Culture,
+Ethics, Society &amp;amp; Politics,
+Hardware &amp;amp; Making,
+Security &amp;amp; Hacking,
+Science.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/concepts-startup.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:50%&quot; /&gt;
-&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;The Genius would, of course, if we can organize in the Green (Switzerland), a hacker Camp. Of course, I would invite some people over the World to Switzerland.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;&quot;New Toys and Hardware&quot;&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;for my Raspberry PI&lt;/h2&gt;
+
+&lt;p&gt;New Toys for my Raspberry PI [“I’m Gonna Build A BotBase” :)!]&lt;/p&gt;
 
 &lt;!--
-
 &lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/static.squarespace.jpg&quot; alt=&quot;Post Sample Image&quot;&gt;
+    &lt;img src=&quot;/img/lucas-gatsas.JPG&quot; alt=&quot;Lucas Gatsas&quot;  style=&quot;width:100%&quot;&gt;
 &lt;/a&gt;
 --&gt;
 
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; --&gt;
-&lt;!--
+&lt;table class=&quot;table&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Hardware&lt;/th&gt;
+            &lt;th id=&quot;fadeout-1&quot;&gt;Tools&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td&gt; &lt;code&gt; 4-Port Gigabit Metall-Switch Mini&lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;Run Raspberry Pi over Mac Os X Hardware.&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/design.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; 
+&lt;p&gt;Thanks Conrad &lt;a href=&quot;http://www.conrad.ch/ce/de/category/SHOP_AREA_17130/PC-Kabel-Adapter-Hubs &quot;&gt;conrad.ch&lt;/a&gt;
+&lt;br /&gt;
+Images by Nasa : Nasa Kennedy Space Center&lt;/p&gt;
 
-
---&gt;
-
-&lt;!-- 
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; 
-
-
-
- --&gt;
-
-&lt;blockquote&gt;Every large system that works started as small system that worked.
-
+&lt;blockquote&gt;
+  &quot;Lots of companies don’t succeed over time. What do they fundamentally do wrong? They usually miss the future.” - Larry Page, CEO of Google&quot;
 &lt;/blockquote&gt;
+
 </description>
-        <pubDate>Wed, 28 Jan 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/01/28/angular.js-framework/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/01/28/angular.js-framework/</guid>
+        <pubDate>Sat, 11 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/04/11/ui-ux-testing-start-up-and-hacker-camps-springtime-launching/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/11/ui-ux-testing-start-up-and-hacker-camps-springtime-launching/</guid>
         
         
       </item>
     
       <item>
-        <title>Clean Magic Jekyll Theme V.0.3.0</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Download&lt;/h2&gt;
+        <title>X-UA Compatible Part II</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Front-End Development for our Start Up.&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;X-UA Compatibility Modus - Cross Browser Check IE Microsoft&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Browser Check!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table class=&quot;table&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Value&lt;/th&gt;
+            &lt;th id=&quot;fadeout-1&quot;&gt;Mean&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td&gt; &lt;code&gt; IE=11 &lt;/code&gt;&lt;/td&gt;
+            &lt;td id=&quot;fadeout-1&quot;&gt;My Blog use the Current IE=11. for the Compatibility Modus!&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/lucas-gatsas-clean-magic-jekyll-theme.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/cross-browser-test-1.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt; This is just an Example from my Blog! Safari, Google Chrome, Firefox, Opera Browser check! &lt;/blockquote&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Javascript&lt;/strong&gt; &lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt; Internet Explorer 8 - Microsoft&lt;/h2&gt;
+
+&lt;p&gt;For Internet Explorer 8 Microsoft has a new proprietary property of the document object, the document mode introduced. This property returns a numeric value that corresponds to the document compatibility mode of the page.&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+var IE = null;
+
+if (window.navigator.appName == &quot;Microsoft Internet Explorer&quot;) {
+  
+  if (document.documentMode) {
+
+    // Internet Explorer 8
+
+    IE = document.documentMode; // documentMode = 8
+
+    } else {
+
+
+      // Internet Explorer 5-11
+
+        IE = 5; //setzt the Quirks-Modus
+
+          if (document.compatMode) {
+  
+      if (document.compatMode == &quot;CSS1Compat&quot;)
+
+
+      IE = 11; // IE11 Modus
+
+      }
+    }
+  }
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; The introduced with Internet Explorer 6 CompatMode property has been deprecated in favor document mode. Scripts that are based on CompatMode will continue to work in Internet Explorer 8, but should be switched to the use of document mode to prevent future problems.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/lucas-gatsas-13.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+    &lt;img src=&quot;/img/microsoft.-ie-1.jpg&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;This is my New Jekyll Theme (Clean Magic). &lt;/p&gt;
+&lt;blockquote&gt; After &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/SpaceG/CleanMagic&quot;&gt;Download&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;See the example result here of my Blog, of course we are Testing Now our 
+WebApp for the Microsoft IE Compatibility Modus/ IE Explorer.
+&lt;a href=&quot;https://www.modern.ie/de-de/screenshots#http%3A%2F%2Fspaceg.github.io&quot;&gt;https://www.modern.ie/de-de/
+  screenshots#http/
+  spaceg.github.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://spaceg.github.io/&quot;&gt;Demo&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Top Browsers: &lt;/p&gt;
 
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; --&gt;
-&lt;!--
+&lt;p&gt;&lt;a href=&quot;https://firefox.com/&quot;&gt;www.firefox.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/design.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; 
+&lt;p&gt;&lt;a href=&quot;http://www.opera.com/de&quot;&gt;www.opera.com/de/&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://www.google.de/chrome/browser/desktop/&quot;&gt;www.google.de/chrome/&lt;/a&gt;&lt;/p&gt;
 
---&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.apple.com/chde/safari/&quot;&gt;www.apple.com/chde/safari/&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;Programming is like, write a Book. .- 
-
+&lt;blockquote&gt;
+  &quot;For every Developer is the Internet Explorer from Microsoft the badest Explorer of all the Time.! - Word -&quot;
 &lt;/blockquote&gt;
 
-&lt;!-- 
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/jekyllthemewhite.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; 
-
-
-
- --&gt;
-
 </description>
-        <pubDate>Tue, 27 Jan 2015 15:00:44 +0100</pubDate>
-        <link>https://spaceg.github.io/2015/01/27/clean-magic-jekyll-theme/</link>
-        <guid isPermaLink="true">https://spaceg.github.io/2015/01/27/clean-magic-jekyll-theme/</guid>
+        <pubDate>Thu, 09 Apr 2015 16:00:44 +0200</pubDate>
+        <link>https://lucasgatsas.ch/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer-part-ii/</link>
+        <guid isPermaLink="true">https://lucasgatsas.ch/2015/04/09/meta-IE8-9-10-11-compatibility-view-X-UA-serverbased-internet-explorer-part-ii/</guid>
         
         
       </item>

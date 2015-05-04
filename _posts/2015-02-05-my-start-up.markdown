@@ -26,21 +26,21 @@ header-img: "img/St.Gallen-Winter-Stadt.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/project_01.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/project_01.png" alt="Lucas Gatsas" style="width:100%">
 </a> 
 
 
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/project_02.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/project_02.png" alt="Lucas Gatsas" style="width:100%">
 </a> 
 
 
 
 <div class="row">
         <div class="col-md-4"></div>
-        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/Snapshot_20120128_4.jpg" alt="" style="width:190px;text-align:center;">  <h3>- Giancarlo
+        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/Snapshot_20120128_4.jpg" alt="Lucas Gatsas" style="width:190px;text-align:center;">  <h3>- Giancarlo
                     <small></small>
                 </h3></div>
         <div class="col-md-4"></div>
@@ -49,7 +49,7 @@ header-img: "img/St.Gallen-Winter-Stadt.jpg"
 
 <div class="row">
         <div class="col-md-4"></div>
-        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/lucas-gatsas.png" alt="" style="width:190px;text-align:center;">  <h3 >- Gatsas
+        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/lucas-gatsas.png" alt="Lucas Gatsas" style="width:190px;text-align:center;">  <h3 >- Gatsas
                     <small></small>
                 </h3></div>
         <div class="col-md-4"></div>
@@ -57,10 +57,10 @@ header-img: "img/St.Gallen-Winter-Stadt.jpg"
 
 
 
-First Pictures from our Private Repositorie, the Introduction from our New Start Up {Web Application}. Giancarlo and Me goes Crazy. - :) Specially, we are set up [Backbone.js](http://backbonejs.org/) right now.
-So, we can see our daily Workflow till now, but i think it will be alot more in the next Days.
+First Pictures from our Private Repositorie, the Introduction from our New Start Up. Giancarlo and Me goes Crazy. Specially, we are set up [Backbone.js](http://backbonejs.org/) right now.
+We can see our Way of working, but it will be several Days and Nights.
 
-
+<br>
 
 <blockquote>"You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It's Logic -Based Creativity"
 
