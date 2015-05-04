@@ -10,6 +10,12 @@ CleanMagicMedium V.0.0.2 - A Jekyll Theme.
 
 ![alt tag](https://spaceg.github.io/img/intro-theme-1.png)
 
+Download it <code> git clone https://github.com/SpaceG/CleanMagicMedium-Jekyll.git</code>
+
+Download it, open it with Terminal and run <code> jekyll serve </code> 
+Have Fun! Please Star it and Fork it! 
+Cheers with Club Mate!
+
 
 
 
