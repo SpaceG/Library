@@ -20,8 +20,8 @@ Cheers with Club Mate!
 
 
 CleanMagic Theme by Lucas Gatsas Mo. 4. Mai 2015, Switzerland, TimeGrade 03:52:02
-Try  https://github.com/jekyll/jekyll Jekyll a New Blogging System using node.js 
-Notice: Be Sure that your Host provide node.js on Standart Host ( Shared Hosting - Standart WebHost or WebSpace)! you need always a Virtual Server ask your Provider about more Details for http://jekyllrb.com/ and Install node.js on your Host!
+
+Try [Jekyll](https://github.com/jekyll/jekyll) a New Blogging System using Ruby.
 
 [Jekyll](http://jekyllrb.com/) 
 
