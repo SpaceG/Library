@@ -6,9 +6,9 @@
 </description>
     <link>http://blog.lucasgatsas.ch/</link>
     <atom:link href="http://blog.lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Mar 2016 20:09:52 +0100</pubDate>
-    <lastBuildDate>Wed, 02 Mar 2016 20:09:52 +0100</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Sun, 06 Mar 2016 09:13:30 +0100</pubDate>
+    <lastBuildDate>Sun, 06 Mar 2016 09:13:30 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>Starthack Hackathon</title>
@@ -23,7 +23,7 @@ A range of challenges
 Our Partners will provide a big number of sophisticated challenges, which the hackers are able to tackle.&lt;/p&gt;
 
 &lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;http://starthack.ch&quot;&gt; Starthack 2016&lt;/a&gt; 
-Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt; &lt;/p&gt;
+Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &quot;35 hours of coding
@@ -40,7 +40,7 @@ START Hack is a 35-hour coding and prototyping marathon focused on FinTech, Inte
       <item>
         <title>bycrypt</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt; bcrypt Issue on your Local Machine - node.bcrypt.js&lt;/h2&gt;
-&lt;p&gt;To Fix Bug Issue can be very hard, even do you have Time for it. It’s like to Waste Time. get my App back to machine thanks with a Commandline. &lt;/p&gt;
+&lt;p&gt;To Fix Bug Issue can be very hard, even do you have Time for it. It’s like to Waste Time. get my App back to machine thanks with a Commandline.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -82,7 +82,7 @@ Space-Odysseys-Mac-Pro:www cyberspace$
 &lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;I was Stuck at this Point. My machine has a Total Crash with the Modules and bcrypts. There are Bindings which give me a Bug back after re-install &lt;code&gt;$ npm -v &lt;/code&gt; !
-After 4 Hours i have sloved the Bug. ! Thanks this commandline &lt;code&gt; $ npm install bcrypt &lt;/code&gt; &lt;/p&gt;
+After 4 Hours i have sloved the Bug. ! Thanks this commandline &lt;code&gt; $ npm install bcrypt &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -90,7 +90,7 @@ After 4 Hours i have sloved the Bug. ! Thanks this commandline &lt;code&gt; $ np
 &lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;&lt;/center&gt;
 
 &lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js/issues/332&quot;&gt; issue332&lt;/a&gt; 
-Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt; &lt;/p&gt;
+Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &quot;bcrypt Packages &quot;
@@ -398,14 +398,14 @@ And then go and play with these routes:&lt;/p&gt;
 
 &lt;p&gt;go to http://localhost:1337/logout for logging out&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/iliketomatoes/passport_with_sails&quot;&gt;→ Get the repository on Github&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/iliketomatoes/passport_with_sails&quot;&gt;→ Get the repository on Github&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I would very much appreciate your comments, especially if you find an error or you need a further explanation.
 References:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://sailsjs.org/#/documentation/concepts&quot;&gt;→ Sails.js&lt;/a&gt; 
 &lt;a href=&quot;http://passportjs.org/&quot;&gt;→ Passport.js&lt;/a&gt; 
-&lt;a href=&quot;hhttps://github.com/balderdashy/waterline&quot;&gt;→ Waterline&lt;/a&gt; &lt;/p&gt;
+&lt;a href=&quot;hhttps://github.com/balderdashy/waterline&quot;&gt;→ Waterline&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;When in doubt, use brute force.
 
@@ -426,9 +426,9 @@ References:&lt;/p&gt;
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Nmap for Mac Os X - Linux&lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;Nmap Security Scanner for Linux-MAC-UNIX &lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt; Was ist Nmap ? &lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Was ist Nmap ? &lt;/strong&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;   Nmap (&quot;Network Mapper&quot;) ist ein Open-Source-Werkzeug fA1/4r die
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   Nmap (&quot;Network Mapper&quot;) ist ein Open-Source-Werkzeug fA1/4r die
    Netzwerkanalyse und SicherheitsA1/4berprA1/4fung. Es wurde entworfen, um
    groAe Netzwerke schnell zu scannen, auch wenn es bei einzelnen Hosts auch
    gut funktioniert. Nmap benutzt rohe IP-Pakete auf neuartige Weise, um
@@ -443,11 +443,12 @@ References:&lt;/p&gt;
    Dienstaktualisierungen und die Aberwachung von Betriebszeiten von Hosts
    oder Diensten.
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt; Install and Set Up &lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Install and Set Up &lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Download it here &lt;a href=&quot;https://nmap.org/download.html#macosx&quot;&gt;nmap-6.47.dmg&lt;/a&gt; or Run it with Terminal: First installl &lt;a href=&quot;http://www.bzip.org/&quot;&gt;bzip.org&lt;/a&gt;! Promt
-in your Temrinal follow the Commanlines: &lt;/p&gt;
+in your Temrinal follow the Commanlines:&lt;/p&gt;
 
 &lt;p&gt;To install using &lt;a href=&quot;https://www.macports.org/&quot;&gt;MacPorts&lt;/a&gt;, run &lt;code&gt; sudo port install nmap &lt;/code&gt;. Nmap will be installed as &lt;code&gt; /opt/local/bin/nmap &lt;/code&gt;. To uninstall, run sudo port uninstall nmap.&lt;/p&gt;
 
@@ -470,7 +471,7 @@ PORT STATE SERVICE
 
 &lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;code&gt; nmap hostname &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt; nmap hostname &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;1.What computers did you find running on the local network?&lt;/p&gt;
 
@@ -486,9 +487,9 @@ PORT STATE SERVICE
 
 &lt;p&gt;7.Find and remove computers which don’t meet the organization’s minimum level of security.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt; Scan &amp;amp; List a Range of Local Network IP’s &lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Scan &amp;amp; List a Range of Local Network IP’s &lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;You will find some Information about other Machines on your Localhost Network. Your Lan has an IP range of example  &lt;code&gt; 192.169.0.1&lt;/code&gt; to &lt;code&gt; 192.169.0.25 &lt;/code&gt; change numbers as appropritae: &lt;/p&gt;
+&lt;p&gt;You will find some Information about other Machines on your Localhost Network. Your Lan has an IP range of example  &lt;code&gt; 192.169.0.1&lt;/code&gt; to &lt;code&gt; 192.169.0.25 &lt;/code&gt; change numbers as appropritae:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;nmap -sP 192.168.0.1-25&lt;/code&gt;&lt;/p&gt;
 
@@ -504,9 +505,9 @@ nmap -O 192.168.0.1-5&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;
 nmap --osscan-guess 192.168.0.2 &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Exmaple Diagram: &lt;/p&gt;
+&lt;p&gt;Exmaple Diagram:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;                          +---------+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                          +---------+
     +---------+           | Network |         +--------+
     | server1 |-----------+ swtich  +---------|server2 |
     +---------+           | (sw0)   |         +--------+
@@ -517,16 +518,17 @@ nmap --osscan-guess 192.168.0.2 &lt;/code&gt;&lt;/p&gt;
                      | wks01 Linux/OSX    |
                      +--------------------+
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;blockquote id=&quot;strict-alert-red&quot;&gt;
 Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Scan Only &lt;strong&gt;your Network &lt;/strong&gt; and &lt;strong&gt; Computers, Websites &lt;/strong&gt; etc.  as follows:
 &lt;/blockquote&gt;
 
 &lt;p&gt;At last i have to lol. because i found this crazy thing here : 
-&lt;a href=&quot;http://nmap.org/movies/#elysium&quot;&gt;Nmap in Movies!&lt;/a&gt; &lt;/p&gt;
+&lt;a href=&quot;http://nmap.org/movies/#elysium&quot;&gt;Nmap in Movies!&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Link: 
-&lt;a href=&quot;http://nmap.org/download.html#macosx&quot;&gt;nmap.org&lt;/a&gt; &lt;/p&gt;
+&lt;a href=&quot;http://nmap.org/download.html#macosx&quot;&gt;nmap.org&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 This is a SwissWatch! :)
@@ -564,7 +566,7 @@ This is a SwissWatch! :)
 &lt;h2 class=&quot;section-heading&quot;&gt;Make your Own Gem&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt; What is Gem? &lt;/strong&gt; 
-RubyGems is the official packaging system for &lt;a href=&quot;https://www.ruby-lang.org/de/&quot;&gt;ruby-lang.org&lt;/a&gt;  programming language. It provides a packet format, a tool for managing packages, a repository for their distribution. &lt;/p&gt;
+RubyGems is the official packaging system for &lt;a href=&quot;https://www.ruby-lang.org/de/&quot;&gt;ruby-lang.org&lt;/a&gt;  programming language. It provides a packet format, a tool for managing packages, a repository for their distribution.&lt;/p&gt;
 
 &lt;p&gt;Since Ruby 1.9 RubyGems is part of the standard library of Ruby. If you want to use a RubyGem in a Ruby program, you must first load the required library:&lt;/p&gt;
 
@@ -662,7 +664,7 @@ The very Important thing is to take your port with this small code &lt;code&gt; 
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now a was go ahead with the &lt;code&gt; local.js &lt;/code&gt; like in the description in the sails.js document! 
-first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file. and saved this. &lt;/p&gt;
+first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file. and saved this.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;info: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;To&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;see&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;visit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localhost&lt;/span&gt;
 &lt;span class=&quot;ss&quot;&gt;info: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;To&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shut&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;down&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sails&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;press&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;CTRL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;any&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
@@ -681,7 +683,7 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
     &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Server&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;_listen2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;net&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1139&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;19&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;listen&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;net&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1182&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;The &lt;code&gt; development.js &lt;/code&gt;  File! &lt;/p&gt;
+&lt;p&gt;The &lt;code&gt; development.js &lt;/code&gt;  File!&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;/**
  * Development environment settings
@@ -713,9 +715,9 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
    &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;port: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;The &lt;code&gt; development.js.bak &lt;/code&gt;  File! &lt;/p&gt;
+&lt;p&gt;The &lt;code&gt; development.js.bak &lt;/code&gt;  File!&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;/**
  * Development environment settings
@@ -747,7 +749,7 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
    &lt;span class=&quot;ss&quot;&gt;port: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;The &lt;code&gt; local.js &lt;/code&gt;  File! &lt;/p&gt;
+&lt;p&gt;The &lt;code&gt; local.js &lt;/code&gt;  File!&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;/**
 
@@ -797,7 +799,7 @@ http:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=
 
 &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Pingo The WebApp is running now on &lt;code&gt; localhost &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;Pingo The WebApp is running now on &lt;code&gt; localhost &lt;/code&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Space&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mac&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Pro&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:xxxxxx&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cybo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lift&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
@@ -849,7 +851,7 @@ debug: --------------------------------------------------------&lt;/span&gt;&lt;
 &lt;p&gt;Link: &lt;a href=&quot;http://sailsjs.org/documentation/anatomy/my-app/config/local-js&quot; target=&quot;_blank&quot;&gt; local.js&lt;/a&gt; 
 Link: &lt;a href=&quot;http://superuser.com/questions/363353/http-localhost8080-is-not-working-on-running-apacher-server-through-xampp&quot; target=&quot;_blank&quot;&gt; superuser&lt;/a&gt; 
 Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/1361&quot; target=&quot;_blank&quot;&gt; sails issues&lt;/a&gt; 
-Link: &lt;a href=&quot;http://stackoverflow.com/questions/32472139/nodejs-heroku-deploying-error&quot; target=&quot;_blank&quot;&gt; Stack Overflow&lt;/a&gt; &lt;/p&gt;
+Link: &lt;a href=&quot;http://stackoverflow.com/questions/32472139/nodejs-heroku-deploying-error&quot; target=&quot;_blank&quot;&gt; Stack Overflow&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &quot;i want, i want, i want , i want !!!!&quot;
@@ -868,20 +870,20 @@ Link: &lt;a href=&quot;http://stackoverflow.com/questions/32472139/nodejs-heroku
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall&lt;/h2&gt;
 
 &lt;p&gt;I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already. 
-I have done this Documentation after &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot; target=&quot;_blank&quot;&gt;zwogden&lt;/a&gt; asked me about it on Instagram. &lt;/p&gt;
+I have done this Documentation after &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot; target=&quot;_blank&quot;&gt;zwogden&lt;/a&gt; asked me about it on Instagram.&lt;/p&gt;
 
 &lt;p&gt;First of all, do you need a &lt;a href=&quot;https://www.raspberrypi.org/ &quot; target=&quot;_blank&quot;&gt;Raspberry Pi&lt;/a&gt;  Pi to get this Tutorial and set up your &lt;strong&gt; Raspberry PI &lt;/strong&gt; to your Mac.&lt;/p&gt;
 
-&lt;p&gt;Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don’t worry, Very Easy. So now you have all Set Ups and Running your Raspberry Pi. &lt;/p&gt;
+&lt;p&gt;Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don’t worry, Very Easy. So now you have all Set Ups and Running your Raspberry Pi.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt; Now we go Connect the Raspberry Pi to your Mac Os &lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Now we go Connect the Raspberry Pi to your Mac Os &lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;All of first do you have to Download the VNC Viewer &lt;a href=&quot;https://www.realvnc.com/download/viewer/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; Download the newest Version of &lt;strong&gt; VNC Viewer for Mac OS X
-DMG Universal 5.2.3 &lt;/strong&gt; The Install it on your Machine (Mac Os). &lt;/p&gt;
+DMG Universal 5.2.3 &lt;/strong&gt; The Install it on your Machine (Mac Os).&lt;/p&gt;
 
-&lt;p&gt;First Open your Terminal in Mac Osx. Then Type &lt;/p&gt;
+&lt;p&gt;First Open your Terminal in Mac Osx. Then Type&lt;/p&gt;
 
-&lt;p&gt;(1.) &lt;code&gt; ping raspberrypi.local &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;(1.) &lt;code&gt; ping raspberrypi.local &lt;/code&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Space&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mac&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Pro&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cybo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ping&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;local&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;PING&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;56&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bytes&lt;/span&gt;
@@ -911,18 +913,18 @@ DMG Universal 5.2.3 &lt;/strong&gt; The Install it on your Machine (Mac Os). &lt
 &lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;packets&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;transmitted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;packets&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;received&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;packet&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loss&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;trip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;avg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stddev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;544&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;625&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;202&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;134&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ms&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;After Ping your Network, do you will get your current &lt;strong&gt; IP &lt;/strong&gt; from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your &lt;strong&gt; ssh pi@raspberrypi.local &lt;/strong&gt; the Promp with your Enter Taste. &lt;/p&gt;
+&lt;p&gt;After Ping your Network, do you will get your current &lt;strong&gt; IP &lt;/strong&gt; from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your &lt;strong&gt; ssh pi@raspberrypi.local &lt;/strong&gt; the Promp with your Enter Taste.&lt;/p&gt;
 
-&lt;p&gt;(2.) &lt;code&gt; ssh pi@raspberrypi.local &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;(2.) &lt;code&gt; ssh pi@raspberrypi.local &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Now do you will get to the ssh RSA Key, if you have one.  &lt;/p&gt;
+&lt;p&gt;Now do you will get to the ssh RSA Key, if you have one.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Space&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mac&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Pro&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cybo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ssh&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;local&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;authenticity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;raspberrypi.local (10.0.0.3)&#39;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;can&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;established&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;RSA&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fingerprint&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:b7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:bb:bc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;78&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;97&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:da&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:d8:e7:e7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:e4:a6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Are&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sure&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;want&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;continue&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;connecting&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;no&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)?&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Then Say &lt;code&gt;Yes/No &lt;/code&gt; i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time. &lt;/p&gt;
+&lt;p&gt;Then Say &lt;code&gt;Yes/No &lt;/code&gt; i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Linux&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l&lt;/span&gt;
 
@@ -938,13 +940,13 @@ Debian GNU/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Linux&lt;/span&gt; &lt;
 &lt;p&gt;Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
 Right After you entry your RaspberryPi via Termina, you have now to type the Commanline &lt;code&gt; ls &lt;/code&gt; to see what is on your Raspberry Pi. As, we can see everything is fit to start the VNC Viewer (Server) promp this Commandline.&lt;/p&gt;
 
-&lt;p&gt;(3.) &lt;code&gt;sudo apt-get install tightvncserver &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;(3.) &lt;code&gt;sudo apt-get install tightvncserver &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Don’t be worry this need a while, after that process type Commandline &lt;/p&gt;
+&lt;p&gt;Don’t be worry this need a while, after that process type Commandline&lt;/p&gt;
 
-&lt;p&gt;(4.) &lt;code&gt; tightvncserver &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;(4.) &lt;code&gt; tightvncserver &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;you will get this Information out : Type your Password from your PI. After he ask you about a view-only password. Press (also for me )  &lt;code&gt; No &lt;/code&gt; you will get forward to the desktop of your RaspberryPi. This Number after &lt;code&gt; pi:1 &lt;/code&gt; is very important for our Viewer &lt;code&gt; :1 &lt;/code&gt; This we need it for our VNC Viewer. &lt;/p&gt;
+&lt;p&gt;you will get this Information out : Type your Password from your PI. After he ask you about a view-only password. Press (also for me )  &lt;code&gt; No &lt;/code&gt; you will get forward to the desktop of your RaspberryPi. This Number after &lt;code&gt; pi:1 &lt;/code&gt; is very important for our Viewer &lt;code&gt; :1 &lt;/code&gt; This we need it for our VNC Viewer.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;You&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;access&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;desktops&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
 
@@ -959,9 +961,9 @@ Right After you entry your RaspberryPi via Termina, you have now to type the Com
 &lt;span class=&quot;no&quot;&gt;Log&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/home/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vnc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;log&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
-In this Window type the scanned and pinged &lt;code&gt;IP&lt;/code&gt; Adress also mine is here &lt;strong&gt; 10.0.0.3:&lt;/strong&gt; &lt;/p&gt;
+In this Window type the scanned and pinged &lt;code&gt;IP&lt;/code&gt; Adress also mine is here &lt;strong&gt; 10.0.0.3:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Type in that Window The Number &lt;strong&gt; 10.0.0.3:1 &lt;/strong&gt; Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine. &lt;/p&gt;
+&lt;p&gt;Type in that Window The Number &lt;strong&gt; 10.0.0.3:1 &lt;/strong&gt; Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine.&lt;/p&gt;
 
 &lt;p&gt;Cheers!&lt;/p&gt;
 
@@ -986,7 +988,7 @@ In this Window type the scanned and pinged &lt;code&gt;IP&lt;/code&gt; Adress al
     &lt;img src=&quot;/img/pi1.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;My Full Terminal Work: &lt;/p&gt;
+&lt;p&gt;My Full Terminal Work:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Last&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;login: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mon&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sep&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;28&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;03&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;26&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ttys000&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Space&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mac&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Pro&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cybo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ping&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;local&lt;/span&gt;
@@ -1078,7 +1080,7 @@ Debian GNU/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Linux&lt;/span&gt; &lt;
 
 &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@raspberrypi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Link: &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Link: &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &quot;Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall by Lucas Gatsas&quot;
@@ -1096,13 +1098,13 @@ Debian GNU/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Linux&lt;/span&gt; &lt;
         <title>Angular Framework</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;AngularJS — Superheroic JavaScript MVW Framework&lt;/h2&gt;
 
-&lt;p&gt;Angular.js - is a fast Javascript MVW Framework. &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Angular.js - is a fast Javascript MVW Framework. &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I Got this tip from Helen, &lt;a href=&quot;https://twitter.com/helenvholmes&quot;&gt;Helen V. Holmes&lt;/a&gt; My Ask about her Page Script and Code,
 because the Page have only a frame in the index.html file and the rest based on Javascript. 
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;The &lt;code&gt;angular.js&lt;/code&gt; file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; Alternative, do cou can download it and integrate locally. - &lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;angular.js&lt;/code&gt; file is the only one we need for a running AngularJS application. Now i get start with Google Angular.js. Do you can download the CDN file here &lt;a href=&quot;https://angularjs.org/&quot;&gt;Angular.js&lt;/a&gt; Alternative, do cou can download it and integrate locally. -&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
@@ -1116,7 +1118,7 @@ because the Page have only a frame in the index.html file and the rest based on 
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/concepts-startup.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:50%&quot; /&gt;
-&lt;/a&gt; &lt;/p&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;!--
 
@@ -1172,7 +1174,7 @@ Starting in version 3.0, MongoDB only supports OS X versions 10.7 (Lion) on Inte
 &lt;p&gt;You can install MongoDB with &lt;strong&gt;Homebrew&lt;/strong&gt; or manually. This section describes both.&lt;/p&gt;
 
 &lt;p&gt;1.&lt;strong&gt; Update Homebrew’s package database.&lt;/strong&gt; 
-In a system shell, issue the following command: &lt;/p&gt;
+In a system shell, issue the following command:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;brew update &lt;/code&gt;&lt;/p&gt;
 
@@ -1184,7 +1186,7 @@ To install the MongoDB binaries, issue the following command in a system shell:&
 
 &lt;p&gt;&lt;code&gt;brew install mongodb&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;brew install mongodb --with-openssl&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;brew install mongodb --with-openssl&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt; Build MongoDB from Source with TLS/SSL Support&lt;strong&gt; 
 To build MongoDB from the source files and include TLS/SSL support, issue the following from a system shell:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -1192,19 +1194,19 @@ To build MongoDB from the source files and include TLS/SSL support, issue the fo
 &lt;p&gt;&lt;strong&gt; Install the Latest Development Release of MongoDB&lt;/strong&gt; 
 To install the latest development release for use in testing and development, issue the following command in a system shell:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt; brew install mongodb --devel&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt; brew install mongodb --devel&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt; Install MongoDB Manually &lt;/strong&gt; 
 Only install MongoDB using this procedure if you cannot use homebrew.&lt;/p&gt;
 
 &lt;p&gt;1.&lt;strong&gt; Download the binary files for the desired release of MongoDB.&lt;/strong&gt; 
 Download the binaries from &lt;code&gt; https://www.mongodb.org/
-downloads. &lt;/code&gt; &lt;/p&gt;
+downloads. &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;For example, to download the latest release through the shell, issue the following:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt; curl -O https://fastdl.mongodb.org/
-  osx/mongodb-osx-x86_64-3.0.4.tgz&lt;/strong&gt; &lt;/p&gt;
+  osx/mongodb-osx-x86_64-3.0.4.tgz&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;2.&lt;strong&gt;Extract the files from the downloaded archive.&lt;/strong&gt; 
 For example, from a system shell, you can extract through the tar command:&lt;/p&gt;
@@ -1221,7 +1223,7 @@ Copy the extracted folder to the location from which MongoDB will run.&lt;/p&gt;
 &lt;p&gt;4.&lt;strong&gt;Ensure the location of the binaries is in the PATH variable.&lt;/strong&gt;
 The MongoDB binaries are in the bin/ directory of the archive. To ensure that the binaries are in your PATH, you can modify your PATH.&lt;/p&gt;
 
-&lt;p&gt;For example, you can add the following line to your shell’s rc file &lt;code&gt;(e.g. ~/.bashrc):&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;For example, you can add the following line to your shell’s rc file &lt;code&gt;(e.g. ~/.bashrc):&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;export PATH=&lt;mongodb-install-directory&gt; &lt;code&gt;/bin:$PATH&lt;/code&gt;
 Replace &lt;mongodb-install-directory&gt; with the path to the extracted MongoDB archive.&lt;/mongodb-install-directory&gt;&lt;/mongodb-install-directory&gt;&lt;/p&gt;
@@ -1253,7 +1255,7 @@ Join the world’s fastest-growing database community. MongoDB stands behind its
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt; Download the npmjs Package Manager&lt;/strong&gt; &lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;npm V.2.7.4&lt;/h2&gt;
 
-&lt;p&gt;npm makes it easy for JavaScript developers to share and reuse code, and it makes it easy to update the code that you’re sharing. &lt;/p&gt;
+&lt;p&gt;npm makes it easy for JavaScript developers to share and reuse code, and it makes it easy to update the code that you’re sharing.&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Installing Node.js&lt;/h2&gt;
 &lt;p&gt;(1.) First do you have to Installing Node.js. The best way to install Node.js is to use one of the installers from &lt;a href=&quot;nodejs.org/&quot;&gt;node.js&lt;/a&gt;. If you’re using Linux, you can use the installer, or you can check &lt;a href=&quot;https://github.com/nodesource/distributions&quot;&gt; NodeSource’s binary distributions&lt;/a&gt;&lt;/p&gt;
@@ -1467,7 +1469,7 @@ for any domain .htaccess takes effect on:
         <description>&lt;h2 class=&quot;section-heading&quot;&gt; Hacking Macintosh HD &lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;Entry Your Data with the Terminal Commandline Chmod o+rx&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt; Recovery Mode &lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Recovery Mode &lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;This Morning i got a {….} Shok. You know, i do crazy things with my Terminal and Try and Hacking everything. 
 So my History now.. i tried hack my HD! After a Error, i put the rights to the &lt;code&gt;(:denied)&lt;/code&gt;.&lt;/p&gt;
@@ -1487,28 +1489,28 @@ And New Start your Mac!&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt; Single-User Mode &lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Single-User Mode &lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Newstart your Machine and Press &lt;code&gt;cmd + s&lt;/code&gt; ! Your machine will run over Text-Mode - Pure Terminal on your Machine. 
 There do you can entry your Commandlines ! you boot directly to a root shell. getting multi-user operating System!&lt;/p&gt;
 
 &lt;p&gt;Unix/ Will Open! This is your root single-user Mode if you want to reboot press Type 
-&lt;code&gt;reboot&lt;/code&gt; &lt;/p&gt;
+&lt;code&gt;reboot&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;First i have typed : &lt;code&gt; mount -uw/ &lt;/code&gt;
 Then After Prompt : &lt;code&gt; chmod 755/System&lt;/code&gt;
 And Now Type : &lt;code&gt; chmod 1773/Shared &lt;/code&gt;
 At Last prompt: &lt;code&gt; chmod 1777/Users/Shared&lt;/code&gt;
-Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;) &lt;/p&gt;
+Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;)&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;strong&gt; Verbose Mode &lt;/strong&gt; &lt;/p&gt;
+&lt;strong&gt; Verbose Mode &lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Press &lt;code&gt; cmd + V&lt;/code&gt; to boot into verbose mode, You See Your Desktop in a Normal Way, after enter the prompt, do you will see your Screen to Freezing!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/chmod/&quot;&gt; SEE HERE THE IMAGES! &lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/chmod/&quot;&gt; SEE HERE THE IMAGES! &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;I don’t need anymore a Apple Supporter! :D &lt;/p&gt;
+&lt;p&gt;I don’t need anymore a Apple Supporter! :D&lt;/p&gt;
 
 &lt;blockquote&gt;
 “Wer vermag seine Zeit klar zu durchschauen? Wer sieht, wohin sie treibt, fühlt, woher der Wind weht? Selbst die Hellsten haben nur Ahnungen und Mutmaßungen. Das Genie schlägt die rechte Richtung ein, ohne sich dessen klar bewußt zu sein, von der ihm innewohnenden, rätselhaften Kraft getrieben. - Jakob Boßhart  ” 
@@ -1589,17 +1591,17 @@ Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;) &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://git-scm.com/&quot;&gt;Git&lt;/a&gt; is a free software for distributed version control of files that were originally developed for source control of the Linux kernel.&lt;/p&gt;
 
-&lt;p&gt;(1.) Go Download Git &lt;a href=&quot;http://git-scm.com/download/mac&quot;&gt;Git&lt;/a&gt; I’m also a Mac/Unix &amp;amp; Linux User. But this install and Workflow is for Mac Os X. Do you can Download it directly from &lt;a href=&quot;http://sourceforge.net/projects/git-osx-installer/files/git-2.2.1-intel-universal-mavericks.dmg/download?use_mirror=autoselect&quot;&gt;sourceforge.net&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;(1.) Go Download Git &lt;a href=&quot;http://git-scm.com/download/mac&quot;&gt;Git&lt;/a&gt; I’m also a Mac/Unix &amp;amp; Linux User. But this install and Workflow is for Mac Os X. Do you can Download it directly from &lt;a href=&quot;http://sourceforge.net/projects/git-osx-installer/files/git-2.2.1-intel-universal-mavericks.dmg/download?use_mirror=autoselect&quot;&gt;sourceforge.net&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;(2.)
-Open the pkg File with Doppleclick : &lt;/p&gt;
+Open the pkg File with Doppleclick :&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/img/git-sourceforge.png&quot;&gt;
     &lt;img src=&quot;/img/git-sourceforge.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;(3.)
-Open Terminal : then type : which git &lt;/p&gt;
+Open Terminal : then type : which git&lt;/p&gt;
 
 &lt;p&gt;(4.)
 Type : git  –version&lt;/p&gt;
@@ -1614,21 +1616,21 @@ Type: git config –global user.name “[yourusername]”&lt;/p&gt;
 Type: git config –global user.email “[youruseremail@mail.io]”&lt;/p&gt;
 
 &lt;p&gt;(8.)
-Type: git config -l &lt;/p&gt;
+Type: git config -l&lt;/p&gt;
 
 &lt;p&gt;(9.)
 Then do you will see your user &amp;amp; email which one do you have set up right now!&lt;/p&gt;
 
-&lt;p&gt;exmaple &lt;/p&gt;
+&lt;p&gt;exmaple&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt; user.name=[yourusernamewillshowuphere]&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;user.email=[youruseremailwillshowuphere]&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Have fun with Git! 
-Below do you will see some Git CommandLines &lt;/p&gt;
+Below do you will see some Git CommandLines&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;alert alert-info&quot;&gt;
 &lt;strong&gt;Git Terminology:&lt;/strong&gt;&lt;br /&gt;
@@ -2316,7 +2318,7 @@ Homebrew/install/master/install)&quot; &lt;/code&gt;. You’ll see messages in t
 &lt;p&gt;To make sure you have Node and NPM installed, run two simple commands to see what version of each is installed:&lt;/p&gt;
 
 &lt;p&gt;To see if Node is installed, type &lt;code&gt; node -v &lt;/code&gt; in Terminal. This should print the version number so you’ll see something like this &lt;code&gt; V0.12.1 &lt;/code&gt;
-To see if NPM is installed, type &lt;code&gt; npm -v &lt;/code&gt; in Terminal. This should print the version number so you’ll see something like this &lt;code&gt;  V0.12.1 &lt;/code&gt; &lt;/p&gt;
+To see if NPM is installed, type &lt;code&gt; npm -v &lt;/code&gt; in Terminal. This should print the version number so you’ll see something like this &lt;code&gt;  V0.12.1 &lt;/code&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;How to Update Node and NPM&lt;/strong&gt; &lt;/h2&gt;
 
@@ -2356,9 +2358,9 @@ To see if NPM is installed, type &lt;code&gt; npm -v &lt;/code&gt; in Terminal. 
 
 &lt;p&gt;&lt;code&gt; sudo make install &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Download: node.js ! &lt;/p&gt;
+&lt;p&gt;Download: node.js !&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://nodejs.org/download/&quot;&gt;Download node.js&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://nodejs.org/download/&quot;&gt;Download node.js&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 
@@ -2524,7 +2526,7 @@ Link:
 Link: 
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Category:Internet_layer_protocols&quot;&gt;internet Layer Protocols&lt;/a&gt; 
 Link:
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Domain_Name_System&quot;&gt;Domian Name Systems&lt;/a&gt; &lt;/p&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Domain_Name_System&quot;&gt;Domian Name Systems&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 This is a SwissWatch! :)
@@ -2543,7 +2545,7 @@ This is a SwissWatch! :)
       <item>
         <title>bycrypt</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt; bcrypt Issue on your Local Machine - node.bcrypt.js&lt;/h2&gt;
-&lt;p&gt;To Fix Bug Issue can be very hard, even do you have Time for it. It’s like to Waste Time. get my App back to machine thanks with a Commandline. &lt;/p&gt;
+&lt;p&gt;To Fix Bug Issue can be very hard, even do you have Time for it. It’s like to Waste Time. get my App back to machine thanks with a Commandline.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -2585,7 +2587,7 @@ Space-Odysseys-Mac-Pro:www cyberspace$
 &lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;I was Stuck at this Point. My machine has a Total Crash with the Modules and bcrypts. There are Bindings which give me a Bug back after re-install &lt;code&gt;$ npm -v &lt;/code&gt; !
-After 4 Hours i have sloved the Bug. ! Thanks this commandline &lt;code&gt; $ npm install bcrypt &lt;/code&gt; &lt;/p&gt;
+After 4 Hours i have sloved the Bug. ! Thanks this commandline &lt;code&gt; $ npm install bcrypt &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;center&gt;
@@ -2593,7 +2595,7 @@ After 4 Hours i have sloved the Bug. ! Thanks this commandline &lt;code&gt; $ np
 &lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;&lt;/center&gt;
 
 &lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js/issues/332&quot;&gt; issue332&lt;/a&gt; 
-Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt; &lt;/p&gt;
+Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &quot;bcrypt Packages &quot;
@@ -2627,7 +2629,7 @@ Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&
 
 &lt;p&gt;Enter: if you don’t want a passphrase&lt;/p&gt;
 
-&lt;p&gt;press Enter to get your Key - Gen ! &lt;/p&gt;
+&lt;p&gt;press Enter to get your Key - Gen !&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/img/bash-ssh-2.png&quot;&gt;
     &lt;img src=&quot;/img/bash-ssh-2.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
@@ -2641,11 +2643,11 @@ Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&
     &lt;img src=&quot;/img/bash-ssh-3.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;follow steps : &lt;/p&gt;
+&lt;p&gt;follow steps :&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt; ls &lt;/code&gt; show list :&lt;/p&gt;
 
-&lt;p&gt;enter your rsa id like here &lt;code&gt; cat id_rsa &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;enter your rsa id like here &lt;code&gt; cat id_rsa &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;This is The Private Key !&lt;/p&gt;
 
@@ -2655,7 +2657,7 @@ Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&
     &lt;img src=&quot;/img/bash-ssh-4.png&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Now : Check out the Public Key : &lt;/p&gt;
+&lt;p&gt;Now : Check out the Public Key :&lt;/p&gt;
 
 &lt;p&gt;Type following Commandline : &lt;code&gt;cat id_rsa.pub &lt;/code&gt;&lt;/p&gt;
 
@@ -2664,11 +2666,11 @@ Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Next Step ! Login In your Root Server!
-Update Post soon. ! &lt;/p&gt;
+Update Post soon. !&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Diagramm of my SSH Sketches! &lt;/p&gt;
+&lt;p&gt;Diagramm of my SSH Sketches!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/img/lucasgatsas_grafic.png&quot;&gt;
     &lt;img src=&quot;/img/lucasgatsas_grafic.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
@@ -2720,7 +2722,7 @@ Update Post soon. ! &lt;/p&gt;
 --&gt;
 
 &lt;p&gt;Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/1361&quot; target=&quot;_blank&quot;&gt; Github Issues 1361&lt;/a&gt; 
-Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt; &lt;/p&gt;
+Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &quot;Port Running on Linux Ubuntu Servers&quot;
@@ -2763,7 +2765,7 @@ Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; ta
 &lt;p&gt;Download
 &lt;a href=&quot;http://brew.sh/&quot;&gt;brew.sh&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Open Terminal and Type: &lt;/p&gt;
+&lt;p&gt;Open Terminal and Type:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt; sudo npm install &lt;/code&gt;&lt;/p&gt;
 
@@ -2808,7 +2810,7 @@ info: To shut down Sails, press &lt;ctrl&gt; + C at any time.&lt;/ctrl&gt;&lt;/p
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Setting up a custom domain with GitHub Pages&lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;DNS for GitHub Pages&lt;/h2&gt;
 
-&lt;p&gt;Get Ready with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the next Days or Weeks. However, i think i will do that right now, when i have more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. - &lt;/p&gt;
+&lt;p&gt;Get Ready with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the next Days or Weeks. However, i think i will do that right now, when i have more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. -&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Sub Domains&lt;/h2&gt;
 &lt;p&gt;A subdomain is configured with a CNAME record through your DNS provider (There where your  domain is Registered). 
@@ -2828,12 +2830,12 @@ Pages will load significantly faster because &lt;a href=&quot;http://en.wikipedi
 &lt;p&gt;If you’re using a &lt;a href=&quot;https://help.github.com/articles/about-custom-domains-for-github-pages-sites/&quot;&gt;Custom Domain&lt;/a&gt; to redirect your GitHub Pages site, you must create and commit a CNAME file to your GitHub Pages repository that contains the custom domain.
 &lt;a href=&quot;https://help.github.com/articles/adding-a-cname-file-to-your-repository/&quot;&gt;Adding a CNAME file to your Repository&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages are served over HTTP, not HTTPS. You shouldn’t use them for sensitive transactions, like sending passwords or credit card numbers. - &lt;/p&gt;
+&lt;p&gt;ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages are served over HTTP, not HTTPS. You shouldn’t use them for sensitive transactions, like sending passwords or credit card numbers. -&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Submit a CNAME file to your GitHub Repo&lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;Set Up the DNS &lt;/h2&gt;
 
-&lt;p&gt;Add New file save ass CNAME &lt;/p&gt;
+&lt;p&gt;Add New file save ass CNAME&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;yourdomain.com&lt;/code&gt;&lt;/p&gt;
 
@@ -2842,7 +2844,7 @@ and configuring (IP/ Adress/URL to &lt;code&gt; 192.30.252.153 &lt;/code&gt; and
 
 &lt;p&gt;set the Subdomain @  IP Adress/URL to &lt;code&gt; username.github.io  &lt;/code&gt; and the Record Type to &lt;code&gt; CNAME (Alias) &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;in the Sub-Domian Settings add an @ in the first - field. and add the IP Adress with the end &lt;code&gt;.154 &lt;/code&gt;  &lt;/p&gt;
+&lt;p&gt;in the Sub-Domian Settings add an @ in the first - field. and add the IP Adress with the end &lt;code&gt;.154 &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt; 192.30.252.154 &lt;/code&gt; and type Record Type A (Adress) and TTL 1800&lt;/p&gt;
 
@@ -2850,7 +2852,7 @@ and configuring (IP/ Adress/URL to &lt;code&gt; 192.30.252.153 &lt;/code&gt; and
     &lt;img src=&quot;/img/lucasgatsas.ch-1.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Save a ll your Settings ! &lt;/p&gt;
+&lt;p&gt;Save a ll your Settings !&lt;/p&gt;
 
 &lt;!--
 &lt;a href=&quot;#&quot;&gt;
@@ -2908,17 +2910,17 @@ Document Complete,
 
 --&gt;
 
-&lt;p&gt;Do you can see the Web Page Test &lt;a href=&quot;https://www.webpagetest.org/result/150430_1T_ER/&quot;&gt;here&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Do you can see the Web Page Test &lt;a href=&quot;https://www.webpagetest.org/result/150430_1T_ER/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Update to the &lt;a href=&quot;https://www.cloudflare.com&quot;&gt;CloudFlare. &lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Update to the &lt;a href=&quot;https://www.cloudflare.com&quot;&gt;CloudFlare. &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;First Sigin in your CLoudFlare Setting up the &lt;code&gt;CNAME&lt;/code&gt; and &lt;code&gt; A &lt;/code&gt; Record. &lt;/p&gt;
+&lt;p&gt;First Sigin in your CLoudFlare Setting up the &lt;code&gt;CNAME&lt;/code&gt; and &lt;code&gt; A &lt;/code&gt; Record.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/dns-cloudflare-2.png &quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Add the Nameserver to your Domainpoint! &lt;/p&gt;
+&lt;p&gt;Add the Nameserver to your Domainpoint!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/namecheap-servers-to-cloudflare.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
@@ -2931,19 +2933,19 @@ Document Complete,
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Set your ssl to Flexible inside your Interface @ Cloudflare. Wait for a Moment. 
-If you Stuck, contact they. Awesome Supporters Outhere! &lt;/p&gt;
+If you Stuck, contact they. Awesome Supporters Outhere!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/ssl-cloudflare.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Open your Terminal : See your Changes : &lt;/p&gt;
+&lt;p&gt;Open your Terminal : See your Changes :&lt;/p&gt;
 
-&lt;p&gt;Dig your domian : &lt;code&gt; $ dig yourdomian.com &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;Dig your domian : &lt;code&gt; $ dig yourdomian.com &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;and &lt;code&gt; curl -I yourdomian.com &lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;and &lt;code&gt; curl -I yourdomian.com &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;After 24 Hours i checked out my Nameservers! Awesome to see the Changes! &lt;/p&gt;
+&lt;p&gt;After 24 Hours i checked out my Nameservers! Awesome to see the Changes!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/dig-lucas-gatsas.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
@@ -2980,7 +2982,7 @@ Entering &lt;code&gt; http://*lucasgatsas.ch/* &lt;/code&gt; as the URL pattern.
 Link: 
 &lt;a href=&quot;https://cloudflare.com&quot;&gt;cloudflare.com&lt;/a&gt; 
 Link: 
-&lt;a href=&quot;https://github.com&quot;&gt;github.com&lt;/a&gt; &lt;/p&gt;
+&lt;a href=&quot;https://github.com&quot;&gt;github.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 This is a SwissWatch! :)
@@ -3000,7 +3002,7 @@ This is a SwissWatch! :)
         <title>Install Laravel Xampp Mamp</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Laravel Install - The Popular PHP Framework to Code Web Applications. &lt;/h2&gt;
 
-&lt;p&gt;Do you need Xampp or Mamp to Install this awesome Framework to build your own Apps. And the Composer to run Laravel correct on your localhost server. &lt;/p&gt;
+&lt;p&gt;Do you need Xampp or Mamp to Install this awesome Framework to build your own Apps. And the Composer to run Laravel correct on your localhost server.&lt;/p&gt;
 
 &lt;p&gt;Get Composer :
 ###&lt;a href=&quot;https://getcomposer.org/&quot;&gt;View Application →&lt;/a&gt;&lt;/p&gt;
@@ -3022,12 +3024,12 @@ This is a SwissWatch! :)
 --&gt;
 &lt;blockquote&gt;Laravel over Xampp.&lt;/blockquote&gt;
 
-&lt;h3 id=&quot;download-xampp-for-mac-os-x-rarrhttpswwwapachefriendsorgdedownloadhtml&quot;&gt;&lt;a href=&quot;https://www.apachefriends.org/de/download.html&quot;&gt; Download Xampp for Mac Os X. →&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;###&lt;a href=&quot;https://www.apachefriends.org/de/download.html&quot;&gt; Download Xampp for Mac Os X. →&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;download-laravel-rarrhttplaravelcom&quot;&gt;&lt;a href=&quot;http://laravel.com/&quot;&gt; Download Laravel. →&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;###&lt;a href=&quot;http://laravel.com/&quot;&gt; Download Laravel. →&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;/Applications/XAMPP/
-htdocs/L33 &lt;/p&gt;
+htdocs/L33&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/p&gt;
 
@@ -3035,11 +3037,11 @@ htdocs/L33 &lt;/p&gt;
 
 &lt;p&gt;/Applications/XAMPP/&lt;/p&gt;
 
-&lt;p&gt;xamppfiles/bin/php &lt;/p&gt;
+&lt;p&gt;xamppfiles/bin/php&lt;/p&gt;
 
-&lt;p&gt;sudo vi ~/.bash_profile &lt;/p&gt;
+&lt;p&gt;sudo vi ~/.bash_profile&lt;/p&gt;
 
-&lt;p&gt;password: &lt;/p&gt;
+&lt;p&gt;password:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;*************&lt;/code&gt;&lt;/p&gt;
 
@@ -3057,7 +3059,7 @@ htdocs/L33 &lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;composer install &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;wait, it need a bit time. &lt;/p&gt;
+&lt;p&gt;wait, it need a bit time.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;find app/storage -type d -exec chmod 777 {} \; &lt;/code&gt;
 &lt;code&gt;find app/storage -type f -exec chmod 777 {} \;&lt;/code&gt;&lt;/p&gt;
@@ -3073,13 +3075,13 @@ You need to install composer software on you OS , you can get from getcomposer.o
 
 &lt;p&gt;Then download Laravel from github here  and place your folder in XAMPP/htdoc&lt;/p&gt;
 
-&lt;p&gt;/Applications/XAMPP/htdoc/{you folder} &lt;/p&gt;
+&lt;p&gt;/Applications/XAMPP/htdoc/{you folder}&lt;/p&gt;
 
-&lt;p&gt;before you install it , you have to check php path that point to &lt;/p&gt;
+&lt;p&gt;before you install it , you have to check php path that point to&lt;/p&gt;
 
 &lt;p&gt;/Applications/XAMPP/&lt;/p&gt;
 
-&lt;p&gt;xamppfiles/bin/php &lt;/p&gt;
+&lt;p&gt;xamppfiles/bin/php&lt;/p&gt;
 
 &lt;p&gt;Terminal Bash :
 &lt;code&gt;cd /Applications/XAMPP/htdocs/L4&lt;/code&gt;&lt;/p&gt;
@@ -3096,7 +3098,7 @@ You need to install composer software on you OS , you can get from getcomposer.o
 
 &lt;p&gt;If finish use ESC to exit&lt;/p&gt;
 
-&lt;p&gt;Type composer install after you have finish installation go to browser and enter to &lt;/p&gt;
+&lt;p&gt;Type composer install after you have finish installation go to browser and enter to&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;localhost/{your laraval}&lt;/code&gt;&lt;/p&gt;
 
@@ -3122,9 +3124,9 @@ then refresh browser you will get complete to install Laravel , Hope to enjoy it
 
 &lt;blockquote&gt;Laravel over Mamp&lt;/blockquote&gt;
 
-&lt;h3 id=&quot;download-mamp-for-mac-os-x-rarrhttpwwwmampinfode&quot;&gt;&lt;a href=&quot;http://www.mamp.info/de/&quot;&gt; Download Mamp for Mac Os X. →&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;###&lt;a href=&quot;http://www.mamp.info/de/&quot;&gt; Download Mamp for Mac Os X. →&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;download-laravel-rarrhttplaravelcom-1&quot;&gt;&lt;a href=&quot;http://laravel.com/&quot;&gt; Download Laravel. →&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;###&lt;a href=&quot;http://laravel.com/&quot;&gt; Download Laravel. →&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Install Laravel on MAMP !&lt;/p&gt;
 
@@ -3134,9 +3136,9 @@ then refresh browser you will get complete to install Laravel , Hope to enjoy it
 
 &lt;p&gt;&lt;code&gt;curl -sS https://getcomposer.org/installer | php &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;type: &lt;/p&gt;
+&lt;p&gt;type:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;php composer.phar&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;php composer.phar&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;type:&lt;/p&gt;
 
@@ -3150,19 +3152,19 @@ then refresh browser you will get complete to install Laravel , Hope to enjoy it
 
 &lt;p&gt;Open a New Terminal Bash&lt;/p&gt;
 
-&lt;p&gt;type: &lt;/p&gt;
+&lt;p&gt;type:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;sudo mv composer.phar /usr/local/bin/composer&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;type: &lt;/p&gt;
+&lt;p&gt;type:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;composer&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;type to exit : &lt;/p&gt;
+&lt;p&gt;type to exit :&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;clear&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;go back to localhost of the index &lt;/p&gt;
+&lt;p&gt;go back to localhost of the index&lt;/p&gt;
 
 &lt;p&gt;localhost/&lt;/p&gt;
 
@@ -3170,7 +3172,7 @@ then refresh browser you will get complete to install Laravel , Hope to enjoy it
 
 &lt;p&gt;Open New Terminal :&lt;/p&gt;
 
-&lt;p&gt;type: &lt;/p&gt;
+&lt;p&gt;type:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;cd /Applications/MAMP/htdocs/&lt;/code&gt;&lt;/p&gt;
 
@@ -3178,11 +3180,11 @@ then refresh browser you will get complete to install Laravel , Hope to enjoy it
 
 &lt;p&gt;composer create-project laravel/laravel spaceg –prefer-dist&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;ls&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;rm -R ./*&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;ls&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;cd ~ &lt;/code&gt;&lt;/p&gt;
 
@@ -3192,15 +3194,15 @@ then refresh browser you will get complete to install Laravel , Hope to enjoy it
 
 &lt;p&gt;&lt;code&gt;nano .bash_profile&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;export &lt;/p&gt;
+&lt;p&gt;export&lt;/p&gt;
 
 &lt;p&gt;PATH=/Applications/MAMP/&lt;/p&gt;
 
 &lt;p&gt;bin/php/PHP_VERSION/bin/:$PATH&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;enter the php version&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;enter the php version&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;export &lt;/p&gt;
+&lt;p&gt;export&lt;/p&gt;
 
 &lt;p&gt;PATH=/Applications/MAMP/&lt;/p&gt;
 
@@ -3216,7 +3218,7 @@ then refresh browser you will get complete to install Laravel , Hope to enjoy it
 
 &lt;p&gt;&lt;code&gt;cd /Applications/MAMP/htdocs/&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;ls&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;composer create-project laravel/laravel/ yourprojectname&lt;/code&gt;&lt;/p&gt;
 
@@ -3233,7 +3235,7 @@ The index of your Laravel PHP Framework to build APPS!&lt;/p&gt;
 mv composer.phar /usr/local/bin/composer
 Note: If the above fails due to permissions, run the mv line again with sudo.&lt;/p&gt;
 
-&lt;p&gt;export &lt;/p&gt;
+&lt;p&gt;export&lt;/p&gt;
 
 &lt;p&gt;PATH=/Applications/MAMP/&lt;/p&gt;
 
@@ -3241,7 +3243,7 @@ Note: If the above fails due to permissions, run the mv line again with sudo.&lt
 
 &lt;p&gt;&lt;code&gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;
 DocumentRoot &quot;/Path/To/New/Document/Root&quot;
 ServerName spaceg.github.io
 &amp;lt;Directory &quot;/Path/To/New/Document/Root&quot;&amp;gt;
@@ -3251,6 +3253,7 @@ ServerName spaceg.github.io
     Allow from all
 &amp;lt;/Directory&amp;gt; &amp;lt;/ VirtualHost &amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&amp;lt;/code&amp;gt;&lt;/p&gt;
 
@@ -3277,7 +3280,7 @@ ServerName spaceg.github.io
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Add a User to Sudoers in Mac OS X&lt;/h2&gt;
 
-&lt;p&gt;(1.) Launch Terminal : type : &lt;/p&gt;
+&lt;p&gt;(1.) Launch Terminal : type :&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;sudo visudo&lt;/code&gt;&lt;/p&gt;
 
@@ -3289,13 +3292,13 @@ ServerName spaceg.github.io
 
 &lt;p&gt;&lt;code&gt;%admin    ALL=(ALL) ALL&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;(3.) Add Below the User Privilege specification &lt;/p&gt;
+&lt;p&gt;(3.) Add Below the User Privilege specification&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;
 youradminusername ALL=(ALL) ALL
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;See The Blue Marked Window in the Terminal : &lt;/p&gt;
+&lt;p&gt;See The Blue Marked Window in the Terminal :&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/sudoerspic.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
@@ -3307,9 +3310,9 @@ youradminusername ALL=(ALL) ALL
 
 &lt;p&gt;Go to the Finder:  Do you can find the file in the phat &lt;code&gt;etc/sudoers&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;(1.) Open it with right Mouse Click and « Open with other » &lt;/p&gt;
+&lt;p&gt;(1.) Open it with right Mouse Click and « Open with other »&lt;/p&gt;
 
-&lt;p&gt;(2.) the Finder Menu will Open &lt;/p&gt;
+&lt;p&gt;(2.) the Finder Menu will Open&lt;/p&gt;
 
 &lt;p&gt;(3.) Open with enable  « All Applications » with your Text Editor&lt;/p&gt;
 
@@ -3541,7 +3544,7 @@ padding-left: 5px;
 &lt;p&gt;&lt;strong&gt;Installing Command Line Tools in Mac OS X&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Launch the Terminal, found in &lt;/li&gt;
+  &lt;li&gt;Launch the Terminal, found in&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;code&gt;/Applications/Utilities/&lt;/code&gt;&lt;/p&gt;
@@ -3562,10 +3565,10 @@ padding-left: 5px;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;A popup window will show that asks. &lt;/li&gt;
+  &lt;li&gt;A popup window will show that asks.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;code&gt; The xcode-select command requires the command line developer tools. Would you like to install the tools now?&lt;/code&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt; The xcode-select command requires the command line developer tools. Would you like to install the tools now?&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;choose to confirm this by clicking “Install”, then agree to the Terms of Service when requested (feel free to read them thoroughly, we’ll be here)&lt;/p&gt;
 
@@ -3575,7 +3578,7 @@ padding-left: 5px;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Wait for the Command Line Tools package download to complete, it’ll be about 130MB and installs fairly quickly depending on your connection speed. &lt;/li&gt;
+  &lt;li&gt;Wait for the Command Line Tools package download to complete, it’ll be about 130MB and installs fairly quickly depending on your connection speed.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -3591,7 +3594,7 @@ CommandLineTools/&lt;/p&gt;
 
 &lt;p&gt;(note that is the root /Library, not user ~/Library)&lt;/p&gt;
 
-&lt;p&gt;If you want to see the 61 new commands available to you, they’re all in &lt;/p&gt;
+&lt;p&gt;If you want to see the 61 new commands available to you, they’re all in&lt;/p&gt;
 
 &lt;p&gt;/Library/Developer/
 CommandLineTools/usr/bin/&lt;/p&gt;
