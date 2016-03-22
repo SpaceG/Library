@@ -1,14 +1,14 @@
-# glas
-Glas - Rails on Ruby - Jekyll Theme 
+# Library 
+Library - Rails on Ruby - Jekyll Theme 
 Preview: http://www.blog.lucasgatsas.ch 
 
 Clone to Desktop
-<code>git clone https://github.com/SpaceG/glas.git  </code>
+<code>git clone https://github.com/SpaceG/library.git  </code>
 Delete the cname file. 
 
 
 <code>cd Desktop </code><br>
-<code>cd glas </code><br>
+<code>cd library </code><br>
 <code>$ jekyll serve </code>
 
 watch your localhost <code> 127.0.0.1:8080 </code> 
