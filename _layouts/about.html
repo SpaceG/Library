@@ -2,30 +2,18 @@
 <html>
 <head>
 	<meta charset="utf-8">
-
-	<title>Lucas Gatsas</title>
-	<meta name="description" content="Jane Doe is a reporter at The Curious magazine, where she writes about technology / design companies and the people they impact." />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" href="../../assets/favicon.ico">
-
 	<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic%7CMontserrat:400,700" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="../../assets/css/style-v=cba79c2df0.css" />
-
-
-
-	<!--[if lt IE 9]>
+<!--[if lt IE 9]>
 	<script src="../../assets/js/html5-v=cba79c2df0.js"></script>
 	<![endif]-->
-
-
 <style>
-
 @media only screen and (min-width: 1400px){
 .grid-item, .home-template .grid-item:nth-child(3n+1), .cover.page-header-1 {
     height: 500px;
     height: 450px;
     width: 100%;
-}
+	}
 }
 </style>
 </head>
@@ -34,8 +22,7 @@
     {% include header.html %}
 <main class="site-main" role="main">
 	<section class="site-content">
-	
-		<header class="cover page-header-1">
+	<header class="cover page-header-1">
 			<div class="cover-bg" style="background-image: url('../../content/images/2015/10/tag-bc.jpg')"></div>
 			<div class="cover-content">
 				<div class="inner">
@@ -113,7 +100,7 @@
 
                     // if no active counts, stop updating
                     if(this.counts.length==0) window.clearTimeout(this.interval);
-                    
+
                   },
                   display: function(cnt,msg){
                     document.getElementById(cnt.id).innerHTML=msg;
@@ -193,7 +180,4 @@
 		<a class="sidebar-toggle"><span class="screen-reader-text">Close Sidebar</span><span class="icon" aria-hidden="true"></span></a>
 	</div><!-- .sidebar-scrollable -->
 </div><!-- .sidebar -->
-
-
-
-    {% include footer.html %}
+{% include footer.html %}

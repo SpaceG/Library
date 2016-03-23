@@ -2,29 +2,18 @@
 <html>
 
   {% include head.html %}
+  <body class="home-template">
+      <div id="page" class="site">
 
-<body class="home-template">
-  <div id="page" class="site">
+        {% include header.html %}
+        <div class="page-content">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </div>
 
-
-    {% include header.html %}
-
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-
-            <div class="overlay"></div>
-  </div><!-- #page -->  
-
-
-
+            {% include footer.html %}
+        <div class="overlay"></div>
+      </div><!-- #page -->
   </body>
-
 </html>
