@@ -1,9 +1,9 @@
-# lucas gatsas Theme/Blog
+# lucas gatsas Theme/Blog - Jekyll Theme
 # the glas theme: https://github.com/SpaceG/glas
 # Author: LucasGatsas
 # Theme: glas
 # Source: https://github.com/spaceg/glas
-# Mail: space@lucasgatsas.ch 
+# Mail: space@lucasgatsas.ch
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -17,7 +17,6 @@ event_label: Events
 
 description: > # "
   Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.lucasgatsas.ch" # the base hostname & protocol for your site
 
