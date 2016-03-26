@@ -13,20 +13,53 @@ organiser: "Lucas Gatsas"
 
 
 ---
-<h2 class="section-heading"><strong>nginx on a Virtual server</strong> </h2>
-<h2 class="section-heading">VirtualServer - Sysadmin - Unix </h2>
 
 
-Now, I'm here and Studing some Steps how Set Up a nginx Server on [Digital Ocean](https://www.digitalocean.com/). Include [Node.js](https://nodejs.org/). Check out my Older Post [here](https://spaceg.github.io/2015/02/26/virtual-servers-for-start-ups-digital-ocean/). And Set Up The Domian with [Namecheap](https://www.namecheap.com/).
 
 
-<blockquote class="twitter-tweet tw-align-center" lang="de"><p>My eyes! They burn! <a href="http://t.co/Nbgavlphnn">http://t.co/Nbgavlphnn</a> <a href="http://t.co/HfIH0RGdjx">pic.twitter.com/HfIH0RGdjx</a></p>&mdash; Etel Sverdlov (@etelsverdlov) <a href="https://twitter.com/etelsverdlov/status/555172636817649664">14. Januar 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% highlight ruby linenos %}
+// integer
+      var test = 1;
+      // float
+      var floatWert = 1023.23345489;
+      // NuN
+      var geteiltDurchZwei = 42 / 2;
+      if (isNaN(geteiltDurchZwei)) {
+          document.write("ungültige Number <br>");
+      } else {
+        document.write("geteiltdurchZwei; "  + geteiltDurchZwei + "<br>")
+      }
+{% endhighlight %}
 
-<blockquote> The Work from a Sysadmin! :)  </blockquote>
+{% highlight ruby linenos %}
+// string
+      var eineZeichenkette = "meineZeichenkette";
+      var eineZeichenketteEins = "ist Toll";
+      document.write(eineZeichenkette + " " + eineZeichenketteEins + "<br>");
+{% endhighlight %}
+
+{% highlight ruby linenos %}
+// Boolean  (Ja = 1 / Nein = 0 )
+    var boolscherWert = true;
+    if (boolscherWert == 1) {
+      document.write("boolscherWert ist 1 <br>");
+    }
+{% endhighlight %}
+
+{% highlight ruby linenos %}
+// array / Liste
+      var meinArray = [1, 2, 3, "test", 12.34];
+      document.write("element: " + meinArray [0] + "<br>");
+{% endhighlight %}
+
+{% highlight ruby linenos %}
+// associative array
+  var person = { name: "Lucas", alter: 30  };
+  document.write (person ["name"] + "<br>" + ["alter"]);
+{% endhighlight %}
+
+
 
 <blockquote>
-“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch
 </blockquote>
-
-

@@ -14,12 +14,59 @@ organiser: "Lucas Gatsas"
 
 ---
 
+
+
+
+{% highlight ruby linenos %}
+// integer
+      var test = 1;
+      // float
+      var floatWert = 1023.23345489;
+      // NuN
+      var geteiltDurchZwei = 42 / 2;
+      if (isNaN(geteiltDurchZwei)) {
+          document.write("ungültige Number <br>");
+      } else {
+        document.write("geteiltdurchZwei; "  + geteiltDurchZwei + "<br>")
+      }
+{% endhighlight %}
+
+{% highlight ruby linenos %}
+// string
+      var eineZeichenkette = "meineZeichenkette";
+      var eineZeichenketteEins = "ist Toll";
+      document.write(eineZeichenkette + " " + eineZeichenketteEins + "<br>");
+{% endhighlight %}
+
+{% highlight ruby linenos %}
+// Boolean  (Ja = 1 / Nein = 0 )
+    var boolscherWert = true;
+    if (boolscherWert == 1) {
+      document.write("boolscherWert ist 1 <br>");
+    }
+{% endhighlight %}
+
+{% highlight ruby linenos %}
+// array / Liste
+      var meinArray = [1, 2, 3, "test", 12.34];
+      document.write("element: " + meinArray [0] + "<br>");
+{% endhighlight %}
+
+{% highlight ruby linenos %}
+// associative array
+  var person = { name: "Lucas", alter: 30  };
+  document.write (person ["name"] + "<br>" + ["alter"]);
+{% endhighlight %}
+
+
+
+
 <h2 class="section-heading">Nmap for Mac Os X - Linux</h2>
 <h2 class="section-heading">Nmap Security Scanner for Linux-MAC-UNIX </h2>
 
 
 
-<strong> Was ist Nmap ? </strong> 
+<strong> Was ist Nmap ? </strong>
 
 
        Nmap ("Network Mapper") ist ein Open-Source-Werkzeug fA1/4r die
@@ -39,12 +86,12 @@ organiser: "Lucas Gatsas"
 
 
 
-<strong> Install and Set Up </strong> 
+<strong> Install and Set Up </strong>
 
 
 
 Download it here <a href="https://nmap.org/download.html#macosx">nmap-6.47.dmg</a> or Run it with Terminal: First installl <a href="http://www.bzip.org/">bzip.org</a>! Promt
-in your Temrinal follow the Commanlines: 
+in your Temrinal follow the Commanlines:
 
 To install using <a href="https://www.macports.org/">MacPorts</a>, run <code> sudo port install nmap </code>. Nmap will be installed as <code> /opt/local/bin/nmap </code>. To uninstall, run sudo port uninstall nmap.
 
@@ -65,9 +112,9 @@ PORT STATE SERVICE
 
 6817/tcp open unknown
 
-</pre></pre></div> 
+</pre></pre></div>
 
-<code> nmap hostname </code> 
+<code> nmap hostname </code>
 
 
 
@@ -86,9 +133,9 @@ PORT STATE SERVICE
 7.Find and remove computers which don't meet the organization's minimum level of security.
 
 
-<strong> Scan & List a Range of Local Network IP’s </strong> 
+<strong> Scan & List a Range of Local Network IP’s </strong>
 
-You will find some Information about other Machines on your Localhost Network. Your Lan has an IP range of example  <code> 192.169.0.1</code> to <code> 192.169.0.25 </code> change numbers as appropritae: 
+You will find some Information about other Machines on your Localhost Network. Your Lan has an IP range of example  <code> 192.169.0.1</code> to <code> 192.169.0.25 </code> change numbers as appropritae:
 
 
 <code>nmap -sP 192.168.0.1-25</code>
@@ -113,7 +160,7 @@ nmap -O 192.168.0.1-5</code>
 nmap --osscan-guess 192.168.0.2 </code>
 
 
-Exmaple Diagram: 
+Exmaple Diagram:
 
 
 
@@ -135,11 +182,11 @@ Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Sc
 </blockquote>
 
 
-At last i have to lol. because i found this crazy thing here : 
-<a href="http://nmap.org/movies/#elysium">Nmap in Movies!</a> 
+At last i have to lol. because i found this crazy thing here :
+<a href="http://nmap.org/movies/#elysium">Nmap in Movies!</a>
 
-Link: 
-<a href="http://nmap.org/download.html#macosx">nmap.org</a> 
+Link:
+<a href="http://nmap.org/download.html#macosx">nmap.org</a>
 
 
 

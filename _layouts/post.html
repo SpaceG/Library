@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign organiser = site.data.organisers.[page.organiser] %}
 <!--
-  Example to modify it : 
+  Example to modify it :
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h2 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h2>
@@ -13,9 +13,33 @@ layout: default
 
         <article class="post tag-music tag-science" itemscope itemtype="http://schema.org/BlogPosting">
             <header class="cover post-header">
-                <div class="post-bg" style="background-image:url({{ site.baseurl }}/{{ page.cover }});"></div>
+              <!--  <div class="post-bg" style="background-image:url({{ site.baseurl }}/{{ page.cover }});"></div>-->
                 <div class="cover-content">
                     <div class="inner">
+
+
+                      <div class="author-box">
+                          {% if organiser.photo %}
+                            <img src="{{organiser.photo}}" alt="Jane Doe" class="author-avatar" />
+                              {% endif %}
+                                {% if organiser.photo %}
+                                  <h4 class="author-title">About <a id="library___link___1" href="../author/jane-doe/index.html">By {{organiser.name}}</a></h4>
+                                  {% endif %}
+                                    <p class="author-description">{{ site.description }}</p>
+                                      <p class="author-links">
+                                        <span class="author-location">
+                                            <i class="icon-map-marker" aria-hidden="true"></i>
+                                            {{organiser.country}}</span>
+                                              <span class="author-website"><i class="icon-chain" aria-hidden="true"></i>
+                                                 <a id="library___link___1" href="http://www.lucasgatsas.ch" target="_blank">http://lucasgatsas.ch</a>
+                                               </span>
+                                                <span class="author-website"><i class="icon-chain" aria-hidden="true"></i>
+                                                  <a  id="library___link___1" href="http://www.lucasgatsas.ch" target="_blank">{{ organiser.email }}</a>
+                                                </span>
+                                              </p>
+                                          </div>
+
+
                      <!--   <div class="tag-links">
                             <a href="../tag/music/index.html">Music</a><a href="../tag/science/index.html">Science</a>
                         </div>--> <!-- .tag-links -->
@@ -52,7 +76,6 @@ layout: default
               </p>
               -->
 
-<blockquote class="alignright">“If you are going to walk on thin ice, you might as well dance”</blockquote>
     <div>
       <a href='mailto:{{organiser.email}}?subject=Register interest for {{page.title}} on {{ page.date
         | date: "%B %-d, %Y" }}&body=Hi! Im interested in your event. Can I come please?' class="button button-primary">Kontakt</a>
@@ -66,7 +89,7 @@ layout: default
                     <a class="icon-facebook square" target="_blank" href="http://wwww.facebook.com/sharer.php?"><span class="screen-reader-text">Facebook</span></a>
                     <a class="icon-google square" target="_blank" href="http://plus.google.com/share?url=http://curious.justgoodthemes.com/walking-on-thin-ice/"><span class="screen-reader-text">Google+</span></a>
               </div>
-                <div class="author-box">
+              <!--  <div class="author-box">
                     {% if organiser.photo %}
                       <img src="{{organiser.photo}}" alt="Jane Doe" class="author-avatar" />
                         {% endif %}
@@ -85,7 +108,7 @@ layout: default
                                             <a href="http://www.lucasgatsas.ch" target="_blank">{{ organiser.email }}</a>
                                           </span>
                                         </p>
-                                    </div>
+                                    </div> -->
                                 </footer><!-- .post-footer -->
                           </article><!-- .post -->
 

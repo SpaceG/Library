@@ -3,9 +3,9 @@
 
   <head>
 
-	<!-- Hello World. 
+	<!-- Hello World.
 		My Name is Lucas Gatsas
-		
+
 		Theme: blog/lucasgatsas.ch
 		Theme: by Lucas Gatsas
 		copy: by Lucas Gatsas
@@ -24,6 +24,19 @@
   <link rel="alternate" type="application/rss+xml" title="Lucas Gatsas" href="http://blog.lucasgatsas.ch/feed.xml">
   <link rel="stylesheet" href="/assets/css/style-v=cba79c2df0.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style-v=cba79c2df0.css" />
+
+<!-- re coding by the glas theme /
+				http://www.github.com/spaceg/glas  -->
+
+
+<link rel="stylesheet" href="/css/animate.css">
+<link rel="stylesheet" href="/css/plugins/codemirror/codemirror.css">
+<link rel="stylesheet" href="/css/plugins/codemirror/ambiance.css">
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+
       <link rel="shortcut icon" href="http://www.lucasgatsas.ch/icon.png">
     <link rel="icon" href="http://www.lucasgatsas.ch/icon.png" type="image/x-icon">
     <!-- Facebook Meta Data -->
@@ -36,6 +49,79 @@
 <meta property="og:site_name" content="www.lucasgatsas.ch"/>
 <meta name="robots" content="index, follow">
 <meta name="robots" content="all">
+<style>
+.highlight pre { background-color: ; } /*#272822*/ /* Night Dark Blue as Default */
+.highlight .hll { background-color: #272822; }
+.highlight .c { color: #75715e } /* Comment */
+.highlight .err { color: #960050; background-color: #1e0010 } /* Error */
+.highlight .k { color: #66d9ef } /* Keyword */
+.highlight .l { color: #ae81ff } /* Literal */
+.highlight .n { color: #f8f8f2 } /* Name */
+.highlight .o { color: #f92672 } /* Operator */
+.highlight .p { color: #f8f8f2 } /* Punctuation */
+.highlight .cm { color: #75715e } /* Comment.Multiline */
+.highlight .cp { color: #75715e } /* Comment.Preproc */
+.highlight .c1 { color: #75715e } /* Comment.Single */
+.highlight .cs { color: #75715e } /* Comment.Special */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .kc { color: #66d9ef } /* Keyword.Constant */
+.highlight .kd { color: #66d9ef } /* Keyword.Declaration */
+.highlight .kn { color: #f92672 } /* Keyword.Namespace */
+.highlight .kp { color: #66d9ef } /* Keyword.Pseudo */
+.highlight .kr { color: #66d9ef } /* Keyword.Reserved */
+.highlight .kt { color: #66d9ef } /* Keyword.Type */
+.highlight .ld { color: #e6db74 } /* Literal.Date */
+.highlight .m { color: #ae81ff } /* Literal.Number */
+.highlight .s { color: #e6db74 } /* Literal.String */
+.highlight .na { color: #a6e22e } /* Name.Attribute */
+.highlight .nb { color: #f8f8f2 } /* Name.Builtin */
+.highlight .nc { color: #a6e22e } /* Name.Class */
+.highlight .no { color: #66d9ef } /* Name.Constant */
+.highlight .nd { color: #a6e22e } /* Name.Decorator */
+.highlight .ni { color: #f8f8f2 } /* Name.Entity */
+.highlight .ne { color: #a6e22e } /* Name.Exception */
+.highlight .nf { color: #a6e22e } /* Name.Function */
+.highlight .nl { color: #f8f8f2 } /* Name.Label */
+.highlight .nn { color: #f8f8f2 } /* Name.Namespace */
+.highlight .nx { color: #a6e22e } /* Name.Other */
+.highlight .py { color: #f8f8f2 } /* Name.Property */
+.highlight .nt { color: #f92672 } /* Name.Tag */
+.highlight .nv { color: #f8f8f2 } /* Name.Variable */
+.highlight .ow { color: #f92672 } /* Operator.Word */
+.highlight .w { color: #f8f8f2 } /* Text.Whitespace */
+.highlight .mf { color: #ae81ff } /* Literal.Number.Float */
+.highlight .mh { color: #ae81ff } /* Literal.Number.Hex */
+.highlight .mi { color: #ae81ff } /* Literal.Number.Integer */
+.highlight .mo { color: #ae81ff } /* Literal.Number.Oct */
+.highlight .sb { color: #e6db74 } /* Literal.String.Backtick */
+.highlight .sc { color: #e6db74 } /* Literal.String.Char */
+.highlight .sd { color: #e6db74 } /* Literal.String.Doc */
+.highlight .s2 { color: #e6db74 } /* Literal.String.Double */
+.highlight .se { color: #ae81ff } /* Literal.String.Escape */
+.highlight .sh { color: #e6db74 } /* Literal.String.Heredoc */
+.highlight .si { color: #e6db74 } /* Literal.String.Interpol */
+.highlight .sx { color: #e6db74 } /* Literal.String.Other */
+.highlight .sr { color: #e6db74 } /* Literal.String.Regex */
+.highlight .s1 { color: #e6db74 } /* Literal.String.Single */
+.highlight .ss { color: #e6db74 } /* Literal.String.Symbol */
+.highlight .bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #f8f8f2 } /* Name.Variable.Class */
+.highlight .vg { color: #f8f8f2 } /* Name.Variable.Global */
+.highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
+.highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
+
+.highlight .gh { } /* Generic Heading & Diff Header */
+.highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
+.highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
+.highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
+
+
+
+.post > .highlight .lineno { color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
+.post > .highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
+
+</style>
 </head>
 
   <body class="home-template">
@@ -116,16 +202,14 @@
           <div class="wrapper">
             <main class="site-main" role="main">
   <div class="site-content inner-wide">
-
     <div class="cover hero">
-      <div class="cover-bg" style="background-image: url('img/IMG_0344.JPG')"></div>
+  <!--    <div class="cover-bg" style="background-image: url('img/IMG_0344.JPG')"></div>-->
       <div class="cover-content">
         <div class="inner">
           <div class="hero-wrap">
             <h2 class="hero-title fade-in">Lucas Gatsas</h2>
             <hr>
             <p class="hero-text fade-in">
-
              Hello, My Name is Lucas Gatsas, I'm a Front -End Engineer, SYS-Admin & UI/UX - Designer based in the City of St. Gallen, Switzerland. <br>
             Blogging here about Code & Technology.</p>
             <p class="subscribe"><a href="rss/" class="button light fade-in">Subscribe</a></p>
@@ -133,1102 +217,1500 @@
         </div><!-- .inner -->
       </div><!-- .cover-content -->
     </div><!-- .cover -->
-
     <div class="post-grid">
-
-
-
-
-
-
-
  <!-- <article class="grid-item post tag-music tag-science"> -->
     
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/IMG_0344.JPG);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/IMG_0344.JPG);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/starthack-switzerland-1.html">Music</a><a href="/event/starthack-switzerland-1.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/starthack-switzerland-1.html" rel="bookmark">Starthack Hackathon <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/starthack-switzerland-1.html" rel="bookmark">Starthack Hackathon <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Mar 13, 2016</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/starthack-switzerland-1.html">Starthack Hackathon</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre>    <span class="sr">//</span> <span class="n">array</span> <span class="n">literlas</span>
+      <span class="n">var</span> <span class="o">=</span> <span class="n">empty</span> <span class="o">=</span> <span class="p">[];</span>
+      <span class="n">var</span> <span class="o">=</span> <span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="s1">'zero'</span><span class="p">,</span> <span class="s1">'one'</span><span class="p">,</span> <span class="s1">'two'</span><span class="p">,</span> <span class="s1">'three'</span><span class="p">,</span> <span class="s1">'four'</span><span class="p">,</span>
+      <span class="s1">'five'</span><span class="p">,</span> <span class="s1">'six'</span><span class="p">,</span> <span class="s1">'seven'</span><span class="p">,</span> <span class="s1">'eight'</span><span class="p">,</span> <span class="s1">'nine'</span>
+      <span class="p">];</span>
+      <span class="n">empty</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">/</span><span class="sr">/ undefined
+      numbers[1] /</span><span class="o">/</span> <span class="s1">'one'</span>
+      <span class="n">empty</span><span class="p">.</span><span class="nf">lenght</span> <span class="sr">//</span> <span class="mi">0</span>
+      <span class="n">numbers</span><span class="p">.</span><span class="nf">lenght</span> <span class="sr">//</span><span class="mi">10</span>
+        <span class="p">};</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Mar 13, 2016</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/starthack-switzerland-1.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/starthack-switzerland-1.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/starhack-2016.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/starhack-2016.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/starthack-switzerland.html">Music</a><a href="/event/starthack-switzerland.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/starthack-switzerland.html" rel="bookmark">Starthack <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/starthack-switzerland.html" rel="bookmark">Starthack <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Mar 11, 2016</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/starthack-switzerland.html">Starthack</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre>    <span class="sr">//</span> <span class="n">array</span> <span class="n">literlas</span>
+      <span class="n">var</span> <span class="o">=</span> <span class="n">empty</span> <span class="o">=</span> <span class="p">[];</span>
+      <span class="n">var</span> <span class="o">=</span> <span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="s1">'zero'</span><span class="p">,</span> <span class="s1">'one'</span><span class="p">,</span> <span class="s1">'two'</span><span class="p">,</span> <span class="s1">'three'</span><span class="p">,</span> <span class="s1">'four'</span><span class="p">,</span>
+      <span class="s1">'five'</span><span class="p">,</span> <span class="s1">'six'</span><span class="p">,</span> <span class="s1">'seven'</span><span class="p">,</span> <span class="s1">'eight'</span><span class="p">,</span> <span class="s1">'nine'</span>
+      <span class="p">];</span>
+      <span class="n">empty</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">/</span><span class="sr">/ undefined
+      numbers[1] /</span><span class="o">/</span> <span class="s1">'one'</span>
+      <span class="n">empty</span><span class="p">.</span><span class="nf">lenght</span> <span class="sr">//</span> <span class="mi">0</span>
+      <span class="n">numbers</span><span class="p">.</span><span class="nf">lenght</span> <span class="sr">//</span><span class="mi">10</span>
+        <span class="p">};</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Mar 11, 2016</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/starthack-switzerland.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/starthack-switzerland.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/Halle-E_G5__c_-Rupert-Steiner_web.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/Halle-E_G5__c_-Rupert-Steiner_web.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/npm-bcrypt.html">Music</a><a href="/event/npm-bcrypt.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/npm-bcrypt.html" rel="bookmark">bycrypt <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/npm-bcrypt.html" rel="bookmark">bycrypt <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Feb 29, 2016</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/npm-bcrypt.html">bycrypt</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Feb 29, 2016</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/npm-bcrypt.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/npm-bcrypt.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/779699537035500360-1.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/779699537035500360-1.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/Implement-Passport.js-authentication-with-Sails.js.html">Music</a><a href="/event/Implement-Passport.js-authentication-with-Sails.js.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/Implement-Passport.js-authentication-with-Sails.js.html" rel="bookmark">Implement Passportjs authentication with Sailsjs <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/Implement-Passport.js-authentication-with-Sails.js.html" rel="bookmark">Implement Passportjs authentication with Sailsjs <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Jan 26, 2016</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/Implement-Passport.js-authentication-with-Sails.js.html">Implement Passportjs authentication with Sailsjs</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Jan 26, 2016</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/Implement-Passport.js-authentication-with-Sails.js.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/Implement-Passport.js-authentication-with-Sails.js.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/hiking-2.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/hiking-2.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/nmap-mac-osx.html">Music</a><a href="/event/nmap-mac-osx.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/nmap-mac-osx.html" rel="bookmark">NMAP MAC OSX <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/nmap-mac-osx.html" rel="bookmark">NMAP MAC OSX <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Jan 13, 2016</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/nmap-mac-osx.html">NMAP MAC OSX</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Jan 13, 2016</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/nmap-mac-osx.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/nmap-mac-osx.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/tag-bc.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/tag-bc.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/angular-2.html">Music</a><a href="/event/angular-2.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/angular-2.html" rel="bookmark">Angular 2 <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/angular-2.html" rel="bookmark">Angular 2 <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Jan 10, 2016</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/angular-2.html">Angular 2</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Jan 10, 2016</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/angular-2.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/angular-2.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/1.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/1.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/gem-npm-ruby-gems-node.js.html">Music</a><a href="/event/gem-npm-ruby-gems-node.js.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/gem-npm-ruby-gems-node.js.html" rel="bookmark">Gem Npm Packages <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/gem-npm-ruby-gems-node.js.html" rel="bookmark">Gem Npm Packages <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Oct 18, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/gem-npm-ruby-gems-node.js.html">Gem Npm Packages</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Oct 18, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/gem-npm-ruby-gems-node.js.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/gem-npm-ruby-gems-node.js.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/landscape_2-1.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/landscape_2-1.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/sails.js-sudo-sails-lfit-via-port-80-local.js.html">Music</a><a href="/event/sails.js-sudo-sails-lfit-via-port-80-local.js.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/sails.js-sudo-sails-lfit-via-port-80-local.js.html" rel="bookmark">Sudo Sails Lift port80 <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/sails.js-sudo-sails-lfit-via-port-80-local.js.html" rel="bookmark">Sudo Sails Lift port80 <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Oct 6, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/sails.js-sudo-sails-lfit-via-port-80-local.js.html">Sudo Sails Lift port80</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Oct 6, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/sails.js-sudo-sails-lfit-via-port-80-local.js.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/sails.js-sudo-sails-lfit-via-port-80-local.js.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/Pi2ModB1GB_-comp.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/Pi2ModB1GB_-comp.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/raspberrypi-set-up-macosx-vnc-ssh.html">Music</a><a href="/event/raspberrypi-set-up-macosx-vnc-ssh.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/raspberrypi-set-up-macosx-vnc-ssh.html" rel="bookmark">Raspberry Pi with VNC SSH <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/raspberrypi-set-up-macosx-vnc-ssh.html" rel="bookmark">Raspberry Pi with VNC SSH <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Sep 30, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/raspberrypi-set-up-macosx-vnc-ssh.html">Raspberry Pi with VNC SSH</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Sep 30, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/raspberrypi-set-up-macosx-vnc-ssh.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/raspberrypi-set-up-macosx-vnc-ssh.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/Lucas_Gatsas_lucas_gatsas_0266.jpeg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/Lucas_Gatsas_lucas_gatsas_0266.jpeg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/angular.js-framework.html">Music</a><a href="/event/angular.js-framework.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/angular.js-framework.html" rel="bookmark">Angular Framework <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/angular.js-framework.html" rel="bookmark">Angular Framework <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Jul 23, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/angular.js-framework.html">Angular Framework</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Jul 23, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/angular.js-framework.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/angular.js-framework.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/lg.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/lg.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/mongoDB-database-for-scalability-performance-Agility.html">Music</a><a href="/event/mongoDB-database-for-scalability-performance-Agility.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/mongoDB-database-for-scalability-performance-Agility.html" rel="bookmark">Mongo DB <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/mongoDB-database-for-scalability-performance-Agility.html" rel="bookmark">Mongo DB <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Jul 7, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/mongoDB-database-for-scalability-performance-Agility.html">Mongo DB</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Jul 7, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/mongoDB-database-for-scalability-performance-Agility.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/mongoDB-database-for-scalability-performance-Agility.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/dsc_0566.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/dsc_0566.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/npm.js.html">Music</a><a href="/event/npm.js.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/npm.js.html" rel="bookmark">npm.js install <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/npm.js.html" rel="bookmark">npm.js install <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Jun 4, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/npm.js.html">npm.js install</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Jun 4, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/npm.js.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/npm.js.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/stork_v3.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/stork_v3.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/htaccess-404-cpanel.html">Music</a><a href="/event/htaccess-404-cpanel.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/htaccess-404-cpanel.html" rel="bookmark">htaccess 404 cPanel Server <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/htaccess-404-cpanel.html" rel="bookmark">htaccess 404 cPanel Server <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Jun 1, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/htaccess-404-cpanel.html">htaccess 404 cPanel Server</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Jun 1, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/htaccess-404-cpanel.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/htaccess-404-cpanel.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/clode.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/clode.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/openssl-nginx-server-linux.html">Music</a><a href="/event/openssl-nginx-server-linux.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/openssl-nginx-server-linux.html" rel="bookmark">Open SSL on a Nginx Linux Server <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/openssl-nginx-server-linux.html" rel="bookmark">Open SSL on a Nginx Linux Server <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">May 18, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/openssl-nginx-server-linux.html">Open SSL on a Nginx Linux Server</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">May 18, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/openssl-nginx-server-linux.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/openssl-nginx-server-linux.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/Lucas_Gatsas_0038.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/Lucas_Gatsas_0038.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change.html">Music</a><a href="/event/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change.html" rel="bookmark">reboot your Mac  - chmod o+rx <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change.html" rel="bookmark">reboot your Mac  - chmod o+rx <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">May 10, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change.html">reboot your Mac  - chmod o+rx</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">May 10, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/5.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/5.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/get-emacs-on-your-machine.html">Music</a><a href="/event/get-emacs-on-your-machine.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/get-emacs-on-your-machine.html" rel="bookmark">Get emacs on your Machine <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/get-emacs-on-your-machine.html" rel="bookmark">Get emacs on your Machine <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Mar 26, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/get-emacs-on-your-machine.html">Get emacs on your Machine</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Mar 26, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/get-emacs-on-your-machine.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/get-emacs-on-your-machine.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/nimbusLOT-72.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/nimbusLOT-72.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/nginx-set-up-unix-sysadmin-linux-digital-ocean.html">Music</a><a href="/event/nginx-set-up-unix-sysadmin-linux-digital-ocean.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/nginx-set-up-unix-sysadmin-linux-digital-ocean.html" rel="bookmark">Nginx SysAdmin Linux Digital Ocean <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/nginx-set-up-unix-sysadmin-linux-digital-ocean.html" rel="bookmark">Nginx SysAdmin Linux Digital Ocean <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Mar 21, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/nginx-set-up-unix-sysadmin-linux-digital-ocean.html">Nginx SysAdmin Linux Digital Ocean</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Mar 21, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/nginx-set-up-unix-sysadmin-linux-digital-ocean.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/nginx-set-up-unix-sysadmin-linux-digital-ocean.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/FreeAgent_Eva-20.JPG);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/FreeAgent_Eva-20.JPG);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/git-install.html">Music</a><a href="/event/git-install.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/git-install.html" rel="bookmark">Git Install <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/git-install.html" rel="bookmark">Git Install <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Mar 20, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/git-install.html">Git Install</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Mar 20, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/git-install.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/git-install.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/books1.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/books1.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/node.js.html">Music</a><a href="/event/node.js.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/node.js.html" rel="bookmark">node.js <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/node.js.html" rel="bookmark">node.js <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Mar 3, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/node.js.html">node.js</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Mar 3, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/node.js.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/node.js.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/map.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/map.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/dns-cname.html">Music</a><a href="/event/dns-cname.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/dns-cname.html" rel="bookmark">DNS - cname Set Up <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/dns-cname.html" rel="bookmark">DNS - cname Set Up <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Mar 3, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/dns-cname.html">DNS - cname Set Up</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Mar 3, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/dns-cname.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/dns-cname.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/Halle-E_G5__c_-Rupert-Steiner_web.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/Halle-E_G5__c_-Rupert-Steiner_web.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/bcrypt.html">Music</a><a href="/event/bcrypt.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/bcrypt.html" rel="bookmark">bycrypt <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/bcrypt.html" rel="bookmark">bycrypt <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Mar 3, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/bcrypt.html">bycrypt</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">array</span> <span class="n">literlas</span>
+  <span class="n">var</span> <span class="o">=</span> <span class="n">empty</span> <span class="o">=</span> <span class="p">[];</span>
+  <span class="n">var</span> <span class="o">=</span> <span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="s1">'zero'</span><span class="p">,</span> <span class="s1">'one'</span><span class="p">,</span> <span class="s1">'two'</span><span class="p">,</span> <span class="s1">'three'</span><span class="p">,</span> <span class="s1">'four'</span><span class="p">,</span>
+  <span class="s1">'five'</span><span class="p">,</span> <span class="s1">'six'</span><span class="p">,</span> <span class="s1">'seven'</span><span class="p">,</span> <span class="s1">'eight'</span><span class="p">,</span> <span class="s1">'nine'</span>
+  <span class="p">];</span>
+  <span class="n">empty</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">/</span><span class="sr">/ undefined
+  numbers[1] /</span><span class="o">/</span> <span class="s1">'one'</span>
+  <span class="n">empty</span><span class="p">.</span><span class="nf">lenght</span> <span class="sr">//</span> <span class="mi">0</span>
+  <span class="n">numbers</span><span class="p">.</span><span class="nf">lenght</span> <span class="sr">//</span><span class="mi">10</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Mar 3, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/bcrypt.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/bcrypt.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/Lucas_Gatsas_lucas_gatsas_0268.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/Lucas_Gatsas_lucas_gatsas_0268.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/ssh-key-on-mac-osx.html">Music</a><a href="/event/ssh-key-on-mac-osx.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/ssh-key-on-mac-osx.html" rel="bookmark">SSH Key on Mac OsX <span></span></a></h2>
-
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Jan 29, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/ssh-key-on-mac-osx.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/ssh-key-on-mac-osx.html" rel="bookmark">SSH Key on Mac OsX <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Jan 29, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/ssh-key-on-mac-osx.html">SSH Key on Mac OsX</a> -->
+                <p><blockquote>
+“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch
+</blockquote>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/ssh-key-on-mac-osx.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/the-matrix-red-pill-blue-pill-1.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/the-matrix-red-pill-blue-pill-1.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/iptables-to-run-your-app-via-port-80-ubuntu.html">Music</a><a href="/event/iptables-to-run-your-app-via-port-80-ubuntu.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/iptables-to-run-your-app-via-port-80-ubuntu.html" rel="bookmark">ipTabels Port 80 Ubuntu <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/iptables-to-run-your-app-via-port-80-ubuntu.html" rel="bookmark">ipTabels Port 80 Ubuntu <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Jan 18, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/iptables-to-run-your-app-via-port-80-ubuntu.html">ipTabels Port 80 Ubuntu</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Jan 18, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/iptables-to-run-your-app-via-port-80-ubuntu.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/iptables-to-run-your-app-via-port-80-ubuntu.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/1-1.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/1-1.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/setup-sailsjs.html">Music</a><a href="/event/setup-sailsjs.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/setup-sailsjs.html" rel="bookmark">Set Up Sails <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/setup-sailsjs.html" rel="bookmark">Set Up Sails <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Jan 11, 2015</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/setup-sailsjs.html">Set Up Sails</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Jan 11, 2015</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/setup-sailsjs.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/setup-sailsjs.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/8557ecd4_vlcsnap-2010-10-07-21h28m24s95.png);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/8557ecd4_vlcsnap-2010-10-07-21h28m24s95.png);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/dns-github.html">Music</a><a href="/event/dns-github.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/dns-github.html" rel="bookmark">DNS - Set UP <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/dns-github.html" rel="bookmark">DNS - Set UP <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Oct 13, 2014</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/dns-github.html">DNS - Set UP</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Oct 13, 2014</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/dns-github.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/dns-github.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/Aurora.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/Aurora.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/install-laravel-on-xampp-mamp.html">Music</a><a href="/event/install-laravel-on-xampp-mamp.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/install-laravel-on-xampp-mamp.html" rel="bookmark">Install Laravel Xampp Mamp <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/install-laravel-on-xampp-mamp.html" rel="bookmark">Install Laravel Xampp Mamp <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Jul 2, 2013</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/install-laravel-on-xampp-mamp.html">Install Laravel Xampp Mamp</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Jul 2, 2013</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/install-laravel-on-xampp-mamp.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/install-laravel-on-xampp-mamp.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/der-wanderer-ueber-dem-nebelmeer-_357909-45.jpg);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/der-wanderer-ueber-dem-nebelmeer-_357909-45.jpg);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html">Music</a><a href="/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html" rel="bookmark">sudoers file  Add Premission to any User <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html" rel="bookmark">sudoers file  Add Premission to any User <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Jun 11, 2013</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html">sudoers file  Add Premission to any User</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Jun 11, 2013</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/CIJpn.png);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/CIJpn.png);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/terminal-osx.html">Music</a><a href="/event/terminal-osx.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/terminal-osx.html" rel="bookmark">Commandslines Mac OsX <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/terminal-osx.html" rel="bookmark">Commandslines Mac OsX <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Jan 13, 2011</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/terminal-osx.html">Commandslines Mac OsX</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Jan 13, 2011</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/terminal-osx.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/terminal-osx.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
         
-
         
-
                  
-
     <article class="post-inside post-inside grid-item post tag-music tag-science">
-
-
-      <div class="post-bg" style="background-image:url(img/lucas-gatsas-06.png);"></div>
-
-                          
-
-
-      <header class="post-header">
+<!--    <div class="post-bg" style="background-image:url(img/lucas-gatsas-06.png);"></div> -->
+      
+    <header class="post-header">
      <!--   <div class="tag-links">
           <a href="/event/want-to-know-power-commandsline.html">Music</a><a href="/event/want-to-know-power-commandsline.html">Science</a>
         </div> -->
-        <h2 class="post-title"><a href="/event/want-to-know-power-commandsline.html" rel="bookmark">Power Commandlines Os X <span></span></a></h2>
+                <li id="library_____front_____code____lister">
+                  <h2 class="post-title"><a href="/event/want-to-know-power-commandsline.html" rel="bookmark">Power Commandlines Os X <span></span></a></h2>
+                      <div class="post-meta">
+                        by <span class="post-author"><a href="/about">Lucas Gatsas </a>
+                        </span> on <time class="published" datetime="">Sep 14, 2010</time>
+                      </div>
+                      <!-- .post-meta -->
+              <!--   <a href="/event/want-to-know-power-commandsline.html">Power Commandlines Os X</a> -->
+                <p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-
-
-
-        <div class="post-meta">
-          by <span class="post-author"><a href="/about">Lucas Gatsas </a></span> on <time class="published" datetime="">Sep 14, 2010</time>
-        </div><!-- .post-meta -->
-      </header><!-- .post-header -->
-      <div class="read-more">
-        <a class="button light" href="/event/want-to-know-power-commandsline.html" title="Walking on Thin Ice">Read More</a>
-      </div>
+</p>
+              </li>
+      </header>
+<!-- .post-header -->
+          <div class="read-more">
+              <a class="button light" href="/event/want-to-know-power-commandsline.html" title="Walking on Thin Ice">Read More</a>
+        </div>
     </article>
-
-
         
-
       
-
-
 </div><!-- .post-grid -->
-
 <nav class="pagination" role="navigation">
   <span class="page-number">www.lucasgatsas.ch</span>
 <!--   <a class="older-posts square dark icon-chevron-right" href="page/2/"><span class="screen-reader-text">Older Posts</span></a> -->
 </nav>
-
-
   </div><!-- .site-content -->
 </main><!-- .site-main -->
 
@@ -1261,6 +1743,56 @@
   <script src="/assets/js/plugins-v=cba79c2df0.js"></script>
   <script src="/assets/js/custom-v=cba79c2df0.js "></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
+<!-- New Coding from insperation of the glas theme : http://www.github.com/spaceg/glas
+
+-->
+<script src="/js/jquery-2.1.1.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+
+<script src="/js/plugins/codemirror/codemirror.js"></script>
+<script src="/js/plugins/codemirror/mode/javascript/javascript.js"></script>
+
+<script src="/js/inspinia.js"></script>
+<script src="/js/plugins/pace/pace.min.js"></script>
+
+<!-- Mainly scripts -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- CodeMirror -->
+<script src="js/plugins/codemirror/codemirror.js"></script>
+<script src="js/plugins/codemirror/mode/javascript/javascript.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="js/inspinia.js"></script>
+<script src="js/plugins/pace/pace.min.js"></script>
+
+
+<script>
+     $(document).ready(function(){
+
+         var editor_one = CodeMirror.fromTextArea(document.getElementById("code1"), {
+             lineNumbers: true,
+             matchBrackets: true,
+             styleActiveLine: true,
+             theme:"ambiance"
+         });
+
+         var editor_two = CodeMirror.fromTextArea(document.getElementById("code2"), {
+             lineNumbers: true,
+             matchBrackets: true,
+             styleActiveLine: true
+         });
+
+    });
+</script>
 
         <div class="overlay"></div>
       </div><!-- #page -->

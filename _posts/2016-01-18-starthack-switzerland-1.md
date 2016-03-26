@@ -13,9 +13,36 @@ organiser: "Lucas Gatsas"
 
 ---
 
-<h1> The Start @ Hackathon <br> St. Gallen </h1> 
 
-The Event START hack was Awesome! Alot of Peoples were there at the Event. Had a HD crash, so I had no LapTop. This was Crazy for me to get in Action. 
+
+{% highlight ruby linenos %}
+    // array literlas
+      var = empty = [];
+      var = numbers = [
+      'zero', 'one', 'two', 'three', 'four',
+      'five', 'six', 'seven', 'eight', 'nine'
+      ];
+      empty[1] // undefined
+      numbers[1] // 'one'
+      empty.lenght // 0
+      numbers.lenght //10
+        };
+{% endhighlight %}
+
+{% highlight ruby linenos %}
+  // The Object Literal
+  var numbers_object = {
+    '0': 'zero', '1': 'one', '2': 'two',
+    '0': 'three', '4': 'four', '5': 'five',
+    '6': 'six', '7': 'seven', '8': 'eight',
+    '9': 'nine'
+  };
+{% endhighlight %}
+
+
+<h1> The Start @ Hackathon <br> St. Gallen </h1>
+
+The Event START hack was Awesome! Alot of Peoples were there at the Event. Had a HD crash, so I had no LapTop. This was Crazy for me to get in Action.
 I was in the team Cesar. We eventually publish our project on GitHub. We had written a Mortage Calculator.
 
 <strong>"Namics Challenge Winner" Project at Start Hack Hackathon in Switzerland — </strong>
@@ -40,7 +67,7 @@ And the Winner was Alica Sykes with here Sentiment Sweep Project.
 <blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">How do you think the world is feeling via Twitter? Sentiment Sweep can let you know! Built at <a href="https://twitter.com/START_Hack">@START_Hack</a> <a href="https://t.co/4pVUuNDtpC">pic.twitter.com/4pVUuNDtpC</a></p>&mdash; Major League Hacking (@MLHacks) <a href="https://twitter.com/MLHacks/status/708986457751470080">13. März 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></center>
 
-Can't wait for the Next Hackathon here at the STARThack in St. Gallen, Switzerland, next time with more Gadget and my own Tools. 
+Can't wait for the Next Hackathon here at the STARThack in St. Gallen, Switzerland, next time with more Gadget and my own Tools.
 
 
 <a href="{{ site.baseurl }}/img/10363637_10208373305708123_7837373092865267162_n.jpg">
@@ -51,9 +78,9 @@ Can't wait for the Next Hackathon here at the STARThack in St. Gallen, Switzerla
 
 
 
-<a href="http://starthack.ch"> Starthack 2016</a> 
-<a href="https://www.facebook.com/starthackathon/?fref=ts"> Starthack 2016 - Facebook</a> 
-<a href="https://twitter.com/lucasgatsas">Twitter</a> 
+<a href="http://starthack.ch"> Starthack 2016</a>
+<a href="https://www.facebook.com/starthackathon/?fref=ts"> Starthack 2016 - Facebook</a>
+<a href="https://twitter.com/lucasgatsas">Twitter</a>
 
 <blockquote>
 "35 hours of coding

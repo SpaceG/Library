@@ -449,11 +449,15 @@ code {
 
 pre {
 	background-color: #111;
-	color: #ccc;
-	font-size: 16px;
-	margin: 0 0 30px;
-	padding: 15px;
-	white-space: pre;
+	    color: #ccc;
+	    font-size: 16px;
+	    margin: 0 0 30px;
+	    /* padding: 15px; */
+	    white-space: pre;
+	    padding-left: 15px;
+	    padding-top: 15px;
+	    /* padding-right: 15px; */
+			border-radius: 4px;
 }
 
 pre code {
@@ -463,13 +467,13 @@ pre code {
 }
 
 blockquote {
-	border-bottom: 1px solid #eee;
-	border-top: 3px solid #eee;
-	color: #111;
+	/*border-bottom: 1px solid #eee;
+	border-top: 3px solid #eee; */
+	color: #BBB;
 	font-size: 24px;
 	font-weight: bold;
 	line-height: 1.5;
-	margin: 0 -90px 30px;
+	/*margin: 0 -90px 30px;*/
 	padding: 30px 0 40px;
 }
 
@@ -527,9 +531,9 @@ hr {
 
 table {
 	font-size: 16px;
-	line-height: 1.5;
+	/* line-height: 1.5; */
 	margin: 0 0 30px;
-	text-align: left;
+	/* text-align: left; */
 	width: 100%;
 }
 
@@ -542,7 +546,7 @@ caption {
 
 th,
 td {
-	border-bottom: 1px solid #eee;
+	border-bottom: 0px solid #eee;
 	padding: 10px 5px;
 }
 
@@ -875,7 +879,7 @@ pre .storage {
 
 .inner {
 	margin: 0 auto;
-	max-width: 740px;
+	max-width: 1240px;
 	padding-left: 30px;
 	padding-right: 30px;
 }
@@ -927,7 +931,7 @@ pre .storage {
 	position: absolute;
 	right: 30px;
 	top: 0;
-	width: 30px;	
+	width: 30px;
 }
 
 .sidebar-toggle .icon {
@@ -1138,8 +1142,10 @@ pre .storage {
 }
 
 .post-title {
-	font-size: 28px;
-	margin-bottom: 10px;
+	font-size: 16px;
+	    /* margin-bottom: 10px; */
+	    padding-left: 50px;
+	    padding-top: 7px;
 }
 
 .post-title a {
@@ -1189,10 +1195,11 @@ pre .storage {
 
 .post-meta {
 	color: #ccc;
-	font: 12px/1.5 'Montserrat', sans-serif;
+	font: 9px/1.5 'Montserrat', sans-serif;
 	letter-spacing: 1px;
 	margin-bottom: 30px;
 	text-transform: uppercase;
+	padding-left: 50px;
 }
 
 .post-meta .reading-time {
@@ -1245,26 +1252,26 @@ pre .storage {
 }
 
 .author-box {
-	border: 3px solid #111;
-	margin-bottom: 60px;
-	min-height: 85px;
-	padding: 30px;
-	position: relative;
+	/*border: 3px solid #111; */
+	    /* margin-bottom: 60px; */
+	    min-height: 85px;
+	    padding: 30px;
+	    position: relative;
 }
 
 .author-box .author-avatar {
 	border-radius: 50%;
-	height: 85px;
+	height: 45px;
 	left: 30px;
 	position: absolute;
 	top: 30px;
-	width: 85px;
+	width: 45px;
 }
 
 .author-box .author-title,
 .author-box .author-description,
 .author-box .author-links {
-	margin-left: 115px;
+	margin-left: 75px;
 }
 
 .no-avatar .author-title,
@@ -1275,7 +1282,7 @@ pre .storage {
 
 .author-box .author-title {
 	color: #ccc;
-	font-size: 16px;
+	font-size: 10px;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
 	text-transform: uppercase;
@@ -1284,10 +1291,11 @@ pre .storage {
 .author-box .author-description {
 	font-size: 14px;
 	margin-bottom: 15px;
+	line-height: 0;
 }
 
 .author-box .author-links {
-	color: #111;
+	color: #D0D0D0;
 	font: 12px/1.5 'Montserrat', sans-serif;
 	letter-spacing: 1px;
 	margin-bottom: 0;
@@ -1313,12 +1321,12 @@ pre .storage {
 	box-sizing:			border-box;
 	float: left;
 	margin-bottom: 30px;
-	padding-left: 30px;
+	padding-left: 0px;
 }
 
 .grid-item,
 .home-template .grid-item:nth-child(3n+1) {
-	height: 450px;
+	height: 500px;
 	width: 50%;
 }
 
@@ -1350,8 +1358,8 @@ pre .storage {
 
 .post-inside .post-header {
 	color: #fff;
-	padding: 60px;
-	position: relative;
+    padding: 0px;
+			position: relative;
 }
 
 .post-inside .read-more {
@@ -1375,7 +1383,7 @@ pre .storage {
 	background-color: #111;
 	color: #fff;
 	display: table;
-	height: 100vh;
+	/*height: 100vh; */
 	margin-bottom: 60px;
 	position: relative;
 	width: 100%;
@@ -1407,7 +1415,7 @@ pre .storage {
 .cover-content {
 	display: table-cell;
 	position: relative;
-	text-align: center;
+/*	text-align: center; */
 	vertical-align: middle;
 	width: 100%;
 }
@@ -1418,7 +1426,7 @@ pre .storage {
 
 .cover .inner {
 	padding-bottom: 30px;
-	padding-top: 60px;
+/*	padding-top: 60px;*/
 }
 
 .cover.hero .inner {
@@ -1427,8 +1435,8 @@ pre .storage {
 }
 
 .cover.post-header .inner {
-	padding-bottom: 90px;
-	padding-top: 120px;
+/*	padding-bottom: 90px;
+	padding-top: 120px; */
 }
 
 .cover .scroll-down {
@@ -1467,7 +1475,7 @@ pre .storage {
 	-webkit-animation-name: fadeIndDown;
 	animation-name: 		fadeIndDown;
 	font-size: 18px;
-	font-style: italic;	
+	font-style: italic;
 }
 
 .hero .subscribe {
@@ -1810,11 +1818,11 @@ pre .storage {
  */
 
 .site-footer {
-	background-color: #000;
+	background-color: #111;
 }
 
 .footer-top {
-	border-bottom: 1px solid #000;
+/*	border-bottom: 1px solid #000;*/
 	padding-bottom: 60px;
 	padding-top: 60px;
 }
@@ -1901,8 +1909,8 @@ pre .storage {
 	blockquote {
 		font-size: 30px;
 		line-height: 1.33333;
-		margin-left: -180px;
-		margin-right: -180px;
+	/*	margin-left: -180px;
+		margin-right: -180px;*/
 		padding-bottom: 60px;
 	}
 
@@ -1950,8 +1958,9 @@ pre .storage {
 	}
 
 	.post-title {
-		font-size: 36px;
-		margin-bottom: 15px;
+		font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 50px;
 	}
 
 	.tag-links a {
@@ -1974,11 +1983,13 @@ pre .storage {
 	.share-post,
 	.post-count,
 	.pagination {
-		font-size: 14px;
+		font-size: 8px;
+		padding-left: 50px;
 	}
 
 	.author-box .author-description {
-		font-size: 16px;
+		font-size: 10px;
+		line-height: 0;
 	}
 
 	blockquote small,
@@ -1990,13 +2001,13 @@ pre .storage {
 	.widget-title,
 	.widget-recent-posts a {
 		font-size: 18px;
-	}	
+	}
 
 	.grid-item,
 	.home-template .grid-item:nth-child(3n+1),
 	.cover.page-header {
 		height: 500px;
-    height: 450px;
+    height: 500px;
     width: 50%;
 }
 	}
@@ -2016,11 +2027,13 @@ pre .storage {
 	.home-template .grid-item:nth-child(3n+3) .post-title,
 	.page-title,
 	.post-template .post-title {
-		font-size: 48px;
+		font-size: 16px;
 	}
 
 	.home-template .grid-item:nth-child(3n+1) .post-title {
-		font-size: 36px;
+		font-size: 14px;
+		padding-left: 50px;
+		padding-top: 10px;
 	}
 
 	.cover .scroll-down {
@@ -2104,9 +2117,9 @@ pre .storage {
 		padding-left: 0;
 	}
 
-	.footer-widgets .footer-col.last {		
+	.footer-widgets .footer-col.last {
 		padding-right: 0;
-	}	
+	}
 }
 
 @media only screen and (max-width: 980px) {
@@ -2373,7 +2386,7 @@ pre .storage {
 	.post-grid,
 	.author-template .post-grid,
 	.tag-template .post-grid {
-	
+
 	}
 
 	.grid-item,
@@ -2410,7 +2423,7 @@ pre .storage {
 	}
 
 	.hero .cover-content {
-		text-align: center;
+	text-align: center;
 	}
 
 	.cover.hero .inner {
@@ -2444,7 +2457,7 @@ pre .storage {
 @media only  screen and (min-width:961px) and (max-width: 1400px) {
 .grid-item, .home-template .grid-item:nth-child(3n+1), .cover.page-header {
     height: 500px;
-    height: 450px;
+    height: 500px;
     width: 50%;
 }
 }
@@ -2473,4 +2486,17 @@ a.page-link {
 	  font-family: Helvetica;
     text-transform: uppercase;
     font-size: 15px;
+}
+
+li#library_____front_____code____lister {
+    list-style: none;
+}
+
+
+/*links for post site author link etc. */
+a#library___link___1 {
+    color: rgba(255, 255, 255, 0.62);
+}
+a#library___link___1:hover {
+    color: white;
 }

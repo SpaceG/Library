@@ -12,77 +12,50 @@ organiser: "Lucas Gatsas"
 
 
 ---
-<h2 class="section-heading">sails.js </h2>
-
-
-
-Sails.js:
-###[sails.js](http://sailsjs.org/)
-
-
-You need the <code> sudo npm install </code> [npmjs.com](https://www.npmjs.com/)  installer to run sails.js correctly. Go Download it via Commandline type
-
-You Need also some tools to run Sails js!
-
-Download
-[npmjs.com](https://www.npmjs.com/)
-
-Download
-[sails.org](http://sailsjs.org/)
-
-Download
-[lesscss.org](http://lesscss.org/)
-
-Download
-[gruntjs.com](http://gruntjs.com/)
-
-Download
-[node.js](http://nodejs.org/)
-
-Download
-[brew.sh](http://brew.sh/)
-
-
-
-Open Terminal and Type: 
-
-<code> sudo npm install </code>
-
-
-<code> sails lift </code>
 
 
 
 
-http://localhost:1337/
+{% highlight ruby linenos %}
+// integer
+      var test = 1;
+      // float
+      var floatWert = 1023.23345489;
+      // NuN
+      var geteiltDurchZwei = 42 / 2;
+      if (isNaN(geteiltDurchZwei)) {
+          document.write("ungültige Number <br>");
+      } else {
+        document.write("geteiltdurchZwei; "  + geteiltDurchZwei + "<br>")
+      }
+{% endhighlight %}
 
+{% highlight ruby linenos %}
+// string
+      var eineZeichenkette = "meineZeichenkette";
+      var eineZeichenketteEins = "ist Toll";
+      document.write(eineZeichenkette + " " + eineZeichenketteEins + "<br>");
+{% endhighlight %}
 
+{% highlight ruby linenos %}
+// Boolean  (Ja = 1 / Nein = 0 )
+    var boolscherWert = true;
+    if (boolscherWert == 1) {
+      document.write("boolscherWert ist 1 <br>");
+    }
+{% endhighlight %}
 
-info: To see your app, visit http://localhost:1337
-info: To shut down Sails, press <CTRL> + C at any time.
+{% highlight ruby linenos %}
+// array / Liste
+      var meinArray = [1, 2, 3, "test", 12.34];
+      document.write("element: " + meinArray [0] + "<br>");
+{% endhighlight %}
 
-
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/Screenshot-2014-09-09-07.23.05.png" alt="Lucas Gatsas" style="width:100%">
-</a>
-
-
-
-<!--
-<a href="#">
-    <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image">
-</a> -->
-
-
-
-<!--
-<a href="#">
-    <img src="{{ site.baseurl }}/img/687474703a2f2f692e696d6775722e636f6d2f52497675392e706e67.png" alt="Post Sample Image" style="height: 500px;"> 
-</a> 
--->
-
+{% highlight ruby linenos %}
+// associative array
+  var person = { name: "Lucas", alter: 30  };
+  document.write (person ["name"] + "<br>" + ["alter"]);
+{% endhighlight %}
 
 
 
@@ -93,12 +66,3 @@ info: To shut down Sails, press <CTRL> + C at any time.
 - Steve Jobs
 
 </blockquote>
-
-
-
-
-
-
-
-
-

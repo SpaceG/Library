@@ -3,9 +3,9 @@
 
   <head>
 
-	<!-- Hello World. 
+	<!-- Hello World.
 		My Name is Lucas Gatsas
-		
+
 		Theme: blog/lucasgatsas.ch
 		Theme: by Lucas Gatsas
 		copy: by Lucas Gatsas
@@ -18,11 +18,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Power Commandlines Os X</title>
-  <meta name="description" content="Real Men Don't Use Menus. I Want To Know How To Use Power Commands. OS X Thema: Terminal/UNIX">
+  <meta name="description" content="1234567891011// integer      var test = 1;      // float      var floatWert = 1023.23345489;      // NuN      var geteiltDurchZwei = 42 / 2;      if (isNaN(g...">
   <link rel="canonical" href="http://blog.lucasgatsas.ch/event/want-to-know-power-commandsline.html">
   <link rel="alternate" type="application/rss+xml" title="Lucas Gatsas" href="http://blog.lucasgatsas.ch/feed.xml">
   <link rel="stylesheet" href="/assets/css/style-v=cba79c2df0.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style-v=cba79c2df0.css" />
+
+<!-- re coding by the glas theme /
+				http://www.github.com/spaceg/glas  -->
+
+
+<link rel="stylesheet" href="/css/animate.css">
+<link rel="stylesheet" href="/css/plugins/codemirror/codemirror.css">
+<link rel="stylesheet" href="/css/plugins/codemirror/ambiance.css">
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+
       <link rel="shortcut icon" href="http://www.lucasgatsas.ch/icon.png">
     <link rel="icon" href="http://www.lucasgatsas.ch/icon.png" type="image/x-icon">
     <!-- Facebook Meta Data -->
@@ -35,6 +48,79 @@
 <meta property="og:site_name" content="www.lucasgatsas.ch"/>
 <meta name="robots" content="index, follow">
 <meta name="robots" content="all">
+<style>
+.highlight pre { background-color: ; } /*#272822*/ /* Night Dark Blue as Default */
+.highlight .hll { background-color: #272822; }
+.highlight .c { color: #75715e } /* Comment */
+.highlight .err { color: #960050; background-color: #1e0010 } /* Error */
+.highlight .k { color: #66d9ef } /* Keyword */
+.highlight .l { color: #ae81ff } /* Literal */
+.highlight .n { color: #f8f8f2 } /* Name */
+.highlight .o { color: #f92672 } /* Operator */
+.highlight .p { color: #f8f8f2 } /* Punctuation */
+.highlight .cm { color: #75715e } /* Comment.Multiline */
+.highlight .cp { color: #75715e } /* Comment.Preproc */
+.highlight .c1 { color: #75715e } /* Comment.Single */
+.highlight .cs { color: #75715e } /* Comment.Special */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .kc { color: #66d9ef } /* Keyword.Constant */
+.highlight .kd { color: #66d9ef } /* Keyword.Declaration */
+.highlight .kn { color: #f92672 } /* Keyword.Namespace */
+.highlight .kp { color: #66d9ef } /* Keyword.Pseudo */
+.highlight .kr { color: #66d9ef } /* Keyword.Reserved */
+.highlight .kt { color: #66d9ef } /* Keyword.Type */
+.highlight .ld { color: #e6db74 } /* Literal.Date */
+.highlight .m { color: #ae81ff } /* Literal.Number */
+.highlight .s { color: #e6db74 } /* Literal.String */
+.highlight .na { color: #a6e22e } /* Name.Attribute */
+.highlight .nb { color: #f8f8f2 } /* Name.Builtin */
+.highlight .nc { color: #a6e22e } /* Name.Class */
+.highlight .no { color: #66d9ef } /* Name.Constant */
+.highlight .nd { color: #a6e22e } /* Name.Decorator */
+.highlight .ni { color: #f8f8f2 } /* Name.Entity */
+.highlight .ne { color: #a6e22e } /* Name.Exception */
+.highlight .nf { color: #a6e22e } /* Name.Function */
+.highlight .nl { color: #f8f8f2 } /* Name.Label */
+.highlight .nn { color: #f8f8f2 } /* Name.Namespace */
+.highlight .nx { color: #a6e22e } /* Name.Other */
+.highlight .py { color: #f8f8f2 } /* Name.Property */
+.highlight .nt { color: #f92672 } /* Name.Tag */
+.highlight .nv { color: #f8f8f2 } /* Name.Variable */
+.highlight .ow { color: #f92672 } /* Operator.Word */
+.highlight .w { color: #f8f8f2 } /* Text.Whitespace */
+.highlight .mf { color: #ae81ff } /* Literal.Number.Float */
+.highlight .mh { color: #ae81ff } /* Literal.Number.Hex */
+.highlight .mi { color: #ae81ff } /* Literal.Number.Integer */
+.highlight .mo { color: #ae81ff } /* Literal.Number.Oct */
+.highlight .sb { color: #e6db74 } /* Literal.String.Backtick */
+.highlight .sc { color: #e6db74 } /* Literal.String.Char */
+.highlight .sd { color: #e6db74 } /* Literal.String.Doc */
+.highlight .s2 { color: #e6db74 } /* Literal.String.Double */
+.highlight .se { color: #ae81ff } /* Literal.String.Escape */
+.highlight .sh { color: #e6db74 } /* Literal.String.Heredoc */
+.highlight .si { color: #e6db74 } /* Literal.String.Interpol */
+.highlight .sx { color: #e6db74 } /* Literal.String.Other */
+.highlight .sr { color: #e6db74 } /* Literal.String.Regex */
+.highlight .s1 { color: #e6db74 } /* Literal.String.Single */
+.highlight .ss { color: #e6db74 } /* Literal.String.Symbol */
+.highlight .bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #f8f8f2 } /* Name.Variable.Class */
+.highlight .vg { color: #f8f8f2 } /* Name.Variable.Global */
+.highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
+.highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
+
+.highlight .gh { } /* Generic Heading & Diff Header */
+.highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
+.highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
+.highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
+
+
+
+.post > .highlight .lineno { color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
+.post > .highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
+
+</style>
 </head>
 
   <body class="home-template">
@@ -115,7 +201,7 @@
           <div class="wrapper">
             
 <!--
-  Example to modify it : 
+  Example to modify it :
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h2 class="post-date"><time datetime="2010-09-14T00:00:00+02:00" itemprop="datePublished">September 14, 2010</time></h2>
@@ -125,9 +211,34 @@
 
         <article class="post tag-music tag-science" itemscope itemtype="http://schema.org/BlogPosting">
             <header class="cover post-header">
-                <div class="post-bg" style="background-image:url(/img/lucas-gatsas-06.png);"></div>
+              <!--  <div class="post-bg" style="background-image:url(/img/lucas-gatsas-06.png);"></div>-->
                 <div class="cover-content">
                     <div class="inner">
+
+
+                      <div class="author-box">
+                          
+                            <img src="http://www.lucasgatsas.ch/img/team1.jpg" alt="Jane Doe" class="author-avatar" />
+                              
+                                
+                                  <h4 class="author-title">About <a id="library___link___1" href="../author/jane-doe/index.html">By Lucas Gatsas</a></h4>
+                                  
+                                    <p class="author-description">Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+</p>
+                                      <p class="author-links">
+                                        <span class="author-location">
+                                            <i class="icon-map-marker" aria-hidden="true"></i>
+                                            Switzerland</span>
+                                              <span class="author-website"><i class="icon-chain" aria-hidden="true"></i>
+                                                 <a id="library___link___1" href="http://www.lucasgatsas.ch" target="_blank">http://lucasgatsas.ch</a>
+                                               </span>
+                                                <span class="author-website"><i class="icon-chain" aria-hidden="true"></i>
+                                                  <a  id="library___link___1" href="http://www.lucasgatsas.ch" target="_blank">lucasgatsas@gmail.com</a>
+                                                </span>
+                                              </p>
+                                          </div>
+
+
                      <!--   <div class="tag-links">
                             <a href="../tag/music/index.html">Music</a><a href="../tag/science/index.html">Science</a>
                         </div>--> <!-- .tag-links -->
@@ -143,266 +254,63 @@
 
               <p>
                 <!-- check out here the content -->
-                 <h2 class="section-heading"><strong>Real Men Don't Use Menus. I Want To Know How To Use Power Commands.</strong> </h2>
-<h2 class="section-heading">OS X Thema: Terminal/UNIX</h2>
+                 
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-<style>
-tbody tr:hover td {
-background: rgba(237,237,237,.25);
-}
-tr {
-border-bottom: .1em solid rgb(237,237,237);
-}
-td {
-border-left: 1px solid rgba(65, 65, 65, 0.09);
-border-right: 1px solid rgba(65, 65, 65, 0.09);
-padding-left: 5px;
-}
-</style>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">string</span>
+      <span class="n">var</span> <span class="n">eineZeichenkette</span> <span class="o">=</span> <span class="s2">"meineZeichenkette"</span><span class="p">;</span>
+      <span class="n">var</span> <span class="n">eineZeichenketteEins</span> <span class="o">=</span> <span class="s2">"ist Toll"</span><span class="p">;</span>
+      <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="n">eineZeichenkette</span> <span class="o">+</span> <span class="s2">" "</span> <span class="o">+</span> <span class="n">eineZeichenketteEins</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">);</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-<figure class="table textLeft"><table class="fullTable"><thead><tr><th>Befehl</th><th>Funktion</th></tr></thead>
-&nbsp; 	<tbody>
-&nbsp; 		<tr>
-&nbsp; 			<td><code>cd</code></td>
-&nbsp; 			<td><em>change directory</em> — Welchselt in ein angegebenenes Verzeichnis</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>ls</code></td>
-&nbsp; 			<td><em>list</em> — Listet den Inhalt eines Verzeichnisses auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>pwd</code></td>
-&nbsp; 			<td><em>print working directory</em> — Zeigt das aktuelle Verzeichnis an</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>cp</code></td>
-&nbsp; 			<td><em>copy</em> — Kopiert Dateien und Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>mv</code></td>
-&nbsp; 			<td><em>move</em> — Verschiebt Dateien und Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>rm</code></td>
-&nbsp; 			<td><em>remove</em> — Löscht Dateien oder Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>mkdir</code></td>
-&nbsp; 			<td><em>make directory</em> — Erstellt einen neuen Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>rmdir</code></td>
-&nbsp; 			<td><em>remove directory</em> — Löscht einen (leeren) Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>open</code></td>
-&nbsp; 			<td>Öffnet eine angegebene Datei oder Ordner</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>kill </code><code> killall</code></td>
-&nbsp; 			<td>Beendet einen angegebenen Prozess</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>whoami</code></td>
-&nbsp; 			<td>Zeigt den aktuellen Benutzer an</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>su</code></td>
-&nbsp; 			<td><em>switch user</em> — Wechselt zum angegebenen Benutzer</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>sudo</code></td>
-&nbsp; 			<td><em>substitute user do</em> — Führt den Befehl als Superuser (root) aus</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>pbcopy</code></td>
-&nbsp; 			<td><em>pasteboard copy</em> — Übergibt Inhalt an die Zwischenablage von OS X</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>pbpaste</code></td>
-&nbsp; 			<td><em>pasteboard past</em> — Gibt Inhalt der OS X Zwischenablage aus</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>say</code></td>
-&nbsp; 			<td>Sprachausgabe eines angegebenen Textes</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>date</code></td>
-&nbsp; 			<td>Zeigt das aktuelle Datum und Uhrzeit an</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>nano</code></td>
-&nbsp; 			<td>Text-Editor nano</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>screencapture</code></td>
-&nbsp; 			<td>Erstellt ein Bildschirmfoto</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>find</code></td>
-&nbsp; 			<td>Suche nach Dateien</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>mdfind</code></td>
-&nbsp; 			<td>Spotlight-Suche</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>ps</code></td>
-&nbsp; 			<td>Listet die aktuell aktiven Prozesse auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>top</code></td>
-&nbsp; 			<td>Listet eine detaillierte Prozessliste auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>history</code></td>
-&nbsp; 			<td>Listet die zuletzt benutzten Befehle auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>clear</code></td>
-&nbsp; 			<td>Verschiebt die Promt so, dass im aktuellen Terminal-Fenster alles leer ist</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>man</code></td>
-&nbsp; 			<td><em>Man-Page</em> — Ruft die Man-Seite zum angegebenen Befehl auf</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>which</code></td>
-&nbsp; 			<td>Welcher Befehl wird ausgeführt?</td>
-&nbsp; 		</tr><tr>
-&nbsp; 			<td><code>whatis</code></td>
-&nbsp; 			<td>Kurzinfo zum angegebenen Befehl</td>
-&nbsp; 		</tr>
-&nbsp; 	</tbody>
-&nbsp; </table>
-</figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5</pre></td><td class="code"><pre><span class="sr">//</span> <span class="no">Boolean</span>  <span class="p">(</span><span class="no">Ja</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="no">Nein</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">)</span>
+    <span class="n">var</span> <span class="n">boolscherWert</span> <span class="o">=</span> <span class="kp">true</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">boolscherWert</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"boolscherWert ist 1 &lt;br&gt;"</span><span class="p">);</span>
+    <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-<p><strong>Installing Command Line Tools in Mac OS X</strong></p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">array</span> <span class="o">/</span> <span class="no">Liste</span>
+      <span class="n">var</span> <span class="n">meinArray</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="s2">"test"</span><span class="p">,</span> <span class="mi">12</span><span class="o">.</span><span class="mi">34</span><span class="p">];</span>
+      <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"element: "</span> <span class="o">+</span> <span class="n">meinArray</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">);</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-<ol>
-  <li>Launch the Terminal, found in</li>
-</ol>
-
-<p><code>/Applications/Utilities/</code></p>
-
-<p><a href="/img/install-command-line-tools-os-x.jpg">
-    <img src="/img/install-command-line-tools-os-x.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%" />
-</a>
-<br /> <br /></p>
-
-<ol>
-  <li>Type the following command string:</li>
-</ol>
-
-<p><code>xcode-select --install</code></p>
-
-<p><a href="/img/confirm-install-command-line-tools-mac-os-x-1.jpg">
-    <img src="/img/confirm-install-command-line-tools-mac-os-x-1.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="max-width:100%" />
-</a></p>
-
-<ol>
-  <li>A popup window will show that asks.</li>
-</ol>
-
-<p><code> The xcode-select command requires the command line developer tools. Would you like to install the tools now?</code></p>
-
-<p>choose to confirm this by clicking “Install”, then agree to the Terms of Service when requested (feel free to read them thoroughly, we’ll be here)</p>
-
-<p><br /><br />
-<a href="/img/downloading-command-line-tools-1.jpg">
-    <img src="/img/downloading-command-line-tools-1.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="max-width:100%" />
-</a></p>
-
-<ol>
-  <li>Wait for the Command Line Tools package download to complete, it’ll be about 130MB and installs fairly quickly depending on your connection speed.</li>
-</ol>
-
-<p><br /><br /></p>
-
-<p>The installer goes away on its own when complete, and you can then confirm everything is working by trying to use one of the commands that were just installed, like gcc, git, svn, rebase, make, ld, otool, nm, whatever you want from the list below. Assuming the installation went uninterrupted, the command will execute as expected. This also means you can compile and install things from source code directly without having to use a package manager. Enjoy your new unix command line toolkit!</p>
-
-<p><strong>What Installs with Command Line Tools and Where</strong></p>
-
-<p>For those interested, the entire package command line toolkit package gets placed in the following directory:</p>
-
-<p>/Library/Developer/
-CommandLineTools/</p>
-
-<p>(note that is the root /Library, not user ~/Library)</p>
-
-<p>If you want to see the 61 new commands available to you, they’re all in</p>
-
-<p>/Library/Developer/
-CommandLineTools/usr/bin/</p>
-
-<p>and we have listed them below for convenience:</p>
-
-<p><code>ar<br />
-as<br />
-asa<br />
-bison<br />
-BuildStrings<br />
-c++<br />
-c89<br />
-c99<br />
-cc<br />
-clang<br />
-clang++<br />
-cmpdylib<br />
-codesign_allocate<br />
-CpMac<br />
-cpp<br />
-ctags<br />
-ctf_insert<br />
-DeRez<br />
-dsymutil<br />
-dwarfdump<br />
-dyldinfo<br />
-flex<br />
-flex++<br />
-g++<br />
-gatherheaderdoc<br />
-gcc<br />
-gcov<br />
-GetFileInfo<br />
-git<br />
-git-cvsserver<br />
-git-receive-pack<br />
-git-shell<br />
-git-upload-archive<br />
-git-upload-pack<br />
-gm4<br />
-gnumake<br />
-gperf<br />
-hdxml2manxml<br />
-headerdoc2html<br />
-indent<br />
-install_name_tool<br />
-ld<br />
-lex<br />
-libtool<br />
-lipo<br />
-lldb<br />
-lorder<br />
-m4<br />
-make<br />
-MergePef<br />
-mig<br />
-mkdep<br />
-MvMac<br />
-nasm<br />
-ndisasm<br />
-nm<br />
-nmedit<br />
-otool<br />
-pagestuff<br />
-projectInfo<br />
-ranlib<br />
-rebase<br />
-redo_prebinding<br />
-ResMerger<br />
-resolveLinks<br />
-Rez<br />
-RezDet<br />
-RezWack<br />
-rpcgen<br />
-segedit<br />
-SetFile<br />
-size<br />
-SplitForks<br />
-strings<br />
-strip<br />
-svn<br />
-svnadmin<br />
-svndumpfilter<br />
-svnlook<br />
-svnrdump<br />
-svnserve<br />
-svnsync<br />
-svnversion<br />
-unifdef<br />
-unifdefall<br />
-UnRezWack<br />
-unwinddump<br />
-what<br />
-xml2man<br />
-yacc</code></p>
-
-<p><small>Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo</small></p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">associative</span> <span class="n">array</span>
+  <span class="n">var</span> <span class="n">person</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">name: </span><span class="s2">"Lucas"</span><span class="p">,</span> <span class="ss">alter: </span><span class="mi">30</span>  <span class="p">};</span>
+  <span class="n">document</span><span class="p">.</span><span class="nf">write</span> <span class="p">(</span><span class="n">person</span> <span class="p">[</span><span class="s2">"name"</span><span class="p">]</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span> <span class="o">+</span> <span class="p">[</span><span class="s2">"alter"</span><span class="p">]);</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
 <blockquote>
 	“sudo make me a sandwich :) ! ”
@@ -428,7 +336,6 @@ yacc</code></p>
               </p>
               -->
 
-<blockquote class="alignright">“If you are going to walk on thin ice, you might as well dance”</blockquote>
     <div>
       <a href='mailto:lucasgatsas@gmail.com?subject=Register interest for Power Commandlines Os X on September 14, 2010&body=Hi! Im interested in your event. Can I come please?' class="button button-primary">Kontakt</a>
         </div>
@@ -441,7 +348,7 @@ yacc</code></p>
                     <a class="icon-facebook square" target="_blank" href="http://wwww.facebook.com/sharer.php?"><span class="screen-reader-text">Facebook</span></a>
                     <a class="icon-google square" target="_blank" href="http://plus.google.com/share?url=http://curious.justgoodthemes.com/walking-on-thin-ice/"><span class="screen-reader-text">Google+</span></a>
               </div>
-                <div class="author-box">
+              <!--  <div class="author-box">
                     
                       <img src="http://www.lucasgatsas.ch/img/team1.jpg" alt="Jane Doe" class="author-avatar" />
                         
@@ -461,7 +368,7 @@ yacc</code></p>
                                             <a href="http://www.lucasgatsas.ch" target="_blank">lucasgatsas@gmail.com</a>
                                           </span>
                                         </p>
-                                    </div>
+                                    </div> -->
                                 </footer><!-- .post-footer -->
                           </article><!-- .post -->
 
@@ -504,6 +411,56 @@ yacc</code></p>
   <script src="/assets/js/plugins-v=cba79c2df0.js"></script>
   <script src="/assets/js/custom-v=cba79c2df0.js "></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
+<!-- New Coding from insperation of the glas theme : http://www.github.com/spaceg/glas
+
+-->
+<script src="/js/jquery-2.1.1.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+
+<script src="/js/plugins/codemirror/codemirror.js"></script>
+<script src="/js/plugins/codemirror/mode/javascript/javascript.js"></script>
+
+<script src="/js/inspinia.js"></script>
+<script src="/js/plugins/pace/pace.min.js"></script>
+
+<!-- Mainly scripts -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- CodeMirror -->
+<script src="js/plugins/codemirror/codemirror.js"></script>
+<script src="js/plugins/codemirror/mode/javascript/javascript.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="js/inspinia.js"></script>
+<script src="js/plugins/pace/pace.min.js"></script>
+
+
+<script>
+     $(document).ready(function(){
+
+         var editor_one = CodeMirror.fromTextArea(document.getElementById("code1"), {
+             lineNumbers: true,
+             matchBrackets: true,
+             styleActiveLine: true,
+             theme:"ambiance"
+         });
+
+         var editor_two = CodeMirror.fromTextArea(document.getElementById("code2"), {
+             lineNumbers: true,
+             matchBrackets: true,
+             styleActiveLine: true
+         });
+
+    });
+</script>
 
         <div class="overlay"></div>
       </div><!-- #page -->

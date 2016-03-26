@@ -3,9 +3,9 @@
 
   <head>
 
-	<!-- Hello World. 
+	<!-- Hello World.
 		My Name is Lucas Gatsas
-		
+
 		Theme: blog/lucasgatsas.ch
 		Theme: by Lucas Gatsas
 		copy: by Lucas Gatsas
@@ -18,11 +18,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NMAP MAC OSX</title>
-  <meta name="description" content="Nmap for Mac Os X - LinuxNmap Security Scanner for Linux-MAC-UNIX ">
+  <meta name="description" content="1234567891011// integer      var test = 1;      // float      var floatWert = 1023.23345489;      // NuN      var geteiltDurchZwei = 42 / 2;      if (isNaN(g...">
   <link rel="canonical" href="http://blog.lucasgatsas.ch/event/nmap-mac-osx.html">
   <link rel="alternate" type="application/rss+xml" title="Lucas Gatsas" href="http://blog.lucasgatsas.ch/feed.xml">
   <link rel="stylesheet" href="/assets/css/style-v=cba79c2df0.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style-v=cba79c2df0.css" />
+
+<!-- re coding by the glas theme /
+				http://www.github.com/spaceg/glas  -->
+
+
+<link rel="stylesheet" href="/css/animate.css">
+<link rel="stylesheet" href="/css/plugins/codemirror/codemirror.css">
+<link rel="stylesheet" href="/css/plugins/codemirror/ambiance.css">
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+
       <link rel="shortcut icon" href="http://www.lucasgatsas.ch/icon.png">
     <link rel="icon" href="http://www.lucasgatsas.ch/icon.png" type="image/x-icon">
     <!-- Facebook Meta Data -->
@@ -35,6 +48,79 @@
 <meta property="og:site_name" content="www.lucasgatsas.ch"/>
 <meta name="robots" content="index, follow">
 <meta name="robots" content="all">
+<style>
+.highlight pre { background-color: ; } /*#272822*/ /* Night Dark Blue as Default */
+.highlight .hll { background-color: #272822; }
+.highlight .c { color: #75715e } /* Comment */
+.highlight .err { color: #960050; background-color: #1e0010 } /* Error */
+.highlight .k { color: #66d9ef } /* Keyword */
+.highlight .l { color: #ae81ff } /* Literal */
+.highlight .n { color: #f8f8f2 } /* Name */
+.highlight .o { color: #f92672 } /* Operator */
+.highlight .p { color: #f8f8f2 } /* Punctuation */
+.highlight .cm { color: #75715e } /* Comment.Multiline */
+.highlight .cp { color: #75715e } /* Comment.Preproc */
+.highlight .c1 { color: #75715e } /* Comment.Single */
+.highlight .cs { color: #75715e } /* Comment.Special */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .kc { color: #66d9ef } /* Keyword.Constant */
+.highlight .kd { color: #66d9ef } /* Keyword.Declaration */
+.highlight .kn { color: #f92672 } /* Keyword.Namespace */
+.highlight .kp { color: #66d9ef } /* Keyword.Pseudo */
+.highlight .kr { color: #66d9ef } /* Keyword.Reserved */
+.highlight .kt { color: #66d9ef } /* Keyword.Type */
+.highlight .ld { color: #e6db74 } /* Literal.Date */
+.highlight .m { color: #ae81ff } /* Literal.Number */
+.highlight .s { color: #e6db74 } /* Literal.String */
+.highlight .na { color: #a6e22e } /* Name.Attribute */
+.highlight .nb { color: #f8f8f2 } /* Name.Builtin */
+.highlight .nc { color: #a6e22e } /* Name.Class */
+.highlight .no { color: #66d9ef } /* Name.Constant */
+.highlight .nd { color: #a6e22e } /* Name.Decorator */
+.highlight .ni { color: #f8f8f2 } /* Name.Entity */
+.highlight .ne { color: #a6e22e } /* Name.Exception */
+.highlight .nf { color: #a6e22e } /* Name.Function */
+.highlight .nl { color: #f8f8f2 } /* Name.Label */
+.highlight .nn { color: #f8f8f2 } /* Name.Namespace */
+.highlight .nx { color: #a6e22e } /* Name.Other */
+.highlight .py { color: #f8f8f2 } /* Name.Property */
+.highlight .nt { color: #f92672 } /* Name.Tag */
+.highlight .nv { color: #f8f8f2 } /* Name.Variable */
+.highlight .ow { color: #f92672 } /* Operator.Word */
+.highlight .w { color: #f8f8f2 } /* Text.Whitespace */
+.highlight .mf { color: #ae81ff } /* Literal.Number.Float */
+.highlight .mh { color: #ae81ff } /* Literal.Number.Hex */
+.highlight .mi { color: #ae81ff } /* Literal.Number.Integer */
+.highlight .mo { color: #ae81ff } /* Literal.Number.Oct */
+.highlight .sb { color: #e6db74 } /* Literal.String.Backtick */
+.highlight .sc { color: #e6db74 } /* Literal.String.Char */
+.highlight .sd { color: #e6db74 } /* Literal.String.Doc */
+.highlight .s2 { color: #e6db74 } /* Literal.String.Double */
+.highlight .se { color: #ae81ff } /* Literal.String.Escape */
+.highlight .sh { color: #e6db74 } /* Literal.String.Heredoc */
+.highlight .si { color: #e6db74 } /* Literal.String.Interpol */
+.highlight .sx { color: #e6db74 } /* Literal.String.Other */
+.highlight .sr { color: #e6db74 } /* Literal.String.Regex */
+.highlight .s1 { color: #e6db74 } /* Literal.String.Single */
+.highlight .ss { color: #e6db74 } /* Literal.String.Symbol */
+.highlight .bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #f8f8f2 } /* Name.Variable.Class */
+.highlight .vg { color: #f8f8f2 } /* Name.Variable.Global */
+.highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
+.highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
+
+.highlight .gh { } /* Generic Heading & Diff Header */
+.highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
+.highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
+.highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
+
+
+
+.post > .highlight .lineno { color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
+.post > .highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
+
+</style>
 </head>
 
   <body class="home-template">
@@ -115,7 +201,7 @@
           <div class="wrapper">
             
 <!--
-  Example to modify it : 
+  Example to modify it :
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h2 class="post-date"><time datetime="2016-01-13T00:00:00+01:00" itemprop="datePublished">January 13, 2016</time></h2>
@@ -125,9 +211,34 @@
 
         <article class="post tag-music tag-science" itemscope itemtype="http://schema.org/BlogPosting">
             <header class="cover post-header">
-                <div class="post-bg" style="background-image:url(/img/hiking-2.jpg);"></div>
+              <!--  <div class="post-bg" style="background-image:url(/img/hiking-2.jpg);"></div>-->
                 <div class="cover-content">
                     <div class="inner">
+
+
+                      <div class="author-box">
+                          
+                            <img src="http://www.lucasgatsas.ch/img/team1.jpg" alt="Jane Doe" class="author-avatar" />
+                              
+                                
+                                  <h4 class="author-title">About <a id="library___link___1" href="../author/jane-doe/index.html">By Lucas Gatsas</a></h4>
+                                  
+                                    <p class="author-description">Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+</p>
+                                      <p class="author-links">
+                                        <span class="author-location">
+                                            <i class="icon-map-marker" aria-hidden="true"></i>
+                                            Switzerland</span>
+                                              <span class="author-website"><i class="icon-chain" aria-hidden="true"></i>
+                                                 <a id="library___link___1" href="http://www.lucasgatsas.ch" target="_blank">http://lucasgatsas.ch</a>
+                                               </span>
+                                                <span class="author-website"><i class="icon-chain" aria-hidden="true"></i>
+                                                  <a  id="library___link___1" href="http://www.lucasgatsas.ch" target="_blank">lucasgatsas@gmail.com</a>
+                                                </span>
+                                              </p>
+                                          </div>
+
+
                      <!--   <div class="tag-links">
                             <a href="../tag/music/index.html">Music</a><a href="../tag/science/index.html">Science</a>
                         </div>--> <!-- .tag-links -->
@@ -143,7 +254,65 @@
 
               <p>
                 <!-- check out here the content -->
-                 <h2 class="section-heading">Nmap for Mac Os X - Linux</h2>
+                 
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">string</span>
+      <span class="n">var</span> <span class="n">eineZeichenkette</span> <span class="o">=</span> <span class="s2">"meineZeichenkette"</span><span class="p">;</span>
+      <span class="n">var</span> <span class="n">eineZeichenketteEins</span> <span class="o">=</span> <span class="s2">"ist Toll"</span><span class="p">;</span>
+      <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="n">eineZeichenkette</span> <span class="o">+</span> <span class="s2">" "</span> <span class="o">+</span> <span class="n">eineZeichenketteEins</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">);</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5</pre></td><td class="code"><pre><span class="sr">//</span> <span class="no">Boolean</span>  <span class="p">(</span><span class="no">Ja</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="no">Nein</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">)</span>
+    <span class="n">var</span> <span class="n">boolscherWert</span> <span class="o">=</span> <span class="kp">true</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">boolscherWert</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"boolscherWert ist 1 &lt;br&gt;"</span><span class="p">);</span>
+    <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">array</span> <span class="o">/</span> <span class="no">Liste</span>
+      <span class="n">var</span> <span class="n">meinArray</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="s2">"test"</span><span class="p">,</span> <span class="mi">12</span><span class="o">.</span><span class="mi">34</span><span class="p">];</span>
+      <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"element: "</span> <span class="o">+</span> <span class="n">meinArray</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">);</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">associative</span> <span class="n">array</span>
+  <span class="n">var</span> <span class="n">person</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">name: </span><span class="s2">"Lucas"</span><span class="p">,</span> <span class="ss">alter: </span><span class="mi">30</span>  <span class="p">};</span>
+  <span class="n">document</span><span class="p">.</span><span class="nf">write</span> <span class="p">(</span><span class="n">person</span> <span class="p">[</span><span class="s2">"name"</span><span class="p">]</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span> <span class="o">+</span> <span class="p">[</span><span class="s2">"alter"</span><span class="p">]);</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<h2 class="section-heading">Nmap for Mac Os X - Linux</h2>
 <h2 class="section-heading">Nmap Security Scanner for Linux-MAC-UNIX </h2>
 
 <p><strong> Was ist Nmap ? </strong></p>
@@ -244,10 +413,10 @@ nmap --osscan-guess 192.168.0.2 </code></p>
 Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Scan Only <strong>your Network </strong> and <strong> Computers, Websites </strong> etc.  as follows:
 </blockquote>
 
-<p>At last i have to lol. because i found this crazy thing here : 
+<p>At last i have to lol. because i found this crazy thing here :
 <a href="http://nmap.org/movies/#elysium">Nmap in Movies!</a></p>
 
-<p>Link: 
+<p>Link:
 <a href="http://nmap.org/download.html#macosx">nmap.org</a></p>
 
 <blockquote>
@@ -274,7 +443,6 @@ This is a SwissWatch! :)
               </p>
               -->
 
-<blockquote class="alignright">“If you are going to walk on thin ice, you might as well dance”</blockquote>
     <div>
       <a href='mailto:lucasgatsas@gmail.com?subject=Register interest for NMAP MAC OSX on January 13, 2016&body=Hi! Im interested in your event. Can I come please?' class="button button-primary">Kontakt</a>
         </div>
@@ -287,7 +455,7 @@ This is a SwissWatch! :)
                     <a class="icon-facebook square" target="_blank" href="http://wwww.facebook.com/sharer.php?"><span class="screen-reader-text">Facebook</span></a>
                     <a class="icon-google square" target="_blank" href="http://plus.google.com/share?url=http://curious.justgoodthemes.com/walking-on-thin-ice/"><span class="screen-reader-text">Google+</span></a>
               </div>
-                <div class="author-box">
+              <!--  <div class="author-box">
                     
                       <img src="http://www.lucasgatsas.ch/img/team1.jpg" alt="Jane Doe" class="author-avatar" />
                         
@@ -307,7 +475,7 @@ This is a SwissWatch! :)
                                             <a href="http://www.lucasgatsas.ch" target="_blank">lucasgatsas@gmail.com</a>
                                           </span>
                                         </p>
-                                    </div>
+                                    </div> -->
                                 </footer><!-- .post-footer -->
                           </article><!-- .post -->
 
@@ -354,6 +522,56 @@ This is a SwissWatch! :)
   <script src="/assets/js/plugins-v=cba79c2df0.js"></script>
   <script src="/assets/js/custom-v=cba79c2df0.js "></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
+<!-- New Coding from insperation of the glas theme : http://www.github.com/spaceg/glas
+
+-->
+<script src="/js/jquery-2.1.1.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+
+<script src="/js/plugins/codemirror/codemirror.js"></script>
+<script src="/js/plugins/codemirror/mode/javascript/javascript.js"></script>
+
+<script src="/js/inspinia.js"></script>
+<script src="/js/plugins/pace/pace.min.js"></script>
+
+<!-- Mainly scripts -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- CodeMirror -->
+<script src="js/plugins/codemirror/codemirror.js"></script>
+<script src="js/plugins/codemirror/mode/javascript/javascript.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="js/inspinia.js"></script>
+<script src="js/plugins/pace/pace.min.js"></script>
+
+
+<script>
+     $(document).ready(function(){
+
+         var editor_one = CodeMirror.fromTextArea(document.getElementById("code1"), {
+             lineNumbers: true,
+             matchBrackets: true,
+             styleActiveLine: true,
+             theme:"ambiance"
+         });
+
+         var editor_two = CodeMirror.fromTextArea(document.getElementById("code2"), {
+             lineNumbers: true,
+             matchBrackets: true,
+             styleActiveLine: true
+         });
+
+    });
+</script>
 
         <div class="overlay"></div>
       </div><!-- #page -->

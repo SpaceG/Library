@@ -3,9 +3,9 @@
 
   <head>
 
-	<!-- Hello World. 
+	<!-- Hello World.
 		My Name is Lucas Gatsas
-		
+
 		Theme: blog/lucasgatsas.ch
 		Theme: by Lucas Gatsas
 		copy: by Lucas Gatsas
@@ -18,11 +18,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sudo Sails Lift port80</title>
-  <meta name="description" content="奋力拼搏">
+  <meta name="description" content="1234567891011// integer      var test = 1;      // float      var floatWert = 1023.23345489;      // NuN      var geteiltDurchZwei = 42 / 2;      if (isNaN(g...">
   <link rel="canonical" href="http://blog.lucasgatsas.ch/event/sails.js-sudo-sails-lfit-via-port-80-local.js.html">
   <link rel="alternate" type="application/rss+xml" title="Lucas Gatsas" href="http://blog.lucasgatsas.ch/feed.xml">
   <link rel="stylesheet" href="/assets/css/style-v=cba79c2df0.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style-v=cba79c2df0.css" />
+
+<!-- re coding by the glas theme /
+				http://www.github.com/spaceg/glas  -->
+
+
+<link rel="stylesheet" href="/css/animate.css">
+<link rel="stylesheet" href="/css/plugins/codemirror/codemirror.css">
+<link rel="stylesheet" href="/css/plugins/codemirror/ambiance.css">
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+
       <link rel="shortcut icon" href="http://www.lucasgatsas.ch/icon.png">
     <link rel="icon" href="http://www.lucasgatsas.ch/icon.png" type="image/x-icon">
     <!-- Facebook Meta Data -->
@@ -35,6 +48,79 @@
 <meta property="og:site_name" content="www.lucasgatsas.ch"/>
 <meta name="robots" content="index, follow">
 <meta name="robots" content="all">
+<style>
+.highlight pre { background-color: ; } /*#272822*/ /* Night Dark Blue as Default */
+.highlight .hll { background-color: #272822; }
+.highlight .c { color: #75715e } /* Comment */
+.highlight .err { color: #960050; background-color: #1e0010 } /* Error */
+.highlight .k { color: #66d9ef } /* Keyword */
+.highlight .l { color: #ae81ff } /* Literal */
+.highlight .n { color: #f8f8f2 } /* Name */
+.highlight .o { color: #f92672 } /* Operator */
+.highlight .p { color: #f8f8f2 } /* Punctuation */
+.highlight .cm { color: #75715e } /* Comment.Multiline */
+.highlight .cp { color: #75715e } /* Comment.Preproc */
+.highlight .c1 { color: #75715e } /* Comment.Single */
+.highlight .cs { color: #75715e } /* Comment.Special */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .kc { color: #66d9ef } /* Keyword.Constant */
+.highlight .kd { color: #66d9ef } /* Keyword.Declaration */
+.highlight .kn { color: #f92672 } /* Keyword.Namespace */
+.highlight .kp { color: #66d9ef } /* Keyword.Pseudo */
+.highlight .kr { color: #66d9ef } /* Keyword.Reserved */
+.highlight .kt { color: #66d9ef } /* Keyword.Type */
+.highlight .ld { color: #e6db74 } /* Literal.Date */
+.highlight .m { color: #ae81ff } /* Literal.Number */
+.highlight .s { color: #e6db74 } /* Literal.String */
+.highlight .na { color: #a6e22e } /* Name.Attribute */
+.highlight .nb { color: #f8f8f2 } /* Name.Builtin */
+.highlight .nc { color: #a6e22e } /* Name.Class */
+.highlight .no { color: #66d9ef } /* Name.Constant */
+.highlight .nd { color: #a6e22e } /* Name.Decorator */
+.highlight .ni { color: #f8f8f2 } /* Name.Entity */
+.highlight .ne { color: #a6e22e } /* Name.Exception */
+.highlight .nf { color: #a6e22e } /* Name.Function */
+.highlight .nl { color: #f8f8f2 } /* Name.Label */
+.highlight .nn { color: #f8f8f2 } /* Name.Namespace */
+.highlight .nx { color: #a6e22e } /* Name.Other */
+.highlight .py { color: #f8f8f2 } /* Name.Property */
+.highlight .nt { color: #f92672 } /* Name.Tag */
+.highlight .nv { color: #f8f8f2 } /* Name.Variable */
+.highlight .ow { color: #f92672 } /* Operator.Word */
+.highlight .w { color: #f8f8f2 } /* Text.Whitespace */
+.highlight .mf { color: #ae81ff } /* Literal.Number.Float */
+.highlight .mh { color: #ae81ff } /* Literal.Number.Hex */
+.highlight .mi { color: #ae81ff } /* Literal.Number.Integer */
+.highlight .mo { color: #ae81ff } /* Literal.Number.Oct */
+.highlight .sb { color: #e6db74 } /* Literal.String.Backtick */
+.highlight .sc { color: #e6db74 } /* Literal.String.Char */
+.highlight .sd { color: #e6db74 } /* Literal.String.Doc */
+.highlight .s2 { color: #e6db74 } /* Literal.String.Double */
+.highlight .se { color: #ae81ff } /* Literal.String.Escape */
+.highlight .sh { color: #e6db74 } /* Literal.String.Heredoc */
+.highlight .si { color: #e6db74 } /* Literal.String.Interpol */
+.highlight .sx { color: #e6db74 } /* Literal.String.Other */
+.highlight .sr { color: #e6db74 } /* Literal.String.Regex */
+.highlight .s1 { color: #e6db74 } /* Literal.String.Single */
+.highlight .ss { color: #e6db74 } /* Literal.String.Symbol */
+.highlight .bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #f8f8f2 } /* Name.Variable.Class */
+.highlight .vg { color: #f8f8f2 } /* Name.Variable.Global */
+.highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
+.highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
+
+.highlight .gh { } /* Generic Heading & Diff Header */
+.highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
+.highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
+.highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
+
+
+
+.post > .highlight .lineno { color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
+.post > .highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
+
+</style>
 </head>
 
   <body class="home-template">
@@ -115,7 +201,7 @@
           <div class="wrapper">
             
 <!--
-  Example to modify it : 
+  Example to modify it :
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h2 class="post-date"><time datetime="2015-10-06T00:00:00+02:00" itemprop="datePublished">October 6, 2015</time></h2>
@@ -125,9 +211,34 @@
 
         <article class="post tag-music tag-science" itemscope itemtype="http://schema.org/BlogPosting">
             <header class="cover post-header">
-                <div class="post-bg" style="background-image:url(/img/landscape_2-1.jpg);"></div>
+              <!--  <div class="post-bg" style="background-image:url(/img/landscape_2-1.jpg);"></div>-->
                 <div class="cover-content">
                     <div class="inner">
+
+
+                      <div class="author-box">
+                          
+                            <img src="http://www.lucasgatsas.ch/img/team1.jpg" alt="Jane Doe" class="author-avatar" />
+                              
+                                
+                                  <h4 class="author-title">About <a id="library___link___1" href="../author/jane-doe/index.html">By Lucas Gatsas</a></h4>
+                                  
+                                    <p class="author-description">Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+</p>
+                                      <p class="author-links">
+                                        <span class="author-location">
+                                            <i class="icon-map-marker" aria-hidden="true"></i>
+                                            Switzerland</span>
+                                              <span class="author-website"><i class="icon-chain" aria-hidden="true"></i>
+                                                 <a id="library___link___1" href="http://www.lucasgatsas.ch" target="_blank">http://lucasgatsas.ch</a>
+                                               </span>
+                                                <span class="author-website"><i class="icon-chain" aria-hidden="true"></i>
+                                                  <a  id="library___link___1" href="http://www.lucasgatsas.ch" target="_blank">lucasgatsas@gmail.com</a>
+                                                </span>
+                                              </p>
+                                          </div>
+
+
                      <!--   <div class="tag-links">
                             <a href="../tag/music/index.html">Music</a><a href="../tag/science/index.html">Science</a>
                         </div>--> <!-- .tag-links -->
@@ -143,215 +254,67 @@
 
               <p>
                 <!-- check out here the content -->
-                 <h2 class="section-heading">奋力拼搏</h2>
+                 
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-<h2 class="section-heading">Run Your Web App via port 80 - Sails.js</h2>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">string</span>
+      <span class="n">var</span> <span class="n">eineZeichenkette</span> <span class="o">=</span> <span class="s2">"meineZeichenkette"</span><span class="p">;</span>
+      <span class="n">var</span> <span class="n">eineZeichenketteEins</span> <span class="o">=</span> <span class="s2">"ist Toll"</span><span class="p">;</span>
+      <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="n">eineZeichenkette</span> <span class="o">+</span> <span class="s2">" "</span> <span class="o">+</span> <span class="n">eineZeichenketteEins</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">);</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-<p>The Error was to sails lift the App via only <code> sails lift </code><br />
-Get many Times this error back, tried everything to lift the Web App. but Error. 
-To fix this Issue, do you can change some files inside your App. After Run your 
-App with <code> $ sudo sails lift </code>. 
-<br /></p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5</pre></td><td class="code"><pre><span class="sr">//</span> <span class="no">Boolean</span>  <span class="p">(</span><span class="no">Ja</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="no">Nein</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">)</span>
+    <span class="n">var</span> <span class="n">boolscherWert</span> <span class="o">=</span> <span class="kp">true</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">boolscherWert</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"boolscherWert ist 1 &lt;br&gt;"</span><span class="p">);</span>
+    <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-<p>I have included a <code> local.js </code> file to the App. 
-Here is my Code to Run the WebApp via <code> port 80 </code>  without <code> 1337 </code>.
-The very Important thing is to take your port with this small code <code>  port: process.env.PORT || 80, </code> 
-<br /></p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">array</span> <span class="o">/</span> <span class="no">Liste</span>
+      <span class="n">var</span> <span class="n">meinArray</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="s2">"test"</span><span class="p">,</span> <span class="mi">12</span><span class="o">.</span><span class="mi">34</span><span class="p">];</span>
+      <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"element: "</span> <span class="o">+</span> <span class="n">meinArray</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">);</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
-<p>Now a was go ahead with the <code> local.js </code> like in the description in the sails.js document! 
-first i have inculded this in the <code> development.js </code> file. and saved this.</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">info: </span><span class="no">To</span> <span class="n">see</span> <span class="n">your</span> <span class="n">app</span><span class="p">,</span> <span class="n">visit</span> <span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="n">localhost</span>
-<span class="ss">info: </span><span class="no">To</span> <span class="n">shut</span> <span class="n">down</span> <span class="no">Sails</span><span class="p">,</span> <span class="n">press</span> <span class="o">&lt;</span><span class="no">CTRL</span><span class="o">&gt;</span> <span class="o">+</span> <span class="no">C</span> <span class="n">at</span> <span class="n">any</span> <span class="n">time</span><span class="p">.</span>
-
-<span class="nf">debug</span><span class="p">:</span> <span class="o">--------------------------------------------------------</span>
-<span class="ss">debug: </span><span class="o">::</span> <span class="no">Tue</span> <span class="no">Oct</span> <span class="mo">06</span> <span class="mi">2015</span> <span class="mi">22</span><span class="p">:</span><span class="mi">18</span><span class="p">:</span><span class="mi">40</span> <span class="no">GMT</span><span class="o">+</span><span class="mo">0200</span> <span class="p">(</span><span class="no">CEST</span><span class="p">)</span>
-
-<span class="ss">debug: </span><span class="no">Environment</span> <span class="p">:</span> <span class="n">development</span>
-<span class="ss">debug: </span><span class="no">Port</span>        <span class="p">:</span> <span class="mi">80</span>
-<span class="ss">debug: </span><span class="o">--------------------------------------------------------</span>
-<span class="n">events</span><span class="p">.</span><span class="nf">js</span><span class="p">:</span><span class="mi">85</span>
-      <span class="kp">throw</span> <span class="n">er</span><span class="p">;</span> <span class="sr">//</span> <span class="no">Unhandled</span> <span class="s1">'error'</span> <span class="n">event</span>
-            <span class="o">^</span>
-<span class="no">Error</span><span class="p">:</span> <span class="n">listen</span> <span class="no">EACCES</span>
-    <span class="n">at</span> <span class="n">exports</span><span class="p">.</span><span class="nf">_errnoException</span> <span class="p">(</span><span class="n">util</span><span class="p">.</span><span class="nf">js</span><span class="p">:</span><span class="mi">746</span><span class="p">:</span><span class="mi">11</span><span class="p">)</span>
-    <span class="n">at</span> <span class="no">Server</span><span class="p">.</span><span class="nf">_listen2</span> <span class="p">(</span><span class="n">net</span><span class="p">.</span><span class="nf">js</span><span class="p">:</span><span class="mi">1139</span><span class="p">:</span><span class="mi">19</span><span class="p">)</span>
-    <span class="n">at</span> <span class="n">listen</span> <span class="p">(</span><span class="n">net</span><span class="p">.</span><span class="nf">js</span><span class="p">:</span><span class="mi">1182</span><span class="p">:</span><span class="mi">10</span><span class="p">)</span></code></pre></figure>
-
-<p>The <code> development.js </code>  File!</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">/**
- * Development environment settings
- *
- * This file can include shared settings for a development team,
- * such as API keys or remote database passwords.  If you're using
- * a version control solution for your Sails app, this file will
- * be committed to your repository unless you add it to your .gitignore
- * file.  If your repository will be publicly viewable, don't add
- * any private information to this file!
- *
- */</span>
-
-<span class="n">module</span><span class="p">.</span><span class="nf">exports</span> <span class="o">=</span> <span class="p">{</span>
-
-  <span class="sr">/***************************************************************************
-   * Set the default database connection for models in the development       *
-   * environment (see config/</span><span class="n">connections</span><span class="p">.</span><span class="nf">js</span> <span class="n">and</span> <span class="n">config</span><span class="o">/</span><span class="n">models</span><span class="p">.</span><span class="nf">js</span> <span class="p">)</span>           <span class="o">*</span>
-   <span class="o">***************************************************************************</span><span class="sr">/
-
-  /</span><span class="o">/</span> <span class="ss">models: </span><span class="p">{</span>
-  <span class="sr">//</span>   <span class="ss">connection: </span><span class="s1">'someMongodbServer'</span>
-  <span class="sr">//</span> <span class="p">},</span>
-  
-  <span class="sr">/***************************************************************************
-   * Set the port in the development environment to 80                        *
-   ***************************************************************************/</span>
-
-   <span class="sr">//</span> <span class="ss">port: </span><span class="mi">80</span><span class="p">,</span>
-<span class="p">};</span></code></pre></figure>
-
-<p><br /></p>
-
-<p>The <code> development.js.bak </code>  File!</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">/**
- * Development environment settings
- *
- * This file can include shared settings for a development team,
- * such as API keys or remote database passwords.  If you're using
- * a version control solution for your Sails app, this file will
- * be committed to your repository unless you add it to your .gitignore
- * file.  If your repository will be publicly viewable, don't add
- * any private information to this file!
- *
- */</span>
-
-<span class="n">module</span><span class="p">.</span><span class="nf">exports</span> <span class="o">=</span> <span class="p">{</span>
-
-  <span class="sr">/***************************************************************************
-   * Set the default database connection for models in the development       *
-   * environment (see config/</span><span class="n">connections</span><span class="p">.</span><span class="nf">js</span> <span class="n">and</span> <span class="n">config</span><span class="o">/</span><span class="n">models</span><span class="p">.</span><span class="nf">js</span> <span class="p">)</span>           <span class="o">*</span>
-   <span class="o">***************************************************************************</span><span class="sr">/
-
-  /</span><span class="o">/</span> <span class="ss">models: </span><span class="p">{</span>
-  <span class="sr">//</span>   <span class="ss">connection: </span><span class="s1">'someMongodbServer'</span>
-  <span class="sr">//</span> <span class="p">},</span>
-  
-  <span class="sr">/***************************************************************************
-   * Set the port in the development environment to 80                        *
-   ***************************************************************************/</span>
-
-   <span class="ss">port: </span><span class="mi">80</span><span class="p">,</span>
-<span class="p">};</span></code></pre></figure>
-
-<p>The <code> local.js </code>  File!</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">/**
-
-Local environment settings *
-While you're developing your app, this config file should include
-any settings specifically for your development computer (db passwords, etc.)
-When you're ready to deploy your app in production, you can use this file
-for configuration options on the server where it will be deployed. * *
-PLEASE NOTE:
-This file is included in your .gitignore, so if you're using git
-as a version control solution for your Sails app, keep in mind that
-this file won't be committed to your repository! *
-Good news is, that means you can specify configuration for your local
-machine in this file without inadvertently committing personal information
-(like database passwords) to the repo. Plus, this prevents other members
-of your team from commiting their local configuration changes on top of yours. * *
-For more information, check out:
-http:/</span><span class="o">/</span><span class="n">sailsjs</span><span class="p">.</span><span class="nf">org</span><span class="o">/</span><span class="c1">#documentation */</span>
-<span class="n">module</span><span class="p">.</span><span class="nf">exports</span> <span class="o">=</span> <span class="p">{</span>
-
-<span class="sr">//</span> <span class="no">The</span> <span class="n">port</span> <span class="n">setting</span> <span class="n">determines</span> <span class="n">which</span> <span class="no">TCP</span> <span class="n">port</span> <span class="n">your</span> <span class="n">app</span> <span class="n">will</span> <span class="n">be</span> <span class="n">deployed</span> <span class="n">on</span>
-<span class="sr">//</span> <span class="no">Ports</span> <span class="n">are</span> <span class="n">a</span> <span class="n">transport</span><span class="o">-</span><span class="n">layer</span> <span class="n">concept</span> <span class="n">designed</span> <span class="n">to</span> <span class="n">allow</span> <span class="n">many</span> <span class="n">different</span>
-<span class="sr">//</span> <span class="n">networking</span> <span class="n">applications</span> <span class="n">run</span> <span class="n">at</span> <span class="n">the</span> <span class="n">same</span> <span class="n">time</span> <span class="n">on</span> <span class="n">a</span> <span class="n">single</span> <span class="n">computer</span><span class="p">.</span>
-<span class="nf">/</span><span class="o">/</span> <span class="no">More</span> <span class="n">about</span> <span class="ss">ports: </span><span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="n">en</span><span class="p">.</span><span class="nf">wikipedia</span><span class="p">.</span><span class="nf">org</span><span class="o">/</span><span class="n">wiki</span><span class="o">/</span><span class="no">Port_</span><span class="p">(</span><span class="n">computer_networking</span><span class="p">)</span>
-<span class="sr">//</span> 
-<span class="sr">//</span> <span class="no">By</span> <span class="n">default</span><span class="p">,</span> <span class="k">if</span> <span class="n">it</span><span class="s1">'s set, Sails uses the PORT environment variable.
-// Otherwise it falls back to port 1337.
-//
-// In production, you'</span><span class="n">ll</span> <span class="n">probably</span> <span class="n">want</span> <span class="n">to</span> <span class="n">change</span> <span class="n">this</span> <span class="n">setting</span> 
-<span class="sr">//</span> <span class="n">to</span> <span class="mi">80</span> <span class="p">(</span><span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="p">)</span> <span class="n">or</span> <span class="mi">443</span> <span class="p">(</span><span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="p">)</span> <span class="k">if</span> <span class="n">you</span> <span class="n">have</span> <span class="n">an</span> <span class="no">SSL</span> <span class="n">certificate</span>
-
-<span class="ss">port: </span><span class="n">process</span><span class="p">.</span><span class="nf">env</span><span class="o">.</span><span class="no">PORT</span> <span class="o">||</span> <span class="mi">80</span><span class="p">,</span>
-
-<span class="sr">//</span> <span class="no">The</span> <span class="n">runtime</span> <span class="s2">"environment"</span> <span class="n">of</span> <span class="n">your</span> <span class="no">Sails</span> <span class="n">app</span> <span class="n">is</span> <span class="n">either</span> <span class="s1">'development'</span> <span class="n">or</span> <span class="s1">'production'</span><span class="p">.</span>
-<span class="nf">/</span><span class="o">/</span>
-<span class="sr">//</span> <span class="no">In</span> <span class="n">development</span><span class="p">,</span> <span class="n">your</span> <span class="no">Sails</span> <span class="n">app</span> <span class="n">will</span> <span class="n">go</span> <span class="n">out</span> <span class="n">of</span> <span class="n">its</span> <span class="n">way</span> <span class="n">to</span> <span class="n">help</span> <span class="n">you</span>
-<span class="sr">//</span> <span class="p">(</span><span class="k">for</span> <span class="n">instance</span> <span class="n">you</span> <span class="n">will</span> <span class="n">receive</span> <span class="n">more</span> <span class="n">descriptive</span> <span class="n">error</span> <span class="n">and</span> <span class="n">debugging</span> <span class="n">output</span><span class="p">)</span>
-<span class="sr">//</span>
-<span class="sr">//</span> <span class="no">In</span> <span class="n">production</span><span class="p">,</span> <span class="no">Sails</span> <span class="n">configures</span> <span class="n">itself</span> <span class="p">(</span><span class="n">and</span> <span class="n">its</span> <span class="n">dependencies</span><span class="p">)</span> <span class="n">to</span> <span class="n">optimize</span> <span class="n">performance</span><span class="p">.</span>
-<span class="nf">/</span><span class="o">/</span> <span class="no">You</span> <span class="n">should</span> <span class="n">always</span> <span class="n">put</span> <span class="n">your</span> <span class="n">app</span> <span class="k">in</span> <span class="n">production</span> <span class="n">mode</span> <span class="n">before</span> <span class="n">you</span> <span class="n">deploy</span> <span class="n">it</span> <span class="n">to</span> <span class="n">a</span> <span class="n">server</span><span class="o">-</span>
-<span class="sr">//</span> <span class="no">This</span> <span class="n">helps</span> <span class="k">ensure</span> <span class="n">that</span> <span class="n">your</span> <span class="no">Sails</span> <span class="n">app</span> <span class="n">remains</span> <span class="n">stable</span><span class="p">,</span> <span class="n">performant</span><span class="p">,</span> <span class="n">and</span> <span class="n">scalable</span><span class="p">.</span>
-<span class="nf">/</span><span class="o">/</span> 
-<span class="sr">//</span> <span class="no">By</span> <span class="n">default</span><span class="p">,</span> <span class="no">Sails</span> <span class="n">sets</span> <span class="n">its</span> <span class="n">environment</span> <span class="n">using</span> <span class="n">the</span> <span class="no">NODE_ENV</span> <span class="n">environment</span> <span class="n">variable</span><span class="p">.</span>
-<span class="nf">/</span><span class="o">/</span> <span class="no">If</span> <span class="no">NODE_ENV</span> <span class="n">is</span> <span class="n">not</span> <span class="n">set</span><span class="p">,</span> <span class="no">Sails</span> <span class="n">will</span> <span class="n">run</span> <span class="k">in</span> <span class="n">the</span> <span class="s1">'development'</span> <span class="n">environment</span><span class="p">.</span>
-
- <span class="nf">/</span><span class="o">/</span><span class="ss">environment: </span><span class="n">process</span><span class="p">.</span><span class="nf">env</span><span class="o">.</span><span class="no">NODE_ENV</span> <span class="o">||</span> <span class="s1">'development'</span>
-
-<span class="p">};</span></code></pre></figure>
-
-<p>Pingo The WebApp is running now on <code> localhost </code></p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Space</span><span class="o">-</span><span class="no">O</span><span class="o">-</span><span class="no">Mac</span><span class="o">-</span><span class="no">Pro</span><span class="ss">:xxxxxx</span> <span class="n">cybo</span><span class="err">$</span> <span class="n">sudo</span> <span class="n">sails</span> <span class="n">lift</span>
-<span class="no">Password</span><span class="p">:</span>
-
-<span class="ss">info: </span><span class="no">Starting</span> <span class="n">app</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span>
-
-<span class="nf">info</span><span class="p">:</span> 
-<span class="ss">info:                </span><span class="p">.</span><span class="nf">-</span><span class="p">.</span><span class="nf">.</span><span class="o">-</span><span class="p">.</span>
-<span class="nf">info</span><span class="p">:</span> 
-<span class="ss">info:    </span><span class="no">Sails</span>              <span class="o">&lt;|</span>    <span class="p">.</span><span class="nf">-</span><span class="p">.</span><span class="nf">.</span><span class="o">-</span><span class="p">.</span>
-<span class="nf">info</span><span class="p">:</span>    <span class="n">v0</span><span class="o">.</span><span class="mi">11</span><span class="o">.</span><span class="mi">0</span>             <span class="o">|</span><span class="p">\</span>
-<span class="ss">info:                       </span><span class="sr">/|.\
-info:                      /</span> <span class="o">||</span> <span class="p">\</span>
-<span class="ss">info:                    </span><span class="p">,</span><span class="s1">'  |'</span>  <span class="p">\</span>
-<span class="ss">info:                 </span><span class="p">.</span><span class="nf">-</span><span class="s1">'.-==|/_--'</span>
-<span class="ss">info:                 </span><span class="sb">`--'-------' 
-info:    __---___--___---___--___---___--___
-info:  ____---___--___---___--___---___--___-__
-info: 
-info: Server lifted in `</span><span class="o">/</span><span class="no">Users</span><span class="o">/</span><span class="n">cybo</span><span class="o">/</span><span class="no">Downloads</span><span class="o">/</span><span class="n">xxxxxxx</span><span class="sb">`
-info: To see your app, visit http://localhost
-info: To shut down Sails, press &lt;CTRL&gt; + C at any time.
-
-debug: --------------------------------------------------------
-debug: :: Tue Oct 06 2015 22:24:03 GMT+0200 (CEST)
-
-debug: Environment : development
-debug: Port        : 80
-debug: --------------------------------------------------------</span></code></pre></figure>
-
-<p>PerfectWork: With Carbon based Lifeforms - Interloper!</p>
-
-<!--
-
-<iframe width="100%" height="515" src="https://www.youtube.com/embed/-9pgIVcB3rk" frameborder="0" allowfullscreen></iframe>
-
-
- -->
-
-<!--
-
-<a href="/img/p-4.png">
-    <img src="/img/p-4.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
-</a>
-
-
--->
-
-<p>Link: <a href="http://sailsjs.org/documentation/anatomy/my-app/config/local-js" target="_blank"> local.js</a> 
-Link: <a href="http://superuser.com/questions/363353/http-localhost8080-is-not-working-on-running-apacher-server-through-xampp" target="_blank"> superuser</a> 
-Link: <a href="https://github.com/balderdashy/sails/issues/1361" target="_blank"> sails issues</a> 
-Link: <a href="http://stackoverflow.com/questions/32472139/nodejs-heroku-deploying-error" target="_blank"> Stack Overflow</a></p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">associative</span> <span class="n">array</span>
+  <span class="n">var</span> <span class="n">person</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">name: </span><span class="s2">"Lucas"</span><span class="p">,</span> <span class="ss">alter: </span><span class="mi">30</span>  <span class="p">};</span>
+  <span class="n">document</span><span class="p">.</span><span class="nf">write</span> <span class="p">(</span><span class="n">person</span> <span class="p">[</span><span class="s2">"name"</span><span class="p">]</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span> <span class="o">+</span> <span class="p">[</span><span class="s2">"alter"</span><span class="p">]);</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
 <blockquote>
 "i want, i want, i want , i want !!!!"
 </blockquote>
-
 
               </p>
               <!--
@@ -373,7 +336,6 @@ Link: <a href="http://stackoverflow.com/questions/32472139/nodejs-heroku-deployi
               </p>
               -->
 
-<blockquote class="alignright">“If you are going to walk on thin ice, you might as well dance”</blockquote>
     <div>
       <a href='mailto:lucasgatsas@gmail.com?subject=Register interest for Sudo Sails Lift port80 on October 6, 2015&body=Hi! Im interested in your event. Can I come please?' class="button button-primary">Kontakt</a>
         </div>
@@ -386,7 +348,7 @@ Link: <a href="http://stackoverflow.com/questions/32472139/nodejs-heroku-deployi
                     <a class="icon-facebook square" target="_blank" href="http://wwww.facebook.com/sharer.php?"><span class="screen-reader-text">Facebook</span></a>
                     <a class="icon-google square" target="_blank" href="http://plus.google.com/share?url=http://curious.justgoodthemes.com/walking-on-thin-ice/"><span class="screen-reader-text">Google+</span></a>
               </div>
-                <div class="author-box">
+              <!--  <div class="author-box">
                     
                       <img src="http://www.lucasgatsas.ch/img/team1.jpg" alt="Jane Doe" class="author-avatar" />
                         
@@ -406,7 +368,7 @@ Link: <a href="http://stackoverflow.com/questions/32472139/nodejs-heroku-deployi
                                             <a href="http://www.lucasgatsas.ch" target="_blank">lucasgatsas@gmail.com</a>
                                           </span>
                                         </p>
-                                    </div>
+                                    </div> -->
                                 </footer><!-- .post-footer -->
                           </article><!-- .post -->
 
@@ -453,6 +415,56 @@ Link: <a href="http://stackoverflow.com/questions/32472139/nodejs-heroku-deployi
   <script src="/assets/js/plugins-v=cba79c2df0.js"></script>
   <script src="/assets/js/custom-v=cba79c2df0.js "></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
+<!-- New Coding from insperation of the glas theme : http://www.github.com/spaceg/glas
+
+-->
+<script src="/js/jquery-2.1.1.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+
+<script src="/js/plugins/codemirror/codemirror.js"></script>
+<script src="/js/plugins/codemirror/mode/javascript/javascript.js"></script>
+
+<script src="/js/inspinia.js"></script>
+<script src="/js/plugins/pace/pace.min.js"></script>
+
+<!-- Mainly scripts -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- CodeMirror -->
+<script src="js/plugins/codemirror/codemirror.js"></script>
+<script src="js/plugins/codemirror/mode/javascript/javascript.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="js/inspinia.js"></script>
+<script src="js/plugins/pace/pace.min.js"></script>
+
+
+<script>
+     $(document).ready(function(){
+
+         var editor_one = CodeMirror.fromTextArea(document.getElementById("code1"), {
+             lineNumbers: true,
+             matchBrackets: true,
+             styleActiveLine: true,
+             theme:"ambiance"
+         });
+
+         var editor_two = CodeMirror.fromTextArea(document.getElementById("code2"), {
+             lineNumbers: true,
+             matchBrackets: true,
+             styleActiveLine: true
+         });
+
+    });
+</script>
 
         <div class="overlay"></div>
       </div><!-- #page -->
