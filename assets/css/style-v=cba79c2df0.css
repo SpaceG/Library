@@ -367,7 +367,7 @@ textarea {
 }
 
 body {
-	background-color: #fff;
+	background-color:#101010;
 	color: #666;
 	line-height: 1.66667;
 }
@@ -1328,7 +1328,7 @@ pre .storage {
 
 .grid-item,
 .home-template .grid-item:nth-child(3n+1) {
-	/*height: 500px;*/
+height: 700px;
 	width: 50%;
 }
 
@@ -2149,7 +2149,7 @@ pre .storage {
 
 	.grid-item:nth-child(3n+1),
 	.home-template .grid-item:nth-child(3n+3) {
-		height: 450px;
+		    height: 700px;
 	}
 
 	.author-template .grid-item,

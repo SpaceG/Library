@@ -1,17 +1,22 @@
-# Library 
-Library - Rails on Ruby - Jekyll Theme 
-Preview: http://www.blog.lucasgatsas.ch 
+# Library
+Library - Rails on Ruby - Jekyll Theme
+Preview: http://www.blog.lucasgatsas.ch
 
 Clone to Desktop
 <code>git clone https://github.com/SpaceG/library.git  </code>
-Delete the cname file. 
+Delete the cname file.
 
 
 <code>cd Desktop </code><br>
 <code>cd library </code><br>
 <code>$ jekyll serve </code>
 
-watch your localhost <code> 127.0.0.1:8080 </code> 
+watch your localhost <code> 127.0.0.1:8080 </code>
+
+
+<img src="http://blog.lucasgatsas.ch/img/lav.0.1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
+
+
 
 The MIT License (MIT)
 
@@ -32,5 +37,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
