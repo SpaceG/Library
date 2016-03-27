@@ -15,6 +15,8 @@ organiser: "Lucas Gatsas"
 
 
 
+
+
 {% highlight ruby linenos %}
     // array literlas
       var = empty = [];
