@@ -58,17 +58,11 @@ organiser: "Lucas Gatsas"
 {% endhighlight %}
 
 
-<h2 class="section-heading">ipTables</h2>
 
-<h2 class="section-heading">Run Your Web App via port 80 on Ubuntu Linux Machine - Sails.js</h2>
-
-{% highlight ruby %}
-
-
+{% highlight ruby linenos %}
 --iptables -A INPUT -i eth0 -p tcp --dport 80 -j ACCEPT
 --iptables -A INPUT -i eth0 -p tcp --dport 8080 -j ACCEPT
 --iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080
-
 {% endhighlight %}
 
 
@@ -80,12 +74,6 @@ organiser: "Lucas Gatsas"
 
 
 -->
-
-
-
-
-Link: <a href="https://github.com/balderdashy/sails/issues/1361" target="_blank"> Github Issues 1361</a>
-Link: <a href="https://github.com/balderdashy/sails/issues/3292" target="_blank"> Github Issues 3292</a>
 
 
 
