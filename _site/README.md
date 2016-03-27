@@ -14,6 +14,34 @@ Delete the cname file.
 watch your localhost <code> 127.0.0.1:8080 </code>
 
 
+to but the code in a static html file :
+<code>
+{% highlight ruby linenos %}
+// array literlas
+  var = empty = [];
+  var = numbers = [
+  'zero', 'one', 'two', 'three', 'four',
+  'five', 'six', 'seven', 'eight', 'nine'
+  ];
+  empty[1] // undefined
+  numbers[1] // 'one'
+  empty.lenght // 0
+  numbers.lenght //10
+{% endhighlight %}
+
+{% highlight ruby linenos %}
+  // The Object Literal
+  var numbers_object = {
+    '0': 'zero', '1': 'one', '2': 'two',
+    '0': 'three', '4': 'four', '5': 'five',
+    '6': 'six', '7': 'seven', '8': 'eight',
+    '9': 'nine'
+  };
+{% endhighlight %}
+</code>
+
+
+
 <img src="http://blog.lucasgatsas.ch/img/lav.0.1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
 
 
