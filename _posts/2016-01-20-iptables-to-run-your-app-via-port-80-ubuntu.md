@@ -90,5 +90,5 @@ Link: <a href="https://github.com/balderdashy/sails/issues/3292" target="_blank"
 
 
 <blockquote>
-"Port Running on Linux Ubuntu Servers"
+"Learn & Understand how Machine Works!"
 </blockquote>

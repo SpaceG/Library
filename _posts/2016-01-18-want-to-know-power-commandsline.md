@@ -58,5 +58,5 @@ organiser: "Lucas Gatsas"
 
 
 <blockquote>
-	“sudo make me a sandwich :) ! ”
+"Learn & Understand how Machine Works!"
 </blockquote>

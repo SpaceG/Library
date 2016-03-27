@@ -58,5 +58,6 @@ organiser: "Lucas Gatsas"
 
 
 <blockquote>
-“Wer vermag seine Zeit klar zu durchschauen? Wer sieht, wohin sie treibt, fühlt, woher der Wind weht? Selbst die Hellsten haben nur Ahnungen und Mutmaßungen. Das Genie schlägt die rechte Richtung ein, ohne sich dessen klar bewußt zu sein, von der ihm innewohnenden, rätselhaften Kraft getrieben. - Jakob Boßhart  ”
+"Learn & Understand how Machine Works!"
+
 </blockquote>

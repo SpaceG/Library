@@ -60,5 +60,5 @@ organiser: "Lucas Gatsas"
 
 <br>
 <blockquote>
-“Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können”
+"Learn & Understand how Machine Works!"
 </blockquote>

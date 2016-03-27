@@ -57,5 +57,5 @@ organiser: "Lucas Gatsas"
 
 
 <blockquote>
-“Grind and Polish your Gems!”
+"Learn & Understand how Machine Works!"
 </blockquote>

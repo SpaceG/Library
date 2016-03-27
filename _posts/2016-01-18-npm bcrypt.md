@@ -55,9 +55,6 @@ organiser: "Lucas Gatsas"
 {% endhighlight %}
 
 
-See the Issue Detail here on Github <a href="https://github.com/ncb000gt/node.bcrypt.js/issues/332"> issue332</a>
-Link: <a href="https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas"> Instagram Vid</a>
-
 <blockquote>
-"bcrypt Packages "
+"Learn & Understand how Machine Works!"
 </blockquote>

@@ -59,5 +59,5 @@ organiser: "Lucas Gatsas"
 
 
 <blockquote>
-    "Open Terminal and do crazy Things! :) "
+"Learn & Understand how Machine Works!"
 </blockquote>

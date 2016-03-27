@@ -54,8 +54,6 @@ organiser: "Lucas Gatsas"
   document.write (person ["name"] + "<br>" + ["alter"]);
 {% endhighlight %}
 
-<blockquote>When in doubt, use brute force.
-
-        — Ken Thompson
-
-</blockquote>
+<blockquote>
+When in doubt, use brute force.
+— Ken Thompson</blockquote>

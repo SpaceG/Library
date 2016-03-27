@@ -61,5 +61,5 @@ organiser: "Lucas Gatsas"
 
 
 <blockquote>
-“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch
+"Learn & Understand how Machine Works!"
 </blockquote>

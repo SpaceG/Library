@@ -337,66 +337,6 @@
 
 <p><strong> Install and Set Up </strong></p>
 
-<p>Download it here <a href="https://nmap.org/download.html#macosx">nmap-6.47.dmg</a> or Run it with Terminal: First installl <a href="http://www.bzip.org/">bzip.org</a>! Promt
-in your Temrinal follow the Commanlines:</p>
-
-<p>To install using <a href="https://www.macports.org/">MacPorts</a>, run <code> sudo port install nmap </code>. Nmap will be installed as <code> /opt/local/bin/nmap </code>. To uninstall, run sudo port uninstall nmap.</p>
-
-<p><strong> Example Ports Show Up after entire NetWork Scanning! </strong></p>
-
-<div style="overflow:auto; height=200; width=100%;">
-<pre style="color:black;background:white;"><pre>
-
-PORT STATE SERVICE
-
-22/tcp open ssh
-
-80/tcp open http
-
-445/tcp open microsoft-ds
-
-548/tcp open afp
-
-6817/tcp open unknown
-
-</pre></pre></div>
-
-<p><code> nmap hostname </code></p>
-
-<p>1.What computers did you find running on the local network?</p>
-
-<p>2.What IP addresses did you find running on the local network?</p>
-
-<p>3.What is the operating system of your target machine?</p>
-
-<p>4.Find out what ports are open on the machine that you just scanned?</p>
-
-<p>5.Find out if the system is infected with malware or virus.</p>
-
-<p>6.Search for unauthorized servers or network service on your network.</p>
-
-<p>7.Find and remove computers which don’t meet the organization’s minimum level of security.</p>
-
-<p><strong> Scan &amp; List a Range of Local Network IP’s </strong></p>
-
-<p>You will find some Information about other Machines on your Localhost Network. Your Lan has an IP range of example  <code> 192.169.0.1</code> to <code> 192.169.0.25 </code> change numbers as appropritae:</p>
-
-<p><code>nmap -sP 192.168.0.1-25</code></p>
-
-<p>If you don’t know the range, you can also use wildcards:</p>
-
-<p><code>nmap 192.168.0.*</code></p>
-
-<p><strong>Scan &amp; Detect Operating System</strong></p>
-
-<p><code>
-nmap -O 192.168.0.1-5</code></p>
-
-<p><code>
-nmap --osscan-guess 192.168.0.2 </code></p>
-
-<p>Exmaple Diagram:</p>
-
 <div class="highlighter-rouge"><pre class="highlight"><code>                          +---------+
     +---------+           | Network |         +--------+
     | server1 |-----------+ swtich  +---------|server2 |
@@ -410,18 +350,8 @@ nmap --osscan-guess 192.168.0.2 </code></p>
 </code></pre>
 </div>
 
-<blockquote id="strict-alert-red">
-Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Scan Only <strong>your Network </strong> and <strong> Computers, Websites </strong> etc.  as follows:
-</blockquote>
-
-<p>At last i have to lol. because i found this crazy thing here :
-<a href="http://nmap.org/movies/#elysium">Nmap in Movies!</a></p>
-
-<p>Link:
-<a href="http://nmap.org/download.html#macosx">nmap.org</a></p>
-
 <blockquote>
-This is a SwissWatch! :)
+"Learn &amp; Understand how Machine Works!"
 </blockquote>
 
               </p>
@@ -549,26 +479,6 @@ This is a SwissWatch! :)
 
 <!-- Custom and plugin javascript -->
 <script src="js/plugins/pace/pace.min.js"></script>
-
-
-<script>
-     $(document).ready(function(){
-
-         var editor_one = CodeMirror.fromTextArea(document.getElementById("code1"), {
-             lineNumbers: true,
-             matchBrackets: true,
-             styleActiveLine: true,
-             theme:"ambiance"
-         });
-
-         var editor_two = CodeMirror.fromTextArea(document.getElementById("code2"), {
-             lineNumbers: true,
-             matchBrackets: true,
-             styleActiveLine: true
-         });
-
-    });
-</script>
 
         <div class="overlay"></div>
       </div><!-- #page -->

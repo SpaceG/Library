@@ -60,8 +60,5 @@ organiser: "Lucas Gatsas"
 
 
 <blockquote>
-This is a SwissWatch! :)
-
-
-
+"Learn & Understand how Machine Works!"
 </blockquote>

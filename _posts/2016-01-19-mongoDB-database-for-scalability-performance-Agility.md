@@ -61,13 +61,6 @@ organiser: "Lucas Gatsas"
 
 
 <blockquote>
-“Built by developers like you at MongoDB. <strong>Highly Scalable</strong>
-Scale up or scale out horizontally, from a single server to thousands of nodes. Deploy in the cloud and across multiple data centers.
+"Learn & Understand how Machine Works!"
 
- <strong>Flexible Data Model </strong>
-MongoDB’s document data model makes it easy for you to store data of any structure and dynamically modify the schema.
-
-
- <strong>Fastest-Growing Community </strong>
-Join the world’s fastest-growing database community. MongoDB stands behind its software to ensure your success, providing software and services to make life easier.”
 </blockquote>
