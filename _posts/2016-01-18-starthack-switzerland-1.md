@@ -2,7 +2,7 @@
 layout: post
 
 #event information
-title:  "Starthack Hackathon"
+title:  "Javascript Array"
 cover: "img/IMG_0344.JPG"
 date:   2016-03-13
 start_time: "10:00"

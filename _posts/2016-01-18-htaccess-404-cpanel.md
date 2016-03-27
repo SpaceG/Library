@@ -14,11 +14,6 @@ organiser: "Lucas Gatsas"
 ---
 
 
-
-
-
-
-
 {% highlight ruby linenos %}
 // integer
       var test = 1;

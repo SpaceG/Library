@@ -890,7 +890,7 @@ pre .storage {
  */
 
 .site-header {
-	background-color: #fff;
+	background-color: #1A1A1A;
 	padding-bottom: 25px;
 	padding-top: 25px;
 }
@@ -916,7 +916,9 @@ pre .storage {
 
 .site-title a {
 	border: 0;
-	color: #111;
+	color: #E4E4E4;
+	font-weight:800;
+	text-transform: none;
 }
 
 .site-title img {
@@ -935,7 +937,7 @@ pre .storage {
 }
 
 .sidebar-toggle .icon {
-	background-color: #111;
+	background-color: #D6D6D6;
 	display: block;
 	height: 2px;
 	left: 50%;
@@ -948,7 +950,7 @@ pre .storage {
 
 .sidebar-toggle .icon:before,
 .sidebar-toggle .icon:after {
-	background-color: #111;
+	background-color: #D6D6D6;
 	content: "";
 	height: 100%;
 	left: 0;
@@ -1326,13 +1328,13 @@ pre .storage {
 
 .grid-item,
 .home-template .grid-item:nth-child(3n+1) {
-	height: 500px;
+	/*height: 500px;*/
 	width: 50%;
 }
 
 .grid-item:nth-child(3n+1),
 .home-template .grid-item:nth-child(3n+3) {
-	height: 600px;
+	/*height: 600px;*/
 	width: 100%;
 }
 
@@ -1430,8 +1432,8 @@ pre .storage {
 }
 
 .cover.hero .inner {
-	padding-left: 60px;
-	padding-right: 60px;
+	/*padding-left: 60px;
+	padding-right: 60px;*/
 }
 
 .cover.post-header .inner {
@@ -2015,7 +2017,7 @@ pre .storage {
 	.grid-item:nth-child(3n+1),
 	.home-template .grid-item:nth-child(3n+3),
 	.cover.hero {
-		height: 800px;
+		/*height: 800px;*/
 	}
 
 	.author-template .grid-item,
@@ -2046,6 +2048,7 @@ pre .storage {
 
 	.hero-title {
 		font-size: 60px;
+		font-weight:800;
 	}
 
 	.hero-text {
@@ -2499,4 +2502,19 @@ a#library___link___1 {
 }
 a#library___link___1:hover {
     color: white;
+}
+
+
+code#git___clone___desktop {
+    font-size: 12px;
+    background-color: #252525;
+    color: #FFDF2B;
+}
+
+@media only  screen and (max-width:600px) {
+	code#git___clone___desktop {
+	    font-size: 9px;
+	    background-color: #252525;
+	    color: #FFDF2B;
+	}
 }

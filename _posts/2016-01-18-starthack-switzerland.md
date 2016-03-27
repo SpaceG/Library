@@ -2,7 +2,7 @@
 layout: post
 
 #event information
-title:  "Starthack"
+title:  "Array Hacks"
 cover: "img/starhack-2016.jpg"
 date:   2016-03-11
 start_time: "10:00"

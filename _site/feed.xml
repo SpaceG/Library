@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lucas Gatsas</title>
+    <title>Amokläufer</title>
     <description>Lucas Gatsas, is a Web -Developer, Front -End Engineer &amp; UI/UX Designer based in  St. Gallen, Switerland.
 </description>
     <link>http://blog.lucasgatsas.ch/</link>
     <atom:link href="http://blog.lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 Mar 2016 04:08:56 +0100</pubDate>
-    <lastBuildDate>Sat, 26 Mar 2016 04:08:56 +0100</lastBuildDate>
+    <pubDate>Sun, 27 Mar 2016 03:36:44 +0200</pubDate>
+    <lastBuildDate>Sun, 27 Mar 2016 03:36:44 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
-        <title>Starthack Hackathon</title>
+        <title>Javascript Array</title>
         <description>
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
@@ -98,7 +98,7 @@ START Hack is a 35-hour coding and prototyping marathon focused on FinTech, Inte
       </item>
     
       <item>
-        <title>Starthack</title>
+        <title>Array Hacks</title>
         <description>
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
