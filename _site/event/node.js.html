@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+	<!-- Hello World.
+		My Name is Lucas Gatsas
+
+		Theme: blog/lucasgatsas.ch
+		Theme: by Lucas Gatsas
+		copy: by Lucas Gatsas
+		Web: www.lucasgatsas.ch
+		Fr. 26. Feb. 2016 06:15:13
+
+	-->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>node.js</title>
+  <meta name="description" content="1234567891011// integer      var test = 1;      // float      var floatWert = 1023.23345489;      // NuN      var geteiltDurchZwei = 42 / 2;      if (isNaN(g...">
+  <link rel="canonical" href="http://blog.lucasgatsas.ch/event/node.js.html">
+  <link rel="alternate" type="application/rss+xml" title="Amokläufer" href="http://blog.lucasgatsas.ch/feed.xml">
+  <link rel="stylesheet" href="/assets/css/style-v=cba79c2df0.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style-v=cba79c2df0.css" />
+
+<!-- re coding by the glas theme /
+				http://www.github.com/spaceg/glas  -->
+
+
+<link rel="stylesheet" href="/css/animate.css">
+<link rel="stylesheet" href="/css/plugins/codemirror/codemirror.css">
+<link rel="stylesheet" href="/css/plugins/codemirror/ambiance.css">
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+
+      <link rel="shortcut icon" href="http://www.lucasgatsas.ch/icon.png">
+    <link rel="icon" href="http://www.lucasgatsas.ch/icon.png" type="image/x-icon">
+    <!-- Facebook Meta Data -->
+<meta property="og:image" content="http://spaceg.github.io/img/Pi2ModB1GB_-comp.jpg"/>
+<meta property="og:locality" content="St. Gallen"/>
+<meta property="og:country-name" content="Switzerland"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:title" content="Lucas Gatsas, Front -End Engineer, SYS-Admin & UI/UX Designer from St. Gallen, Switzerland"/>
+<meta property="og:url" content="http://spaceg.github.io/"/>
+<meta property="og:site_name" content="www.lucasgatsas.ch"/>
+<meta name="robots" content="index, follow">
+<meta name="robots" content="all">
+<style>
+.highlight pre { background-color: ; } /*#272822*/ /* Night Dark Blue as Default */
+.highlight .hll { background-color: #272822; }
+.highlight .c { color: #75715e } /* Comment */
+.highlight .err { color: #960050; background-color: #1e0010 } /* Error */
+.highlight .k { color: #66d9ef } /* Keyword */
+.highlight .l { color: #ae81ff } /* Literal */
+.highlight .n { color: #f8f8f2 } /* Name */
+.highlight .o { color: #f92672 } /* Operator */
+.highlight .p { color: #f8f8f2 } /* Punctuation */
+.highlight .cm { color: #75715e } /* Comment.Multiline */
+.highlight .cp { color: #75715e } /* Comment.Preproc */
+.highlight .c1 { color: #75715e } /* Comment.Single */
+.highlight .cs { color: #75715e } /* Comment.Special */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .kc { color: #66d9ef } /* Keyword.Constant */
+.highlight .kd { color: #66d9ef } /* Keyword.Declaration */
+.highlight .kn { color: #f92672 } /* Keyword.Namespace */
+.highlight .kp { color: #66d9ef } /* Keyword.Pseudo */
+.highlight .kr { color: #66d9ef } /* Keyword.Reserved */
+.highlight .kt { color: #66d9ef } /* Keyword.Type */
+.highlight .ld { color: #e6db74 } /* Literal.Date */
+.highlight .m { color: #ae81ff } /* Literal.Number */
+.highlight .s { color: #e6db74 } /* Literal.String */
+.highlight .na { color: #a6e22e } /* Name.Attribute */
+.highlight .nb { color: #f8f8f2 } /* Name.Builtin */
+.highlight .nc { color: #a6e22e } /* Name.Class */
+.highlight .no { color: #66d9ef } /* Name.Constant */
+.highlight .nd { color: #a6e22e } /* Name.Decorator */
+.highlight .ni { color: #f8f8f2 } /* Name.Entity */
+.highlight .ne { color: #a6e22e } /* Name.Exception */
+.highlight .nf { color: #a6e22e } /* Name.Function */
+.highlight .nl { color: #f8f8f2 } /* Name.Label */
+.highlight .nn { color: #f8f8f2 } /* Name.Namespace */
+.highlight .nx { color: #a6e22e } /* Name.Other */
+.highlight .py { color: #f8f8f2 } /* Name.Property */
+.highlight .nt { color: #f92672 } /* Name.Tag */
+.highlight .nv { color: #f8f8f2 } /* Name.Variable */
+.highlight .ow { color: #f92672 } /* Operator.Word */
+.highlight .w { color: #f8f8f2 } /* Text.Whitespace */
+.highlight .mf { color: #ae81ff } /* Literal.Number.Float */
+.highlight .mh { color: #ae81ff } /* Literal.Number.Hex */
+.highlight .mi { color: #ae81ff } /* Literal.Number.Integer */
+.highlight .mo { color: #ae81ff } /* Literal.Number.Oct */
+.highlight .sb { color: #e6db74 } /* Literal.String.Backtick */
+.highlight .sc { color: #e6db74 } /* Literal.String.Char */
+.highlight .sd { color: #e6db74 } /* Literal.String.Doc */
+.highlight .s2 { color: #e6db74 } /* Literal.String.Double */
+.highlight .se { color: #ae81ff } /* Literal.String.Escape */
+.highlight .sh { color: #e6db74 } /* Literal.String.Heredoc */
+.highlight .si { color: #e6db74 } /* Literal.String.Interpol */
+.highlight .sx { color: #e6db74 } /* Literal.String.Other */
+.highlight .sr { color: #e6db74 } /* Literal.String.Regex */
+.highlight .s1 { color: #e6db74 } /* Literal.String.Single */
+.highlight .ss { color: #e6db74 } /* Literal.String.Symbol */
+.highlight .bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #f8f8f2 } /* Name.Variable.Class */
+.highlight .vg { color: #f8f8f2 } /* Name.Variable.Global */
+.highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
+.highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
+
+.highlight .gh { } /* Generic Heading & Diff Header */
+.highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
+.highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
+.highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
+
+
+
+.post > .highlight .lineno { color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
+.post > .highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
+
+</style>
+</head>
+
+  <body class="home-template">
+      <div id="page" class="site">
+
+        
+<header class="site-header">
+    <div class="inner-wide">
+        <h1 class="site-title"><a href="/">
+          <!--<img src="http://www.lucasgatsas.ch/img/logo-dark.png " alt="logo"> --> <!--Amokläufer-->L. Av.0.1</a></h1>
+        <nav class="site-navigation" role="navigation">
+    <h2 class="screen-reader-text">Explore Website</h2>
+    <ul class="menu">
+      <!--  <li class="menu-item home current-menu-item" role="presentation"><a href="http://www.lucasgatsas.ch">Home</a></li>-->
+         
+          
+            
+                <a class="page-link" href="/about/">About</a>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+    </ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+        <a class="sidebar-toggle"><span class="screen-reader-text">Open Sidebar</span>
+          <span class="icon" aria-hidden="true"></span></a>
+    </div><!-- .inner-wide -->
+</header><!-- .site-header -->
+  <div class="sidebar">
+    <div class="sidebar-scrollable">
+        <div class="widget-area">
+                <nav class="site-navigation" role="navigation">
+    <h2 class="screen-reader-text">Welcome</h2>
+    <ul class="menu">
+        <li class="menu-item home current-menu-item" role="presentation"><a href="index.html">Home</a></li>
+        <li class="menu-item about" role="presentation"><a href="about/index.html">About</a></li>
+        <li class="menu-item buy-curious-theme" role="presentation"><a href="mailto:space@lucasgatsas.ch">Contact Me</a></li>
+    </ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+            <aside class="widget widget-text">
+                <h2 class="widget-title">This is my Developer Blog.</h2>
+                <p>I will write here about my Development Skills and Learnings. So feel free to Contact me in anyway to give some good infos.</p>
+            </aside><!-- .widget -->
+            <aside class="widget widget-newsletter">
+                <h2 class="widget-title">My  Newsletter</h2>
+                <p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+                <!-- Begin whaterver do you want ti include it : Gmail, MailChimp etc: Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
+                </div>
+                <!--End mc_embed_signup-->
+            </aside><!-- .widget -->
+            <aside class="widget widget-text">
+                <h2 class="widget-title">Contact</h2>
+                <p>We accept collaborations/sponsored posts so please contact us to discuss. We would love to hear from you, even if it is to say hello!</p>
+                <ul class="contacts">
+                    <li><span class="icon icon-envelope" aria-hidden="true"></span> space at lucasgatsas.ch</li>
+                    <li><span class="icon icon-map-marker" aria-hidden="true"></span> 9000, St. Gallen, CH - Switzerland</li>
+                </ul>
+            </aside><!-- .widget -->
+        </div><!-- .widget-area -->
+        <a class="sidebar-toggle"><span class="screen-reader-text">Close Sidebar</span><span class="icon" aria-hidden="true"></span></a>
+    </div><!-- .sidebar-scrollable -->
+</div><!-- .sidebar -->
+
+        <div class="page-content">
+          <div class="wrapper">
+            
+<!--
+  Example to modify it :
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h2 class="post-date"><time datetime="2015-03-03T00:00:00+01:00" itemprop="datePublished">March 3, 2015</time></h2>
+    <h3 class="post-time">From 10:00 to </h3>
+  </header>
+</article> -->
+
+        <article class="post tag-music tag-science" itemscope itemtype="http://schema.org/BlogPosting">
+            <header class="cover post-header">
+              <!--  <div class="post-bg" style="background-image:url(/img/books1.jpg);"></div>-->
+                <div class="cover-content">
+                    <div class="inner">
+
+
+                      <div class="author-box">
+                          
+                            <img src="http://www.lucasgatsas.ch/img/team1.jpg" alt="Jane Doe" class="author-avatar" />
+                              
+                                
+                                  <h4 class="author-title">About <a id="library___link___1" href="../author/jane-doe/index.html">By Lucas Gatsas</a></h4>
+                                  
+                                    <p class="author-description">Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+</p>
+                                      <p class="author-links">
+                                        <span class="author-location">
+                                            <i class="icon-map-marker" aria-hidden="true"></i>
+                                            Switzerland</span>
+                                              <span class="author-website"><i class="icon-chain" aria-hidden="true"></i>
+                                                 <a id="library___link___1" href="http://www.lucasgatsas.ch" target="_blank">http://lucasgatsas.ch</a>
+                                               </span>
+                                                <span class="author-website"><i class="icon-chain" aria-hidden="true"></i>
+                                                  <a  id="library___link___1" href="http://www.lucasgatsas.ch" target="_blank">lucasgatsas@gmail.com</a>
+                                                </span>
+                                              </p>
+                                          </div>
+
+
+                     <!--   <div class="tag-links">
+                            <a href="../tag/music/index.html">Music</a><a href="../tag/science/index.html">Science</a>
+                        </div>--> <!-- .tag-links -->
+                        <h1 class="post-title">node.js</h1>
+                        <div class="post-meta">
+                            by <span class="post-author"><a href="/about" itemscope itemtype="http://schema.org/Person">  Lucas Gatsas</a></span> on <time class="published" datetime="2015-10-05" datetime="2015-03-03T00:00:00+01:00" itemprop="datePublished" >Mar 3, 2015</time> <span class="reading-time"> <span class="eta"></span></span>
+                        </div><!-- .post-meta -->
+                        <a href="#" class="scroll-down square light icon-chevron-down"><span class="screen-reader-text">Scroll Down</span></a>
+                    </div><!-- .inner -->
+                </div><!-- .cover-content -->
+            </header><!-- .cover -->
+            <div class="post-content inner">
+
+              <p>
+                <!-- check out here the content -->
+                 
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">integer</span>
+      <span class="n">var</span> <span class="nb">test</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="n">float</span>
+      <span class="n">var</span> <span class="n">floatWert</span> <span class="o">=</span> <span class="mi">1023</span><span class="o">.</span><span class="mi">23345489</span><span class="p">;</span>
+      <span class="sr">//</span> <span class="no">NuN</span>
+      <span class="n">var</span> <span class="n">geteiltDurchZwei</span> <span class="o">=</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">isNaN</span><span class="p">(</span><span class="n">geteiltDurchZwei</span><span class="p">))</span> <span class="p">{</span>
+          <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"ungültige Number &lt;br&gt;"</span><span class="p">);</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"geteiltdurchZwei; "</span>  <span class="o">+</span> <span class="n">geteiltDurchZwei</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">)</span>
+      <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">string</span>
+      <span class="n">var</span> <span class="n">eineZeichenkette</span> <span class="o">=</span> <span class="s2">"meineZeichenkette"</span><span class="p">;</span>
+      <span class="n">var</span> <span class="n">eineZeichenketteEins</span> <span class="o">=</span> <span class="s2">"ist Toll"</span><span class="p">;</span>
+      <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="n">eineZeichenkette</span> <span class="o">+</span> <span class="s2">" "</span> <span class="o">+</span> <span class="n">eineZeichenketteEins</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">);</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5</pre></td><td class="code"><pre><span class="sr">//</span> <span class="no">Boolean</span>  <span class="p">(</span><span class="no">Ja</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="no">Nein</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">)</span>
+    <span class="n">var</span> <span class="n">boolscherWert</span> <span class="o">=</span> <span class="kp">true</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">boolscherWert</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"boolscherWert ist 1 &lt;br&gt;"</span><span class="p">);</span>
+    <span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">array</span> <span class="o">/</span> <span class="no">Liste</span>
+      <span class="n">var</span> <span class="n">meinArray</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="s2">"test"</span><span class="p">,</span> <span class="mi">12</span><span class="o">.</span><span class="mi">34</span><span class="p">];</span>
+      <span class="n">document</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="s2">"element: "</span> <span class="o">+</span> <span class="n">meinArray</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span><span class="p">);</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3</pre></td><td class="code"><pre><span class="sr">//</span> <span class="n">associative</span> <span class="n">array</span>
+  <span class="n">var</span> <span class="n">person</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">name: </span><span class="s2">"Lucas"</span><span class="p">,</span> <span class="ss">alter: </span><span class="mi">30</span>  <span class="p">};</span>
+  <span class="n">document</span><span class="p">.</span><span class="nf">write</span> <span class="p">(</span><span class="n">person</span> <span class="p">[</span><span class="s2">"name"</span><span class="p">]</span> <span class="o">+</span> <span class="s2">"&lt;br&gt;"</span> <span class="o">+</span> <span class="p">[</span><span class="s2">"alter"</span><span class="p">]);</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<blockquote>
+
+
+"Learn &amp; Understand how Machine Works!"
+</blockquote>
+
+              </p>
+              <!--
+              <p class="full-width">
+              <img src="../content/images/2015/10/ice-3.jpg" alt="" />
+              </p>
+              -->
+
+              <!--
+              <blockquote>
+                <p>“ice contains no future , just the past, sealed away. As if they're alive, everything in the world is sealed up inside, clear and distinct. Ice can preserve all kinds of things that way- cleanly, clearly. That's the essence of ice, the role it plays.”
+                <cite>― Haruki Murakami</cite></p>
+              </blockquote>
+              -->
+
+              <!--
+              <p class="full-width">
+              <img src="../content/images/2015/10/ice-1-1.jpg" alt="" />
+              </p>
+              -->
+
+    <div class="hello____world___1">
+  <!--    <a href='mailto:lucasgatsas@gmail.com?subject=Register interest for node.js on March 3, 2015&body=Hi! Im interested in your event. Can I come please?' class="button button-primary">Kontakt</a>
+      -->  </div>
+            </div>
+            <!-- .post-content -->
+            <footer class="post-footer inner">
+                <div class="share-post">
+                    <span>Share</span>
+                    <a class="icon-twitter square" target="_blank" href="http://twitter.com/share?text=&url="><span class="screen-reader-text">Twitter</span></a>
+                    <a class="icon-facebook square" target="_blank" href="http://wwww.facebook.com/sharer.php?"><span class="screen-reader-text">Facebook</span></a>
+                    <a class="icon-google square" target="_blank" href="http://plus.google.com/share?url=http://curious.justgoodthemes.com/walking-on-thin-ice/"><span class="screen-reader-text">Google+</span></a>
+              </div>
+              <!--  <div class="author-box">
+                    
+                      <img src="http://www.lucasgatsas.ch/img/team1.jpg" alt="Jane Doe" class="author-avatar" />
+                        
+                          
+                            <h4 class="author-title">About <a href="../author/jane-doe/index.html">By Lucas Gatsas</a></h4>
+                            
+                              <p class="author-description">Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+</p>
+                                <p class="author-links">
+                                  <span class="author-location">
+                                      <i class="icon-map-marker" aria-hidden="true"></i>
+                                      Switzerland</span>
+                                        <span class="author-website"><i class="icon-chain" aria-hidden="true"></i>
+                                           <a href="http://www.lucasgatsas.ch" target="_blank">http://lucasgatsas.ch</a>
+                                         </span>
+                                          <span class="author-website"><i class="icon-chain" aria-hidden="true"></i>
+                                            <a href="http://www.lucasgatsas.ch" target="_blank">lucasgatsas@gmail.com</a>
+                                          </span>
+                                        </p>
+                                    </div> -->
+                                </footer><!-- .post-footer -->
+                          </article><!-- .post -->
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/event/dns-cname.html" data-toggle="tooltip" data-placement="top" title="DNS - cname Set Up">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/event/git-install.html" data-toggle="tooltip" data-placement="top" title="Git Install">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+          </div>
+        </div>
+
+            <footer class="site-footer">
+  <div class="footer-top">
+    <div class="inner-wide">
+      <div class="offsite-links">
+        <a href="http://www.twitter.com/lucasgatsas" class="icon-twitter"><span class="screen-reader-text">Twitter</span></a>
+        <a href="https://www.facebook.com/profile.php?id=100010261894353" class="icon-facebook"><span class="screen-reader-text">Facebook</span></a>
+        <a href="https://plus.google.com/101826267816845608605" class="icon-google"><span class="screen-reader-text">Google+</span></a>
+        <a href="https://github.com/spaceg" class="icon-github"><span class="screen-reader-text">GitHub</span></a>
+        <a href="https://medium.com/@lucasgatsas" class="icon-medium"><span class="screen-reader-text">Medium</span></a>
+        <a href="http://instagram.com/lucasgatsas" class="icon-instagram"><span class="screen-reader-text">Instagram</span></a>
+        <a href="https://www.youtube.com/watch?v=3Zz7gLsN7fk" class="icon-youtube"><span class="screen-reader-text">YouTube</span></a>
+        <a href="http://blog.lucasgatsas.ch/feed.xml" class="icon-feed"><span class="screen-reader-text">RSS</span></a>
+      </div><!-- .offsite-links -->
+      <a href="#" class="top-link square icon-chevron-up" title="Back to Top"><span class="screen-reader-text">Back to the top</span></a>
+    </div><!-- .inner -->
+  </div><!-- .footer-top -->
+  <div class="site-info inner-wide">
+    <p>&copy;. 2014 - 2016 by <a href="index.html">   Amokläufer <!-- Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+ --> </a> <br>all rights reserved. <br /> <a target="_blank" href="http://www.lucasgatsas.ch"> </a>      This site is built with <a href="http://rubyonrails.org/" target="_blank"> Ruby on Rails </a>
+ </p>
+  </div><!-- .site-info -->
+</footer><!-- .site-footer -->
+<!-- jQuery -->
+
+
+  <script src="/assets/js/plugins-v=cba79c2df0.js"></script>
+  <script src="/assets/js/custom-v=cba79c2df0.js "></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- New Coding from insperation of the glas theme : http://www.github.com/spaceg/glas
+
+-->
+<script src="/assets/js/plugins-v=cba79c2df0.js"></script>
+<script src="/assets/js/custom-v=cba79c2df0.js"></script>
+
+
+<script src="/js/jquery-2.1.1.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<script src="/js/plugins/pace/pace.min.js"></script>
+
+<!-- Mainly scripts -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+
+<!-- Custom and plugin javascript -->
+<script src="js/plugins/pace/pace.min.js"></script>
+
+        <div class="overlay"></div>
+      </div><!-- #page -->
+  </body>
+</html>
