@@ -42,8 +42,6 @@ to but the code in a static html file :
 
 
 
-<img src="http://blog.lucasgatsas.ch/img/lav.0.1.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
-
 
 
 The MIT License (MIT)
