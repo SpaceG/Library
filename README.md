@@ -1,4 +1,4 @@
-# Library Amokläufer V.0.1
+# Library 
 Library - Rails on Ruby - Jekyll Theme
 Preview: http://www.blog.lucasgatsas.ch
 
